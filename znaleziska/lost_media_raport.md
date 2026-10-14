@@ -2,12 +2,12 @@
 
 *Data wygenerowania: 2026-10-14*
 
-Raport klasyfikuje ocalone 418 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
+Raport klasyfikuje ocalone 415 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
 
 ## 📊 Klasyfikacja Zasobów
 
-- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **89 plików**
-- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **234 plików**
+- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **88 plików**
+- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **232 plików**
 - 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **95 plików**
 
 ## 🔴 TIER 1: Prawdziwe Zaginione Projekty (Lost Media)
@@ -53,7 +53,6 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20060412_kaczki.swf](./20060412_kaczki.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 532.0 KB | 2006-04-12 11:39:14 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20060301_aczy_trabka.swf](./20060301_aczy_trabka.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 24.1 KB | 2006-03-01 23:58:29 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20061018_nalej_ruska_wodka.swf](./20061018_nalej_ruska_wodka.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 7.7 KB | 2006-10-18 01:54:28 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
-| **[2007_sextremalna_katapulta.swf](./2007_sextremalna_katapulta.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 1.07 MB | 2007-11-20 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[killvader2.0.rar](./killvader2.0.rar)**<br>_RAR_ | 🕹️ Zaginiona Gra / Program PC | 2.48 MB | 2006-03-01 23:58:29 | Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami. |
 | **[2005_jm_nu_pagadi.swf](./2005_jm_nu_pagadi.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 64.5 KB | 2005-06-02 01:25:13 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20070130_jm_killerquiz.swf](./20070130_jm_killerquiz.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 260.8 KB | 2007-01-30 00:48:06 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
@@ -108,7 +107,7 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 
 ## 🟡 TIER 2: Rzadkie Aranżacje i Duże Multimedialne Projekty
 
-Łącznie **234 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
+Łącznie **232 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
 
 | Nazwa Pliku | Typ | Rozmiar | Pochodzenie |
 | :--- | :---: | :---: | :--- |
@@ -122,7 +121,6 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20090821_enjoy.mid](./20090821_enjoy.mid)** | MIDI | 40.9 KB | [Oryginalny URL](http://geocities.com/Tokyo/1000/enjoy.mid) |
 | **[20030515_batman.MID](./20030515_batman.MID)** | MIDI | 17.4 KB | [Oryginalny URL](http://www.republika.pl:80/adamczaja/batman.MID) |
 | **[20020222_MUPPETS.MID](./20020222_MUPPETS.MID)** | MIDI | 13.0 KB | [Oryginalny URL](http://republika.pl:80/agape_os/MUPPETS.MID) |
-| **[20060310_baby.mid](./20060310_baby.mid)** | MIDI | 3.6 KB | [Oryginalny URL](http://republika.pl:80/akademia_krasnoludkow/baby.mid) |
 | **[20040510_andrew.swf](./20040510_andrew.swf)** | SWF | 32.0 KB | [Oryginalny URL](http://republika.pl:80/aawa/andrew.swf) |
 | **[20030921_abaddon2.swf](./20030921_abaddon2.swf)** | SWF | 17.1 KB | [Oryginalny URL](http://republika.pl:80/abaddon_tattoo/abaddon2.swf) |
 | **[20040511_Movie1.swf](./20040511_Movie1.swf)** | SWF | 6.6 KB | [Oryginalny URL](http://republika.pl:80/abaddon_tattoo/Movie1.swf) |
@@ -134,10 +132,11 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20050324_myfile.swf](./20050324_myfile.swf)** | SWF | 8.9 KB | [Oryginalny URL](http://republika.pl:80/adamkrawczyk/multimedia/myfile.swf) |
 | **[20050324_myfile5.swf](./20050324_myfile5.swf)** | SWF | 9.4 KB | [Oryginalny URL](http://republika.pl:80/adamkrawczyk/multimedia/myfile5.swf) |
 | **[20040619_adam.swf](./20040619_adam.swf)** | SWF | 59.6 KB | [Oryginalny URL](http://republika.pl:80/adammulik/adam.swf) |
-| **[20030523_strona.swf](./20030523_strona.swf)** | SWF | 77.2 KB | [Oryginalny URL](http://www.republika.pl:80/adminerot/strona.swf) |
 | **[20021027_animegirl.swf](./20021027_animegirl.swf)** | SWF | 16.7 KB | [Oryginalny URL](http://republika.pl:80/adriana_lucja/animegirl.swf?title=) |
 | **[20030515_praca_dyp.swf](./20030515_praca_dyp.swf)** | SWF | 13.6 KB | [Oryginalny URL](http://republika.pl:80/adrianmroczkowski/praca_dyp.swf) |
-| *...i jeszcze 209 innych pozycji Tier 2...* | | | |
+| **[20040929_niepewnosc.swf](./20040929_niepewnosc.swf)** | SWF | 22.6 KB | [Oryginalny URL](http://republika.pl:80/adriano2/grafika/teksty/niepewnosc.swf) |
+| **[20040621_piosenka.swf](./20040621_piosenka.swf)** | SWF | 18.1 KB | [Oryginalny URL](http://republika.pl:80/adriano2/grafika/teksty/piosenka.swf) |
+| *...i jeszcze 207 innych pozycji Tier 2...* | | | |
 
 ---
 *Wygenerowano przez automatyczny podsystem archeologii cyfrowej.*

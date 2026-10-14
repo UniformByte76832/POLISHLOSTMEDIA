@@ -70,7 +70,10 @@ BLACKLISTED_NSFW_FILES = {
     '20030725_charli.swf',
     '20030512_bb3.swf',
     '20040522_baby.swf',
-    '20051208_dancing_girl.swf'
+    '20051208_dancing_girl.swf',
+    '20060310_baby.mid',
+    '2007_sextremalna_katapulta.swf',
+    '20030523_strona.swf'
 }
 
 def make_clean_title(filename: str) -> str:
