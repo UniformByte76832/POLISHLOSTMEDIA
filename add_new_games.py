@@ -88,6 +88,32 @@ new_games = [
         "size_bytes": 2604212,
         "size_str": "2.48 MB",
         "digest": "27b3f5e6170b9c1a"
+    },
+    {
+        "filename": "2005_jm_nu_pagadi.swf",
+        "local_path": os.path.join(ZNALEZISKA_DIR, "2005_jm_nu_pagadi.swf"),
+        "original_url": "http://download.joemonster.org/flash/Gierki/nu_pagadi.swf",
+        "archive_url": "https://web.archive.org/web/20141208020010id_/http://download.joemonster.org/flash/Gierki/nu_pagadi.swf",
+        "timestamp": "20050602",
+        "date_str": "2005-06-02 01:25:13",
+        "format": "SWF",
+        "details": "Polska gra Flash v5: Wilk i Zając: Jajka (Nu, Pogodi!) z JoeMonster (ActionScript: zbite_jaja, skucha, kosz_pos, punkty)",
+        "size_bytes": 66067,
+        "size_str": "64.5 KB",
+        "digest": "308d7490ece521e2"
+    },
+    {
+        "filename": "20070130_jm_killerquiz.swf",
+        "local_path": os.path.join(ZNALEZISKA_DIR, "20070130_jm_killerquiz.swf"),
+        "original_url": "http://download.joemonster.org/flash/Gierki/killerquiz.swf",
+        "archive_url": "https://web.archive.org/web/20070130004806id_/http://download.joemonster.org/flash/Gierki/killerquiz.swf",
+        "timestamp": "20050602",
+        "date_str": "2005-06-02 01:25:13",
+        "format": "SWF",
+        "details": "Gra Flash v5: Killer Quiz - Coder or Cannibal? z Joe Monster (Bertrand Meyer, Gerald Sussman, David Berkowitz)",
+        "size_bytes": 267018,
+        "size_str": "260.8 KB",
+        "digest": "e8e55b4d4ff5855b"
     }
 ]
 

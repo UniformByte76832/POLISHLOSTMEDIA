@@ -4814,5 +4814,35 @@ window.MUSEUM_DATA = [
     "details": "Polska gra PC Borland Delphi: Kill Vader 2.0 by Czaha (2.6 MB, pełna wersja z dźwiękiem i tabelą rekordów)",
     "original_url": "http://czaha.pl/killvader2.0.rar",
     "archive_url": "https://web.archive.org/web/20060301235829id_/http://czaha.pl/killvader2.0.rar"
+  },
+  {
+    "filename": "2005_jm_nu_pagadi.swf",
+    "title": "Wilk i Zając: Jajka (Nu, Pogodi! Flash 2005)",
+    "desc": "Kultowy radziecki klasyk z jajkami w polskiej wersji Flash z JoeMonster. Silnik z polskimi zmiennymi (zbite_jaja, skucha, kosz_pos), 4 koszyki i oryginalne dźwięki pikaczy.",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "joemonster.org",
+    "year": "2005",
+    "size_str": "64.5 KB",
+    "date_str": "2005-06-02 01:25:13",
+    "rel_path": "znaleziska/2005_jm_nu_pagadi.swf",
+    "details": "Polska gra Flash v5: Wilk i Zając: Jajka (Nu, Pogodi!) z JoeMonster (ActionScript: zbite_jaja, skucha, kosz_pos, punkty)",
+    "original_url": "http://download.joemonster.org/flash/Gierki/nu_pagadi.swf",
+    "archive_url": "https://web.archive.org/web/20141208020010id_/http://download.joemonster.org/flash/Gierki/nu_pagadi.swf"
+  },
+  {
+    "filename": "20070130_jm_killerquiz.swf",
+    "title": "Killer Quiz: Coder or Cannibal? (Joe Monster 2005)",
+    "desc": "Legendarny wirusowy quiz z Joe Monster: odgadnij czy postać to programista (twórca Scheme/Eiffel/Haskell) czy seryjny morderca. Oryginalne audio i punktacja.",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "joemonster.org",
+    "year": "2005",
+    "size_str": "260.8 KB",
+    "date_str": "2005-06-02 01:25:13",
+    "rel_path": "znaleziska/20070130_jm_killerquiz.swf",
+    "details": "Gra Flash v5: Killer Quiz - Coder or Cannibal? z Joe Monster (Bertrand Meyer, Gerald Sussman, David Berkowitz)",
+    "original_url": "http://download.joemonster.org/flash/Gierki/killerquiz.swf",
+    "archive_url": "https://web.archive.org/web/20070130004806id_/http://download.joemonster.org/flash/Gierki/killerquiz.swf"
   }
 ];

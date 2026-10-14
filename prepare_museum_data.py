@@ -65,6 +65,14 @@ def prepare_data():
             wing = "archive"
             title = "Kill Vader 2.0 (Gra PC Delphi by Czaha)"
             desc = "Oryginalna instalacja gry na PC w Delphi (2.6 MB) autorstwa Czahy z 2003 roku, zachowana w całości z dźwiękiem i tabelą rekordów."
+        elif fn == "2005_jm_nu_pagadi.swf":
+            wing = "arcade"
+            title = "Wilk i Zając: Jajka (Nu, Pogodi! Flash 2005)"
+            desc = "Kultowy radziecki klasyk z jajkami w polskiej wersji Flash z JoeMonster. Silnik z polskimi zmiennymi (zbite_jaja, skucha, kosz_pos), 4 koszyki i oryginalne dźwięki pikaczy."
+        elif fn == "20070130_jm_killerquiz.swf":
+            wing = "arcade"
+            title = "Killer Quiz: Coder or Cannibal? (Joe Monster 2005)"
+            desc = "Legendarny wirusowy quiz z Joe Monster: odgadnij czy postać to programista (twórca Scheme/Eiffel/Haskell) czy seryjny morderca. Oryginalne audio i punktacja."
         elif fn == "20060412_kaczki.swf":
             wing = "arcade"
             title = "Kaczki (Flash 2006)"
