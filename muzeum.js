@@ -84,10 +84,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Lista gier w panelu bocznym salonu gier
   const arcadeList = document.getElementById("arcade-playlist");
-  const arcadeItems = [
-    snakeGame,
-    ...data.filter(d => d.format === 'SWF' && d !== snakeGame).slice(0, 15)
-  ].filter(Boolean);
+  const arcadeGames = data.filter(d => d.wing === 'arcade');
+  const otherSwfs = data.filter(d => d.format === 'SWF' && d.wing !== 'arcade');
+  const arcadeItems = [...arcadeGames, ...otherSwfs.slice(0, 15)].filter(Boolean);
 
   if (arcadeList) {
     arcadeList.innerHTML = "";

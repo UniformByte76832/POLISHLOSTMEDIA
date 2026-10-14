@@ -4724,5 +4724,35 @@ window.MUSEUM_DATA = [
     "details": "Animacja/Obraz GIF89a (30x32 px)",
     "original_url": "http://free.polbox.pl:80/1/123piotr/zabawy/file.gif",
     "archive_url": "https://web.archive.org/web/20020227094338id_/http://free.polbox.pl:80/1/123piotr/zabawy/file.gif"
+  },
+  {
+    "filename": "20060511_mistrz_autobusu.swf",
+    "title": "Mistrz Autobusu (MPK 2006 by Czaha)",
+    "desc": "Kultowy polski symulator kierowcy autobusu miejskiego (luty 2006) z silnikiem kolizji hitTest, prędkościomierzem i czasem do przystanku. Autor: Czaha (czaha.pl).",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "Nieznana",
+    "year": "2006",
+    "size_str": "786.1 KB",
+    "date_str": "2006-05-11 22:44:45",
+    "rel_path": "znaleziska/20060511_mistrz_autobusu.swf",
+    "details": "Polska gra Flash v6: Mistrz Autobusu (MPK) by Czaha (1073 klatki, 786 KB)",
+    "original_url": "http://czaha.pl:80/autobus/autobus6.swf",
+    "archive_url": "https://web.archive.org/web/20060511224445id_/http://czaha.pl:80/autobus/autobus6.swf"
+  },
+  {
+    "filename": "20060412_kaczki.swf",
+    "title": "Kaczki (Flash 2006)",
+    "desc": "Satyryczna polska produkcja Flash z kwietnia 2006 roku ocalona z serwera 100lat.info/kaczki.",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "Nieznana",
+    "year": "2006",
+    "size_str": "532.0 KB",
+    "date_str": "2006-04-12 11:39:14",
+    "rel_path": "znaleziska/20060412_kaczki.swf",
+    "details": "Polska produkcja Flash v6 (532 KB) ocalona z 100lat.info",
+    "original_url": "http://100lat.info:80/kaczki/kaczki.swf",
+    "archive_url": "https://web.archive.org/web/20060412113914id_/http://100lat.info:80/kaczki/kaczki.swf"
   }
 ];
