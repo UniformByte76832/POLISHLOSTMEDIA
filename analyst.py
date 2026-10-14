@@ -12,6 +12,7 @@ REPETITIVE_PATTERNS = [
     r'(?:^|[/._-])(banner|baner|button|btn|logo|nav|counter|licznik|cnt|spacer|pixel|blank)(?:[/._\d-]|$)',
     r'(?:^|[/._-])(tlo|bg|background|line|bar|arrow|bullet|stat|statystyki|advert|reklama|gemius|hit[_-]?counter)(?:[/._\d-]|$)',
     r'(?:^|[/._-])(top[_-]?page|bottom|menu|header[_-]?bg|footer)(?:[/._\d-]|$)',
+    r'(?:^|[/._-])(text\d+|button\d+|btn\d+)(?:[/._-]|$)',
     r'republika[_-]?(top|bottom|logo|pasek)',
     r'onet[_-]?(logo|baner|top)'
 ]
@@ -128,6 +129,10 @@ def is_repetitive_asset(original_url: str, file_size: int, details: str = "") ->
     details_lower = details.lower()
     if ('gif' in details_lower or 'jpeg' in details_lower or 'bmp' in details_lower) and file_size < 3072:
         return True, f"Zbyt mały plik graficzny ({file_size} B) – prawdopodobnie ikona/spacer"
+
+    # Odrzucenie mikroskopijnych plików SWF poniżej 2.5KB (pojedyncze przyciski menu, etykiety)
+    if ('swf' in details_lower or '.swf' in url_lower) and file_size < 2560:
+        return True, f"Zbyt mały plik SWF ({file_size} B) – pojedynczy przycisk/napis tekstowy"
 
     return False, "Unikatowy zasób"
 

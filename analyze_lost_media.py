@@ -65,20 +65,34 @@ def analyze_and_generate_report():
                 except:
                     pass
 
-            s_text = (" ".join(swf_strings) + " " + details).lower()
-            game_keywords = [
-                'snake', 'gra', 'game', 'arena', 'akwarium', 'grajter', 'autobus',
-                'kaczki', 'katapulta', 'quiz', 'arkanoid', 'batyskaf', 'zgadnij',
-                'wodka', 'trabka', 'pagadi', 'pogodi', 'score', 'punkty'
-            ]
-            
-            # Autorskie gry Flash
-            if any(k in fn.lower() or k in s_text for k in game_keywords):
+            text_to_search = f"{fn} {details} {orig} {' '.join(swf_strings)}".lower()
+
+            # Wykluczenie mikro-plików oraz zakładek nawigacyjnych do Tier 3
+            nav_button_match = re.search(
+                r'(?:^|[/._-])(text\d+|email|oferta|galeria|nocleg|dojazd|przewodnik|bukowiec|czytaj|lewy|gora|zegar|napis|omnie|button\d+|btn\d+)(?:[/._-]|$)',
+                f"{fn} {orig}",
+                re.IGNORECASE
+            )
+
+            if size < 6144 or nav_button_match:
+                tier = 3
+                category = "Przycisk / Element Nawigacji Flash"
+                why_lost = "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
+            # Autorskie gry Flash: próg >= 7000 bajtów oraz granice słów
+            elif size >= 7000 and re.search(
+                r'\b(snake|gra|gry|game|arena|akwarium|grajter|autobus|kaczki|katapulta|quiz|arkanoid|batyskaf|zgadnij|wodka|trabka|pagadi|pogodi|score|punkty|highscore|gameover)\b',
+                text_to_search,
+                re.IGNORECASE
+            ):
                 tier = 1
                 category = "🎮 Zaginiona Gra Flash"
                 why_lost = "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
-            # Autorskie animacje, kreskówki, etiudy szkolne
-            elif any(k in fn.lower() or k in s_text for k in ['nauczyciel', 'laska', 'prezentacja', 'movie', 'intro', 'animacja', 'projekt']):
+            # Autorskie animacje, kreskówki, etiudy szkolne: próg >= 10000 bajtów oraz granice słów
+            elif size >= 10000 and re.search(
+                r'\b(nauczyciel|laska|prezentacja|movie|intro|animacja|animacj|kreskowk|projekt|film)\b',
+                text_to_search,
+                re.IGNORECASE
+            ):
                 tier = 1
                 category = "🎬 Autorska Animacja / Kreskówka"
                 why_lost = "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
@@ -89,7 +103,7 @@ def analyze_and_generate_report():
             else:
                 tier = 2
                 category = "Interaktywny Element WWW"
-                why_lost = "Interaktywny baner lub menu Flash z archiwum Republiki/GeoCities."
+                why_lost = "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
 
         # 2. MUZYKA MIDI
         elif fmt == 'MIDI':

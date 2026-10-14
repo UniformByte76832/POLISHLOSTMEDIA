@@ -27,9 +27,11 @@ DEFAULT_HEADERS = {
 }
 
 def sanitize_filename(filename: str) -> str:
-    """Oczyszcza nazwę pliku z niedozwolonych znaków w systemie Windows."""
-    clean = re.sub(r'[\\/*?:"<>|]', '_', filename)
-    clean = clean.strip()
+    """Oczyszcza nazwę pliku z niedozwolonych znaków w systemie Windows, usuwa %20 i spacje."""
+    unquoted = urllib.parse.unquote(filename)
+    clean = re.sub(r'[\\/*?:"<>|\s%]', '_', unquoted)
+    clean = re.sub(r'_+', '_', clean)
+    clean = clean.strip('_').strip()
     return clean if clean else "unnamed_artifact"
 
 def format_timestamp(ts: str) -> str:
@@ -113,7 +115,8 @@ class Archivist:
 
         # Ekstrakcja podstawowej nazwy pliku
         url_path = urllib.parse.urlsplit(original_url).path
-        base_name = os.path.basename(url_path)
+        unquoted_path = urllib.parse.unquote(url_path)
+        base_name = os.path.basename(unquoted_path)
         if not base_name or '.' not in base_name:
             ext = item.get('mimetype', '').split('/')[-1]
             base_name = f"artifact_{timestamp}.{ext}"

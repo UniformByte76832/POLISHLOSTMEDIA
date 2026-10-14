@@ -52,45 +52,6 @@
     "digest": ""
   },
   {
-    "filename": "20031230_text1.swf",
-    "local_path": "znaleziska/20031230_text1.swf",
-    "original_url": "http://www.republika.pl:80/a_d_i/text1.swf",
-    "archive_url": "https://web.archive.org/web/20031230092852id_/http://www.republika.pl:80/a_d_i/text1.swf",
-    "timestamp": "20031230",
-    "date_str": "2003-12-30 09:28:52",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 947,
-    "size_str": "0.9 KB",
-    "digest": ""
-  },
-  {
-    "filename": "20031230_text16.swf",
-    "local_path": "znaleziska/20031230_text16.swf",
-    "original_url": "http://www.republika.pl:80/a_d_i/text16.swf",
-    "archive_url": "https://web.archive.org/web/20031230043233id_/http://www.republika.pl:80/a_d_i/text16.swf",
-    "timestamp": "20031230",
-    "date_str": "2003-12-30 04:32:33",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1222,
-    "size_str": "1.2 KB",
-    "digest": ""
-  },
-  {
-    "filename": "20031230_text5.swf",
-    "local_path": "znaleziska/20031230_text5.swf",
-    "original_url": "http://www.republika.pl:80/a_d_i/text5.swf",
-    "archive_url": "https://web.archive.org/web/20031230090244id_/http://www.republika.pl:80/a_d_i/text5.swf",
-    "timestamp": "20031230",
-    "date_str": "2003-12-30 09:02:44",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 884,
-    "size_str": "0.9 KB",
-    "digest": ""
-  },
-  {
     "filename": "20040314_veegorresite.gif",
     "local_path": "znaleziska/20040314_veegorresite.gif",
     "original_url": "http://republika.pl:80/a1wasiek/veegorresite.gif",
@@ -130,8 +91,8 @@
     "digest": ""
   },
   {
-    "filename": "20041025_natalia%20pz.gif",
-    "local_path": "znaleziska/20041025_natalia%20pz.gif",
+    "filename": "20041025_natalia_pz.gif",
+    "local_path": "znaleziska/20041025_natalia_pz.gif",
     "original_url": "http://republika.pl:80/aaella/natalia%20pz.gif",
     "archive_url": "https://web.archive.org/web/20041025211054id_/http://republika.pl:80/aaella/natalia%20pz.gif",
     "timestamp": "20041025",
@@ -585,32 +546,6 @@
     "digest": "5HGPT5FFKKZR4VVW2TQPUL6TKOUY53KJ"
   },
   {
-    "filename": "20030610_alanya.swf",
-    "local_path": "znaleziska/20030610_alanya.swf",
-    "original_url": "http://republika.pl:80/aasritaur/alanya.swf",
-    "archive_url": "https://web.archive.org/web/20030610001851id_/http://republika.pl:80/aasritaur/alanya.swf",
-    "timestamp": "20030610001851",
-    "date_str": "2003-06-10 00:18:51",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1228,
-    "size_str": "1.2 KB",
-    "digest": "35223GLV6XO2UBLLSLFXCG7746C2IQP7"
-  },
-  {
-    "filename": "20030818_fethiye.swf",
-    "local_path": "znaleziska/20030818_fethiye.swf",
-    "original_url": "http://republika.pl:80/aasritaur/fethiye.swf",
-    "archive_url": "https://web.archive.org/web/20030818221940id_/http://republika.pl:80/aasritaur/fethiye.swf",
-    "timestamp": "20030818221940",
-    "date_str": "2003-08-18 22:19:40",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1130,
-    "size_str": "1.1 KB",
-    "digest": "CTIJX5VIMMRCQ744YU6SI7EFFOQE2ZPI"
-  },
-  {
     "filename": "20040510_andrew.swf",
     "local_path": "znaleziska/20040510_andrew.swf",
     "original_url": "http://republika.pl:80/aawa/andrew.swf",
@@ -676,19 +611,6 @@
     "digest": "UQEZ4PEG23ONQYEVV4WGIZJE3YFWIBEI"
   },
   {
-    "filename": "20030919_slow.swf",
-    "local_path": "znaleziska/20030919_slow.swf",
-    "original_url": "http://republika.pl:80/abczolw/slow.swf",
-    "archive_url": "https://web.archive.org/web/20030919140640id_/http://republika.pl:80/abczolw/slow.swf",
-    "timestamp": "20030919140640",
-    "date_str": "2003-09-19 14:06:40",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 20 klatek, 18 FPS)",
-    "size_bytes": 2405,
-    "size_str": "2.3 KB",
-    "digest": "7QD7W5LOYJEZYQUGBF6CIBLVCMMWSKWB"
-  },
-  {
     "filename": "20060708_clouds.swf",
     "local_path": "znaleziska/20060708_clouds.swf",
     "original_url": "http://republika.pl:80/abomination/clouds.swf",
@@ -715,8 +637,8 @@
     "digest": "AFDJL3TNSEWJAH3M6EATTIRTIA6TWJ7E"
   },
   {
-    "filename": "20041107_Jelenia%20Gora3.swf",
-    "local_path": "znaleziska/20041107_Jelenia%20Gora3.swf",
+    "filename": "20041107_Jelenia_Gora3.swf",
+    "local_path": "znaleziska/20041107_Jelenia_Gora3.swf",
     "original_url": "http://republika.pl:80/absolwenci85/multimedia/Jelenia%20Gora3.swf",
     "archive_url": "https://web.archive.org/web/20041107085231id_/http://republika.pl:80/absolwenci85/multimedia/Jelenia%20Gora3.swf",
     "timestamp": "20041107085231",
@@ -1157,19 +1079,6 @@
     "digest": "VKO2BU36X7DWKUMMOSQXAHYNUYN5WQOL"
   },
   {
-    "filename": "20040831_kaktusy.swf",
-    "local_path": "znaleziska/20040831_kaktusy.swf",
-    "original_url": "http://republika.pl:80/afid/kaktusy.swf",
-    "archive_url": "https://web.archive.org/web/20040831233348id_/http://republika.pl:80/afid/kaktusy.swf",
-    "timestamp": "20040831233348",
-    "date_str": "2004-08-31 23:33:48",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 20 klatek, 12 FPS)",
-    "size_bytes": 1621,
-    "size_str": "1.6 KB",
-    "digest": "CYP2EBRF5F36PP2FQ767THLSKLY3GUOX"
-  },
-  {
     "filename": "20040915_index.swf",
     "local_path": "znaleziska/20040915_index.swf",
     "original_url": "http://republika.pl:80/africonnect/index.swf",
@@ -1350,97 +1259,6 @@
     "size_bytes": 593709,
     "size_str": "579.8 KB",
     "digest": "G2WBMQTLBCRXRY32P4B4ROQPR5SJLFN6"
-  },
-  {
-    "filename": "20041020_bukowiec.swf",
-    "local_path": "znaleziska/20041020_bukowiec.swf",
-    "original_url": "http://www.republika.pl:80/agrohupajlo/bukowiec.swf",
-    "archive_url": "https://web.archive.org/web/20041020131115id_/http://www.republika.pl:80/agrohupajlo/bukowiec.swf",
-    "timestamp": "20041020131115",
-    "date_str": "2004-10-20 13:11:15",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1573,
-    "size_str": "1.5 KB",
-    "digest": "7APIG7PVTHGUA2BH2VHITE4TS2UXIUWK"
-  },
-  {
-    "filename": "20041020_dojazd.swf",
-    "local_path": "znaleziska/20041020_dojazd.swf",
-    "original_url": "http://www.republika.pl:80/agrohupajlo/dojazd.swf",
-    "archive_url": "https://web.archive.org/web/20041020133635id_/http://www.republika.pl:80/agrohupajlo/dojazd.swf",
-    "timestamp": "20041020133635",
-    "date_str": "2004-10-20 13:36:35",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1260,
-    "size_str": "1.2 KB",
-    "digest": "CALJ4GES3COX5IMJM3UXXQKXWQ624VUZ"
-  },
-  {
-    "filename": "20041020_email.swf",
-    "local_path": "znaleziska/20041020_email.swf",
-    "original_url": "http://www.republika.pl:80/agrohupajlo/email.swf",
-    "archive_url": "https://web.archive.org/web/20041020131251id_/http://www.republika.pl:80/agrohupajlo/email.swf",
-    "timestamp": "20041020131251",
-    "date_str": "2004-10-20 13:12:51",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1195,
-    "size_str": "1.2 KB",
-    "digest": "655C2J5RML7EYQFF3LFNYZEJ7UK2QZ5Y"
-  },
-  {
-    "filename": "20041020_galeria.swf",
-    "local_path": "znaleziska/20041020_galeria.swf",
-    "original_url": "http://www.republika.pl:80/agrohupajlo/galeria.swf",
-    "archive_url": "https://web.archive.org/web/20041020141706id_/http://www.republika.pl:80/agrohupajlo/galeria.swf",
-    "timestamp": "20041020141706",
-    "date_str": "2004-10-20 14:17:06",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1207,
-    "size_str": "1.2 KB",
-    "digest": "4AYA3WZRZ543IHKSSV3KCYQNARXX34RJ"
-  },
-  {
-    "filename": "20041020_nocleg.swf",
-    "local_path": "znaleziska/20041020_nocleg.swf",
-    "original_url": "http://www.republika.pl:80/agrohupajlo/nocleg.swf",
-    "archive_url": "https://web.archive.org/web/20041020134139id_/http://www.republika.pl:80/agrohupajlo/nocleg.swf",
-    "timestamp": "20041020134139",
-    "date_str": "2004-10-20 13:41:39",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1598,
-    "size_str": "1.6 KB",
-    "digest": "NMPUMA6TPE4GYX5T5R4TCA6N4OZEOHSP"
-  },
-  {
-    "filename": "20041020_oferta.swf",
-    "local_path": "znaleziska/20041020_oferta.swf",
-    "original_url": "http://www.republika.pl:80/agrohupajlo/oferta.swf",
-    "archive_url": "https://web.archive.org/web/20041020141604id_/http://www.republika.pl:80/agrohupajlo/oferta.swf",
-    "timestamp": "20041020141604",
-    "date_str": "2004-10-20 14:16:04",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1201,
-    "size_str": "1.2 KB",
-    "digest": "6BCY2OEMOAWJEF6GOJHQ2YIGKIT4JTNA"
-  },
-  {
-    "filename": "20041020_przewodnik.swf",
-    "local_path": "znaleziska/20041020_przewodnik.swf",
-    "original_url": "http://www.republika.pl:80/agrohupajlo/przewodnik.swf",
-    "archive_url": "https://web.archive.org/web/20041020142723id_/http://www.republika.pl:80/agrohupajlo/przewodnik.swf",
-    "timestamp": "20041020142723",
-    "date_str": "2004-10-20 14:27:23",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1687,
-    "size_str": "1.6 KB",
-    "digest": "LKMMM6E2IMQVIWKY3G5JMHPRRLZR5ODM"
   },
   {
     "filename": "20041128_rezerwacje1.swf",
@@ -1636,19 +1454,6 @@
     "size_bytes": 11309,
     "size_str": "11.0 KB",
     "digest": "M4IP5DT5ZSLTW3NCQVBE5KT7X2AGHA7J"
-  },
-  {
-    "filename": "20060710_clock.swf",
-    "local_path": "znaleziska/20060710_clock.swf",
-    "original_url": "http://republika.pl:80/akatyst/multimedia/clock.swf",
-    "archive_url": "https://web.archive.org/web/20060710062850id_/http://republika.pl:80/akatyst/multimedia/clock.swf",
-    "timestamp": "20060710062850",
-    "date_str": "2006-07-10 06:28:50",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 6, nieskompresowany, 6 klatek, 20 FPS)",
-    "size_bytes": 1958,
-    "size_str": "1.9 KB",
-    "digest": "FJTT2CFHH27QPC5K6SB47UALFVKSOKR7"
   },
   {
     "filename": "20060710_ryby1.swf",
@@ -2444,19 +2249,6 @@
     "digest": "WROWD2ENGHVZ3LJM2Q7Y67NHO7APDQKQ"
   },
   {
-    "filename": "20040829_s.swf",
-    "local_path": "znaleziska/20040829_s.swf",
-    "original_url": "http://19katowice64.webpark.pl:80/s.swf",
-    "archive_url": "https://web.archive.org/web/20040829190949id_/http://19katowice64.webpark.pl:80/s.swf",
-    "timestamp": "20040829190949",
-    "date_str": "2004-08-29 19:09:49",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 71,
-    "size_str": "71 B",
-    "digest": "DWAKGLHUPPBSH2X2OL65CBFBY5AI6R3W"
-  },
-  {
     "filename": "20041102_index.swf",
     "local_path": "znaleziska/20041102_index.swf",
     "original_url": "http://1a1.webpark.pl:80/index.swf",
@@ -2481,32 +2273,6 @@
     "size_bytes": 3864,
     "size_str": "3.8 KB",
     "digest": "IUR2LRZPZUGQKRDB2CS4HN6ILVSNGKPT"
-  },
-  {
-    "filename": "20041127_m2.swf",
-    "local_path": "znaleziska/20041127_m2.swf",
-    "original_url": "http://1a_page.webpark.pl:80/m2.swf",
-    "archive_url": "https://web.archive.org/web/20041127185606id_/http://1a_page.webpark.pl:80/m2.swf",
-    "timestamp": "20041127185606",
-    "date_str": "2004-11-27 18:56:06",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
-    "size_bytes": 1634,
-    "size_str": "1.6 KB",
-    "digest": "DPEZYTLBZA63QYSJN37YMAT2VDVHBX6R"
-  },
-  {
-    "filename": "20041128_rollover.swf",
-    "local_path": "znaleziska/20041128_rollover.swf",
-    "original_url": "http://1a_page.webpark.pl:80/rollover.swf",
-    "archive_url": "https://web.archive.org/web/20041128070927id_/http://1a_page.webpark.pl:80/rollover.swf",
-    "timestamp": "20041128070927",
-    "date_str": "2004-11-28 07:09:27",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 20 FPS)",
-    "size_bytes": 2445,
-    "size_str": "2.4 KB",
-    "digest": "UEGBCZUZVQETO3MU2SPRXQCT4PWAUVI5"
   },
   {
     "filename": "20040706_clock_calendar.swf",
@@ -3926,8 +3692,8 @@
     "digest": "LT26MBMVHHIFK35AZNSHVPY3MJSENESR"
   },
   {
-    "filename": "20030829_intro%20barum.swf",
-    "local_path": "znaleziska/20030829_intro%20barum.swf",
+    "filename": "20030829_intro_barum.swf",
+    "local_path": "znaleziska/20030829_intro_barum.swf",
     "original_url": "http://republika.pl:80/autogum/intro%20barum.swf",
     "archive_url": "https://web.archive.org/web/20030829134249id_/http://republika.pl:80/autogum/intro%20barum.swf",
     "timestamp": "20030829134249",
@@ -4030,8 +3796,8 @@
     "digest": "AWI6XTY4GM34O4ATJXS4O7GYVK5RNDQX"
   },
   {
-    "filename": "20030818_bez%20granic%20promo.swf",
-    "local_path": "znaleziska/20030818_bez%20granic%20promo.swf",
+    "filename": "20030818_bez_granic_promo.swf",
+    "local_path": "znaleziska/20030818_bez_granic_promo.swf",
     "original_url": "http://republika.pl:80/bezgranic/bez%20granic%20promo.swf",
     "archive_url": "https://web.archive.org/web/20030818232400id_/http://republika.pl:80/bezgranic/bez%20granic%20promo.swf",
     "timestamp": "20030818232400",
