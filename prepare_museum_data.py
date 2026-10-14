@@ -36,12 +36,25 @@ def prepare_data():
         elif "100lat.info" in orig: domain = "100lat.info"
         elif "joemonster.org" in orig: domain = "joemonster.org"
         elif "neostrada.pl" in orig: domain = "cda / neostrada"
+        elif "plocman.pl" in orig or "flashzone" in orig: domain = "flashzone.pl"
 
         # Rok
         year = date_str[:4] if len(date_str) >= 4 else "2000"
 
         # Kategoryzacja do skrzydeł muzeum
-        if fn == "20030408_snakearena.swf":
+        if fn == "2002_fz_batyskaf.swf":
+            wing = "arcade"
+            title = "Batyskaf (Czerwiec 2002 by Marcin L.)"
+            desc = "Najstarsza zachowana polska gra Flash (16 czerwca 2002, Flash v5) z legendarnego portalu FlashZone.pl. Sterowanie batyskafem, omijanie podwodnych skał i torpedy na Spację (Key.SPACE). Prawdziwy przełom archeologiczny!"
+        elif fn == "2002_fz_arkanoid.swf":
+            wing = "arcade"
+            title = "Arkanoid (Czerwiec 2002 by Piotr K. Praga)"
+            desc = "Polski zręcznościowy Arkanoid z 16 czerwca 2002 roku (Flash v5, 60 FPS) autorstwa Piotra K. (nokturnal.prv.pl / FlashZone). Zaawansowany silnik kolizji piłki, sterowanie paletką myszką i zbijanie klocków."
+        elif fn == "2002_fz_zgadnij_liczbe.swf":
+            wing = "arcade"
+            title = "Zgadnij Liczbę (Czerwiec 2002 by Jarek Głowacki)"
+            desc = "Interaktywna gra logiczna z 16 czerwca 2002 roku (Flash v5, 24 FPS) autorstwa Jarka Głowackiego (plonsk.prv.pl / FlashZone). Cyfrowy kalkulator z losowaniem liczb (Math.random) i licznikiem prób."
+        elif fn == "20030408_snakearena.swf":
             wing = "arcade"
             title = "Snake Arena 1.0 (UMK Toruń)"
             desc = "Autorska gra w węża z kwietnia 2003 roku z trybem single i multiplayer dla 2 graczy na 1 klawiaturze. Autor: TALEE (UMK Toruń)."

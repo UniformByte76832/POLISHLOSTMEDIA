@@ -68,10 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Załaduj domyślnie Snake Arena w Salonie Gier
-  const snakeGame = data.find(d => d.filename.includes("snakearena")) || data.find(d => d.format === "SWF");
-  if (snakeGame) {
-    initRuffle(snakeGame.rel_path, "Snake Arena 1.0 (UMK Toruń, 2003)", snakeGame.desc);
+  // Załaduj domyślnie najstarszą polską grę Flash: Batyskaf (Czerwiec 2002)
+  const defaultGame = data.find(d => d.filename.includes("batyskaf")) || data.find(d => d.filename.includes("snakearena")) || data.find(d => d.format === "SWF");
+  if (defaultGame) {
+    initRuffle(defaultGame.rel_path, defaultGame.title, defaultGame.desc);
   }
 
   // Przyciski kontroli odtwarzacza
@@ -82,9 +82,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (rufflePlayer && rufflePlayer.enterFullscreen) rufflePlayer.enterFullscreen();
   });
 
-  // Lista gier w panelu bocznym salonu gier
+  // Lista gier w panelu bocznym salonu gier (uporządkowana chronologicznie)
   const arcadeList = document.getElementById("arcade-playlist");
-  const arcadeGames = data.filter(d => d.wing === 'arcade');
+  const arcadeGames = data.filter(d => d.wing === 'arcade').sort((a, b) => (a.year || '2000').localeCompare(b.year || '2000'));
   const otherSwfs = data.filter(d => d.format === 'SWF' && d.wing !== 'arcade');
   const arcadeItems = [...arcadeGames, ...otherSwfs.slice(0, 15)].filter(Boolean);
 

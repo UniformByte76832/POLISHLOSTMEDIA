@@ -4844,5 +4844,50 @@ window.MUSEUM_DATA = [
     "details": "Gra Flash v5: Killer Quiz - Coder or Cannibal? z Joe Monster (Bertrand Meyer, Gerald Sussman, David Berkowitz)",
     "original_url": "http://download.joemonster.org/flash/Gierki/killerquiz.swf",
     "archive_url": "https://web.archive.org/web/20070130004806id_/http://download.joemonster.org/flash/Gierki/killerquiz.swf"
+  },
+  {
+    "filename": "2002_fz_batyskaf.swf",
+    "title": "Batyskaf (Czerwiec 2002 by Marcin L.)",
+    "desc": "Najstarsza zachowana polska gra Flash (16 czerwca 2002, Flash v5) z legendarnego portalu FlashZone.pl. Sterowanie batyskafem, omijanie podwodnych skał i torpedy na Spację (Key.SPACE). Prawdziwy przełom archeologiczny!",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "flashzone.pl",
+    "year": "2002",
+    "size_str": "137.2 KB",
+    "date_str": "2002-06-16 00:00:00",
+    "rel_path": "znaleziska/2002_fz_batyskaf.swf",
+    "details": "Polska gra Flash v5 z czerwca 2002 r.: Batyskaf by Marcin L. (FlashZone Open Source, 140 KB, 6 dźwięków, torpedy na spację)",
+    "original_url": "http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf",
+    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf"
+  },
+  {
+    "filename": "2002_fz_arkanoid.swf",
+    "title": "Arkanoid (Czerwiec 2002 by Piotr K. Praga)",
+    "desc": "Polski zręcznościowy Arkanoid z 16 czerwca 2002 roku (Flash v5, 60 FPS) autorstwa Piotra K. (nokturnal.prv.pl / FlashZone). Zaawansowany silnik kolizji piłki, sterowanie paletką myszką i zbijanie klocków.",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "flashzone.pl",
+    "year": "2002",
+    "size_str": "14.4 KB",
+    "date_str": "2002-06-16 00:00:00",
+    "rel_path": "znaleziska/2002_fz_arkanoid.swf",
+    "details": "Polska gra Flash v5 z czerwca 2002 r.: Arkanoid by Piotr K. Praga (FlashZone, 60 FPS, sterowanie myszką, punkty, kulki)",
+    "original_url": "http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf",
+    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf"
+  },
+  {
+    "filename": "2002_fz_zgadnij_liczbe.swf",
+    "title": "Zgadnij Liczbę (Czerwiec 2002 by Jarek Głowacki)",
+    "desc": "Interaktywna gra logiczna z 16 czerwca 2002 roku (Flash v5, 24 FPS) autorstwa Jarka Głowackiego (plonsk.prv.pl / FlashZone). Cyfrowy kalkulator z losowaniem liczb (Math.random) i licznikiem prób.",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "flashzone.pl",
+    "year": "2002",
+    "size_str": "19.8 KB",
+    "date_str": "2002-06-16 00:00:00",
+    "rel_path": "znaleziska/2002_fz_zgadnij_liczbe.swf",
+    "details": "Polska gra Flash v5 z czerwca 2002 r.: Zgadnij Liczbę by Jarek Głowacki (FlashZone, losowanie liczb, enter, backspace)",
+    "original_url": "http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf",
+    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf"
   }
 ];

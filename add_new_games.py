@@ -114,6 +114,45 @@ new_games = [
         "size_bytes": 267018,
         "size_str": "260.8 KB",
         "digest": "e8e55b4d4ff5855b"
+    },
+    {
+        "filename": "2002_fz_batyskaf.swf",
+        "local_path": os.path.join(ZNALEZISKA_DIR, "2002_fz_batyskaf.swf"),
+        "original_url": "http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf",
+        "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf",
+        "timestamp": "20020616",
+        "date_str": "2002-06-16 00:00:00",
+        "format": "SWF",
+        "details": "Polska gra Flash v5 z czerwca 2002 r.: Batyskaf by Marcin L. (FlashZone Open Source, 140 KB, 6 dźwięków, torpedy na spację)",
+        "size_bytes": 140506,
+        "size_str": "137.2 KB",
+        "digest": "352d18dd1663a9e9"
+    },
+    {
+        "filename": "2002_fz_arkanoid.swf",
+        "local_path": os.path.join(ZNALEZISKA_DIR, "2002_fz_arkanoid.swf"),
+        "original_url": "http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf",
+        "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf",
+        "timestamp": "20020616",
+        "date_str": "2002-06-16 00:00:00",
+        "format": "SWF",
+        "details": "Polska gra Flash v5 z czerwca 2002 r.: Arkanoid by Piotr K. Praga (FlashZone, 60 FPS, sterowanie myszką, punkty, kulki)",
+        "size_bytes": 14748,
+        "size_str": "14.4 KB",
+        "digest": "1d6aae9dd5b55667"
+    },
+    {
+        "filename": "2002_fz_zgadnij_liczbe.swf",
+        "local_path": os.path.join(ZNALEZISKA_DIR, "2002_fz_zgadnij_liczbe.swf"),
+        "original_url": "http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf",
+        "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf",
+        "timestamp": "20020616",
+        "date_str": "2002-06-16 00:00:00",
+        "format": "SWF",
+        "details": "Polska gra Flash v5 z czerwca 2002 r.: Zgadnij Liczbę by Jarek Głowacki (FlashZone, losowanie liczb, enter, backspace)",
+        "size_bytes": 20270,
+        "size_str": "19.8 KB",
+        "digest": "77fff87aafb8d4e1"
     }
 ]
 
