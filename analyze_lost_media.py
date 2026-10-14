@@ -1,17 +1,187 @@
 """
 Skrypt analityczny klasyfikujący pobrane zbiory pod kątem Lost Media.
 Generuje szczegółowy raport w pliku znaleziska/lost_media_raport.md.
+Eksportuje funkcję classify_item(it, project_dir) dla prepare_museum_data.py.
 """
 import os
 import sys
 import json
 import re
+import zlib
 from datetime import datetime
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 ZNALEZISKA_DIR = os.path.join(PROJECT_DIR, "znaleziska")
 METADATA_FILE = os.path.join(ZNALEZISKA_DIR, "metadata.json")
 REPORT_FILE = os.path.join(ZNALEZISKA_DIR, "lost_media_raport.md")
+
+CURATED_GAMES = {
+    '2002_fz_batyskaf.swf',
+    '2002_fz_arkanoid.swf',
+    '2002_fz_zgadnij_liczbe.swf',
+    '20030408_snakearena.swf',
+    '20060511_mistrz_autobusu.swf',
+    '20060301_aczy_trabka.swf',
+    '20061018_nalej_ruska_wodka.swf',
+    '2007_sextremalna_katapulta.swf',
+    '2005_jm_nu_pagadi.swf',
+    '20070130_jm_killerquiz.swf',
+    '20060412_kaczki.swf',
+    '20050507_jm_clinicgame.swf',
+    '20030528_Unreal_Tournament.swf',
+    '20040914_FirstStrike.swf',
+    '20030927_matematikon.swf',
+    '20041025_gra.swf',
+    '20040616_growl_karaokie.swf'
+}
+
+def classify_item(it: dict, project_dir: str = PROJECT_DIR) -> tuple[int, str, str]:
+    """
+    Klasyfikuje artefakt do poziomu Tier 1, 2 lub 3.
+    Zwraca krotkę: (tier: int, category: str, why_lost: str).
+    """
+    fn = it.get('filename', '')
+    fmt = it.get('format', '')
+    orig = it.get('original_url', '').lower()
+    size = it.get('size_bytes', 0)
+    local_path = it.get('local_path', '')
+    full_path = os.path.join(project_dir, local_path) if not os.path.isabs(local_path) else local_path
+    details = it.get('details', '')
+
+    tier = 3
+    category = "Zasób pomocniczy"
+    why_lost = ""
+
+    # 1. FLASH SWF
+    if fmt == 'SWF':
+        if fn in CURATED_GAMES:
+            tier = 1
+            category = "🎮 Zaginiona Gra Flash"
+            why_lost = "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
+            return tier, category, why_lost
+
+        swf_strings = []
+        if os.path.exists(full_path):
+            try:
+                with open(full_path, 'rb') as sf:
+                    sdata = sf.read()
+                if sdata[:3] == b'CWS':
+                    try:
+                        sdata = sdata[:8] + zlib.decompress(sdata[8:])
+                    except Exception:
+                        pass
+                raw_s = re.findall(b'[\x20-\x7e\xa0-\xff]{4,}', sdata)
+                for rs in raw_s:
+                    try:
+                        t = rs.decode('latin1').strip()
+                        if any(c.isalpha() for c in t) and len(t) > 3:
+                            swf_strings.append(t)
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+
+        text_to_search = f"{fn} {details} {orig} {' '.join(swf_strings)}".lower()
+
+        nav_button_match = re.search(
+            r'(?:^|[/._-])(text\d+|email|oferta|galeria|nocleg|dojazd|przewodnik|bukowiec|czytaj|lewy|gora|zegar|napis|omnie|button\d+|btn\d+)(?:[/._-]|$)',
+            f"{fn} {orig}",
+            re.IGNORECASE
+        )
+
+        if size < 6144 or nav_button_match:
+            tier = 3
+            category = "Przycisk / Element Nawigacji Flash"
+            why_lost = "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
+        elif size >= 7000 and re.search(
+            r'\b(snake|gra|gry|game|arena|akwarium|grajter|autobus|kaczki|katapulta|quiz|arkanoid|batyskaf|zgadnij|wodka|trabka|pagadi|pogodi|score|punkty|highscore|gameover)\b',
+            text_to_search,
+            re.IGNORECASE
+        ):
+            tier = 1
+            category = "🎮 Zaginiona Gra Flash"
+            why_lost = "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
+        elif size >= 10000 and re.search(
+            r'\b(nauczyciel|laska|prezentacja|movie|intro|animacja|animacj|kreskowk|projekt|film)\b',
+            text_to_search,
+            re.IGNORECASE
+        ):
+            tier = 1
+            category = "🎬 Autorska Animacja / Kreskówka"
+            why_lost = "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
+        elif size > 200000:
+            tier = 2
+            category = "⚡ Rozbudowany Projekt Flash"
+            why_lost = "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
+        else:
+            tier = 2
+            category = "Interaktywny Element WWW"
+            why_lost = "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
+
+    # 2. MUZYKA MIDI
+    elif fmt == 'MIDI':
+        mid_meta = []
+        if os.path.exists(full_path):
+            try:
+                with open(full_path, 'rb') as mf:
+                    mdata = mf.read()
+                raw_m = re.findall(b'[\x20-\x7e]{3,}', mdata)
+                for rm in raw_m:
+                    try:
+                        t = rm.decode('latin1').strip()
+                        if any(c.isalpha() for c in t) and len(t) > 3:
+                            mid_meta.append(t)
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+        m_text = " ".join(mid_meta).lower()
+
+        if any(k in orig or k in m_text for k in ['orlacien', 'int30xg', 'adklimek', 'alpispa']):
+            tier = 1
+            category = "🎵 Unikatowa Polska Kompozycja MIDI"
+            why_lost = "Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych."
+        elif 'closer' in fn.lower() or 'warren rice' in m_text or 'scc1' in m_text or 'downward spiral' in m_text:
+            tier = 1
+            category = "🎹 Historyczna Aranżacja Tracker/MIDI (1994)"
+            why_lost = "Archiwalna aranżacja z 1994 r. Warrena Rice'a z Seattle z zaszytymi znacznikami karaoke i autorskim podpisem z GeoCities SunsetStrip."
+        elif any(k in fn.lower() for k in ['enterthedragon', 'backfutr', 'enjoy', 'batman', 'muppets']):
+            tier = 2
+            category = "🎼 Rzadka Sekwencja Syntezatorowa z Lat 90."
+            why_lost = "Specyficzna wersja partytury orkiestrowej/elektronicznej stworzona przez użytkowników dawnego internetu."
+        else:
+            tier = 2
+            category = "Plik Dźwiękowy MIDI"
+            why_lost = "Muzyka tła prywatnej strony z lat 1998-2006."
+
+    # 3. GRAFIKI (GIF, JPEG, BMP)
+    elif fmt in ('JPEG', 'GIF', 'BMP'):
+        if any(k in orig for k in ['piesie', 'pimbi', 'hau', 'plancgk', 'natalia', 'a_bendi', 'veegorresite']):
+            tier = 1
+            category = "📸 Prywatne Archiwum Fotograficzne / Digital Art"
+            why_lost = "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
+        elif size > 200000:
+            tier = 2
+            category = "🖼️ Wysokorozdzielcza Grafika z Epoki"
+            why_lost = "Duży plik graficzny (>200 KB), który w tamtych czasach ładował się minutami przez modem dial-up."
+        else:
+            tier = 3
+            category = "Grafika Strony"
+            why_lost = "Element layoutu z tamtych lat."
+
+    # 4. ARCHIWA (RAR, ZIP)
+    elif fmt in ('RAR', 'ZIP'):
+        tier = 1
+        category = "🕹️ Zaginiona Gra / Program PC"
+        why_lost = "Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami."
+
+    # 5. MODUŁY TRACKER (MOD)
+    elif fmt == 'MOD':
+        tier = 1
+        category = "🎹 Moduł Muzyczny Amiga / PC Tracker"
+        why_lost = "Autorski moduł trackerowy (Amiga/PC) z epoki demosceny, rzadki format dźwiękowy wczesnego internetu."
+
+    return tier, category, why_lost
 
 def analyze_and_generate_report():
     if not os.path.exists(METADATA_FILE):
@@ -28,145 +198,10 @@ def analyze_and_generate_report():
     for it in items:
         fn = it.get('filename', '')
         fmt = it.get('format', '')
-        orig = it.get('original_url', '').lower()
-        size = it.get('size_bytes', 0)
         local_path = it.get('local_path', '')
-        full_path = os.path.join(PROJECT_DIR, local_path) if not os.path.isabs(local_path) else local_path
         details = it.get('details', '')
 
-        # Domyślny tier
-        tier = 3
-        category = "Zasób pomocniczy"
-        why_lost = ""
-
-        # 1. FLASH SWF
-        if fmt == 'SWF':
-            # Sprawdzenie zawartości
-            swf_strings = []
-            if os.path.exists(full_path):
-                try:
-                    with open(full_path, 'rb') as sf:
-                        sdata = sf.read()
-                    # prosta dekompresja CWS
-                    if sdata[:3] == b'CWS':
-                        import zlib
-                        try:
-                            sdata = sdata[:8] + zlib.decompress(sdata[8:])
-                        except:
-                            pass
-                    raw_s = re.findall(b'[\x20-\x7e\xa0-\xff]{4,}', sdata)
-                    for rs in raw_s:
-                        try:
-                            t = rs.decode('latin1').strip()
-                            if any(c.isalpha() for c in t) and len(t) > 3:
-                                swf_strings.append(t)
-                        except:
-                            pass
-                except:
-                    pass
-
-            text_to_search = f"{fn} {details} {orig} {' '.join(swf_strings)}".lower()
-
-            # Wykluczenie mikro-plików oraz zakładek nawigacyjnych do Tier 3
-            nav_button_match = re.search(
-                r'(?:^|[/._-])(text\d+|email|oferta|galeria|nocleg|dojazd|przewodnik|bukowiec|czytaj|lewy|gora|zegar|napis|omnie|button\d+|btn\d+)(?:[/._-]|$)',
-                f"{fn} {orig}",
-                re.IGNORECASE
-            )
-
-            if size < 6144 or nav_button_match:
-                tier = 3
-                category = "Przycisk / Element Nawigacji Flash"
-                why_lost = "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
-            # Autorskie gry Flash: próg >= 7000 bajtów oraz granice słów
-            elif size >= 7000 and re.search(
-                r'\b(snake|gra|gry|game|arena|akwarium|grajter|autobus|kaczki|katapulta|quiz|arkanoid|batyskaf|zgadnij|wodka|trabka|pagadi|pogodi|score|punkty|highscore|gameover)\b',
-                text_to_search,
-                re.IGNORECASE
-            ):
-                tier = 1
-                category = "🎮 Zaginiona Gra Flash"
-                why_lost = "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
-            # Autorskie animacje, kreskówki, etiudy szkolne: próg >= 10000 bajtów oraz granice słów
-            elif size >= 10000 and re.search(
-                r'\b(nauczyciel|laska|prezentacja|movie|intro|animacja|animacj|kreskowk|projekt|film)\b',
-                text_to_search,
-                re.IGNORECASE
-            ):
-                tier = 1
-                category = "🎬 Autorska Animacja / Kreskówka"
-                why_lost = "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
-            elif size > 200000:
-                tier = 2
-                category = "⚡ Rozbudowany Projekt Flash"
-                why_lost = "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
-            else:
-                tier = 2
-                category = "Interaktywny Element WWW"
-                why_lost = "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
-
-        # 2. MUZYKA MIDI
-        elif fmt == 'MIDI':
-            mid_meta = []
-            if os.path.exists(full_path):
-                try:
-                    with open(full_path, 'rb') as mf:
-                        mdata = mf.read()
-                    raw_m = re.findall(b'[\x20-\x7e]{3,}', mdata)
-                    for rm in raw_m:
-                        try:
-                            t = rm.decode('latin1').strip()
-                            if any(c.isalpha() for c in t) and len(t) > 3:
-                                mid_meta.append(t)
-                        except:
-                            pass
-                except:
-                    pass
-            m_text = " ".join(mid_meta).lower()
-
-            if any(k in orig or k in m_text for k in ['orlacien', 'int30xg', 'adklimek', 'alpispa']):
-                tier = 1
-                category = "🎵 Unikatowa Polska Kompozycja MIDI"
-                why_lost = "Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych."
-            elif 'closer' in fn.lower() or 'warren rice' in m_text or 'scc1' in m_text or 'downward spiral' in m_text:
-                tier = 1
-                category = "🎹 Historyczna Aranżacja Tracker/MIDI (1994)"
-                why_lost = "Archiwalna aranżacja z 1994 r. Warrena Rice'a z Seattle z zaszytymi znacznikami karaoke i autorskim podpisem z GeoCities SunsetStrip."
-            elif any(k in fn.lower() for k in ['enterthedragon', 'backfutr', 'enjoy', 'batman', 'muppets']):
-                tier = 2
-                category = "🎼 Rzadka Sekwencja Syntezatorowa z Lat 90."
-                why_lost = "Specyficzna wersja partytury orkiestrowej/elektronicznej stworzona przez użytkowników dawnego internetu."
-            else:
-                tier = 2
-                category = "Plik Dźwiękowy MIDI"
-                why_lost = "Muzyka tła prywatnej strony z lat 1998-2006."
-
-        # 3. GRAFIKI (GIF, JPEG)
-        elif fmt in ('JPEG', 'GIF', 'BMP'):
-            if any(k in orig for k in ['piesie', 'pimbi', 'hau', 'plancgk', 'natalia', 'a_bendi', 'veegorresite']):
-                tier = 1
-                category = "📸 Prywatne Archiwum Fotograficzne / Digital Art"
-                why_lost = "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
-            elif size > 200000:
-                tier = 2
-                category = "🖼️ Wysokorozdzielcza Grafika z Epoki"
-                why_lost = "Duży plik graficzny (>200 KB), który w tamtych czasach ładował się minutami przez modem dial-up."
-            else:
-                tier = 3
-                category = "Grafika Strony"
-                why_lost = "Element layoutu z tamtych lat."
-
-        # 4. ARCHIWA (RAR, ZIP)
-        elif fmt in ('RAR', 'ZIP'):
-            tier = 1
-            category = "🕹️ Zaginiona Gra / Program PC"
-            why_lost = "Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami."
-
-        # 5. MODUŁY TRACKER (MOD)
-        elif fmt == 'MOD':
-            tier = 1
-            category = "🎹 Moduł Muzyczny Amiga / PC Tracker"
-            why_lost = "Autorski moduł trackerowy (Amiga/PC) z epoki demosceny, rzadki format dźwiękowy wczesnego internetu."
+        tier, category, why_lost = classify_item(it, PROJECT_DIR)
 
         it_entry = {
             'filename': fn,

@@ -1,21 +1,115 @@
 """
-Generuje plik muzeum_data.js ze wszystkimi 315 artefaktami, wzbogaconymi o kategorie,
-tytuły ekspozycji, opisy i metadane dla interfejsu Muzeum Archeologii Cyfrowej.
+Generuje plik muzeum_data.js ze wszystkimi artefaktami z bazy,
+wzbogaconymi o kategorie, skrzydła muzeum, klasyfikację Lost Media (Tier 1/2/3),
+dynamicznie rozpoznane domeny i oczyszczone tytuły.
 """
 import os
 import json
 import re
+import urllib.parse
+from analyze_lost_media import classify_item
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 ZNALEZISKA_DIR = os.path.join(PROJECT_DIR, "znaleziska")
 METADATA_FILE = os.path.join(ZNALEZISKA_DIR, "metadata.json")
 OUTPUT_JS = os.path.join(PROJECT_DIR, "muzeum_data.js")
 
+SPECIAL_CINEMA_FILES = {
+    '20040929_sen_zlotowlosej_dziewczynki.swf': (
+        "Sen Złotowłosej Dziewczynki (2004)",
+        "Autorska poetycka animacja Flash z muzyką, opublikowana na Republice we wrześniu 2004 roku."
+    ),
+    '20031101_film.swf': (
+        "Etiuda Filmowa Flash (2003)",
+        "Krótkometrażowa etiuda animowana ocalona z prywatnej strony na Republice."
+    ),
+    '20040911_tasmafilm.swf': (
+        "Taśma Filmowa (400 klatek, 2004)",
+        "Polska animacja stylizowana na klasyczną taśmę celuloidową z 400 klatkami płynnego ruchu (Flash v5)."
+    ),
+    '20050225_gryzinskiatom.swf': (
+        "Model Atomu Gryzińskiego (2005)",
+        "Naukowa animacja dydaktyczna prezentująca model atomu według prof. Michała Gryzińskiego."
+    ),
+    '20041128_adam3,1.swf': (
+        "Projekt Adam 3.1 (2004)",
+        "Autorski cykl animacji Flash o przygodach Adama z archiwum Republiki."
+    ),
+    '20040616_bird.swf': (
+        "Bird Animation (2004)",
+        "Wektorowa animacja ornitologiczna z płynnym lotem ptaka ocalona z Webparku."
+    ),
+    '20021027_animegirl.swf': (
+        "Anime Girl (Październik 2002)",
+        "Wczesna animacja postaci w stylu anime z 2002 roku z archiwum GeoCities."
+    )
+}
+
+def make_clean_title(filename: str) -> str:
+    """Wyciąga i oczyszcza tytuł z nazwy pliku, usuwając prefiks daty i rozszerzenie."""
+    raw = filename.split('_', 1)[1] if '_' in filename else filename
+    no_ext = re.sub(r'\.[a-zA-Z0-9]+$', '', raw)
+    clean = no_ext.replace('%20', ' ').replace('_', ' ')
+    clean = re.sub(r'\s+', ' ', clean).strip()
+    return clean if clean else filename
+
+def detect_domain(original_url: str) -> str:
+    """Rozpoznaje domenę pochodzenia artefaktu lub wyciąga hosta dynamicznie."""
+    orig_lower = original_url.lower()
+    if "republika.pl" in orig_lower:
+        return "republika.pl"
+    elif "polbox" in orig_lower:
+        return "free.polbox.pl"
+    elif "webpark.pl" in orig_lower:
+        return "webpark.pl"
+    elif "interia.pl" in orig_lower or "miasto.interia.pl" in orig_lower:
+        return "miasto.interia.pl"
+    elif "friko.pl" in orig_lower:
+        return "friko.pl"
+    elif "gery.pl" in orig_lower:
+        return "gery.pl"
+    elif "kki.net.pl" in orig_lower:
+        return "kki.net.pl"
+    elif "prv.pl" in orig_lower:
+        return "prv.pl"
+    elif "wp.pl" in orig_lower:
+        return "wp.pl"
+    elif "geocities.com" in orig_lower:
+        return "geocities.com"
+    elif "czaha.pl" in orig_lower:
+        return "czaha.pl"
+    elif "100lat.info" in orig_lower:
+        return "100lat.info"
+    elif "joemonster.org" in orig_lower:
+        return "joemonster.org"
+    elif "neostrada.pl" in orig_lower:
+        return "cda / neostrada"
+    elif "plocman.pl" in orig_lower or "flashzone" in orig_lower:
+        return "flashzone.pl"
+
+    # Dynamiczne wyciągnięcie hosta z URL
+    try:
+        parsed = urllib.parse.urlsplit(original_url)
+        host = (parsed.hostname or parsed.netloc or "").split(':')[0].lower()
+        if host.startswith("www."):
+            host = host[4:]
+        if host:
+            return host
+    except Exception:
+        pass
+
+    return "Internet z epoki"
+
 def prepare_data():
+    if not os.path.exists(METADATA_FILE):
+        print(f"Błąd: Brak pliku {METADATA_FILE}")
+        return
+
     with open(METADATA_FILE, "r", encoding="utf-8") as f:
         items = json.load(f)
 
     curated = []
+    wing_counts = {}
 
     for it in items:
         fn = it.get('filename', '')
@@ -26,22 +120,19 @@ def prepare_data():
         details = it.get('details', '')
         local_rel = f"znaleziska/{fn}"
 
-        # Ekstrakcja domeny
-        domain = "Nieznana"
-        if "republika.pl" in orig: domain = "republika.pl"
-        elif "polbox" in orig: domain = "free.polbox.pl"
-        elif "webpark.pl" in orig: domain = "webpark.pl"
-        elif "geocities.com" in orig: domain = "geocities.com"
-        elif "czaha.pl" in orig: domain = "czaha.pl"
-        elif "100lat.info" in orig: domain = "100lat.info"
-        elif "joemonster.org" in orig: domain = "joemonster.org"
-        elif "neostrada.pl" in orig: domain = "cda / neostrada"
-        elif "plocman.pl" in orig or "flashzone" in orig: domain = "flashzone.pl"
+        # 1. Dynamiczne rozpoznanie domeny
+        domain = detect_domain(orig)
 
-        # Rok
+        # 2. Rok powstania
         year = date_str[:4] if len(date_str) >= 4 else "2000"
 
-        # Kategoryzacja do skrzydeł muzeum
+        # 3. Klasyfikacja Lost Media (Tier 1/2/3)
+        tier, category, why_lost = classify_item(it, PROJECT_DIR)
+
+        # 4. Tytuł bazowy
+        clean_title = make_clean_title(fn)
+
+        # 5. Przypisanie do skrzydeł muzeum oraz dedykowanych opisów
         if fn == "2002_fz_batyskaf.swf":
             wing = "arcade"
             title = "Batyskaf (Czerwiec 2002 by Marcin L.)"
@@ -90,14 +181,45 @@ def prepare_data():
             wing = "arcade"
             title = "Kaczki (Flash 2006)"
             desc = "Satyryczna polska produkcja Flash z kwietnia 2006 roku ocalona z serwera 100lat.info/kaczki."
+        elif fn == "20050507_jm_clinicgame.swf":
+            wing = "arcade"
+            title = "Clinic Game (Joe Monster 2005)"
+            desc = "Satyryczna minigra medyczno-zręcznościowa z Joe Monster (maj 2005): dyżur lekarski z licznikiem punktów (score), poziomami trudności i upływającym czasem."
+        elif fn == "20030528_Unreal_Tournament.swf":
+            wing = "arcade"
+            title = "Unreal Tournament Flash (Maj 2003)"
+            desc = "Kultowy FPS w wersji Flash 2D ocalony z klanowej strony na Republice. Interaktywna minigra z uniwersum UT z 401 klatkami animacji broni i pojedynków."
+        elif fn == "20040914_FirstStrike.swf":
+            wing = "arcade"
+            title = "First Strike (Wrzesień 2004)"
+            desc = "Dynamiczna minigra zręcznościowa / symulator walki powietrznej ocalony z prywatnej witryny na Republice (104 klatki, Flash v4)."
+        elif fn == "20030927_matematikon.swf":
+            wing = "arcade"
+            title = "Matematikon (Wrzesień 2003)"
+            desc = "Polska gra logiczno-edukacyjna sprawdzająca refleks i umiejętności matematyczne pod presją uciekającego czasu (Flash v5)."
+        elif fn == "20041025_gra.swf":
+            wing = "arcade"
+            title = "Szkolna Gra Zręcznościowa (Liceum Kossutha 2004)"
+            desc = "Unikatowa amatorska minigra Flash v3 stworzona przez uczniów warszawskiego liceum im. Kossutha na platformie Webpark."
+        elif fn == "20040616_growl_karaokie.swf":
+            wing = "arcade"
+            title = "Growl Karaoke (Czerwiec 2004)"
+            desc = "Muzyczna gra interaktywna w stylu deathmetalowego karaoke z serwera 100lat.info/webpark.pl (526 KB, 678 klatek). Wokalne wyzwanie epoki!"
+        elif fn in SPECIAL_CINEMA_FILES:
+            wing = "cinema"
+            title, desc = SPECIAL_CINEMA_FILES[fn]
         elif fmt == 'SWF':
-            if any(k in fn.lower() for k in ['nauczyciel', 'laska', 'prezentacja', 'intro', 'movie', 'animacja']):
+            if category == "🎮 Zaginiona Gra Flash":
+                wing = "arcade"
+                title = f"Gra Flash: {clean_title}"
+                desc = f"Interaktywna gra Flash z epoki ({details}) z domeny {domain}."
+            elif category == "🎬 Autorska Animacja / Kreskówka" or any(k in fn.lower() for k in ['nauczyciel', 'laska', 'prezentacja', 'intro', 'movie', 'animacja', 'projekt', 'film']):
                 wing = "cinema"
-                title = f"Animacja Flash: {fn}"
-                desc = f"Historyczna etiuda/animacja multimedialna z epoki ({details})."
+                title = f"Animacja Flash: {clean_title}"
+                desc = f"Historyczna etiuda/animacja multimedialna z epoki ({details}) z domeny {domain}."
             else:
                 wing = "flash_artifacts"
-                title = f"Projekt Flash: {fn}"
+                title = f"Projekt Flash: {clean_title}"
                 desc = f"Interaktywny komponent lub intro WWW z domeny {domain} ({details})."
         elif fmt == 'MIDI':
             wing = "jukebox"
@@ -123,18 +245,18 @@ def prepare_data():
                 title = "Muppet Show Theme"
                 desc = "Motyw ze słynnego show ocalony ze strony agape_os na Republice."
             else:
-                clean_title = fn.split('_')[-1].replace('.mid', '').replace('.MID', '')
                 title = f"Utwór MIDI: {clean_title}"
                 desc = f"Ścieżka dźwiękowa epoki ({details}) z domeny {domain}."
         elif fmt in ('GIF', 'JPEG', 'BMP'):
             wing = "gallery"
-            clean_title = fn.split('_')[-1]
             title = f"Grafika archiwalna: {clean_title}"
             desc = f"Rozmiar: {details}, pochodzenie: {domain}."
         else:
             wing = "archive"
-            title = fn
+            title = clean_title
             desc = details
+
+        wing_counts[wing] = wing_counts.get(wing, 0) + 1
 
         curated.append({
             'filename': fn,
@@ -149,7 +271,10 @@ def prepare_data():
             'rel_path': local_rel,
             'details': details,
             'original_url': orig,
-            'archive_url': it.get('archive_url', '')
+            'archive_url': it.get('archive_url', ''),
+            'tier': tier,
+            'category': category,
+            'why_lost': why_lost
         })
 
     js_content = f"// Wygenerowano automatycznie dla Muzeum Archeologii Cyfrowej\nwindow.MUSEUM_DATA = {json.dumps(curated, indent=2, ensure_ascii=False)};\n"
@@ -157,6 +282,9 @@ def prepare_data():
         f.write(js_content)
 
     print(f"Zapisano dane do {OUTPUT_JS} ({len(curated)} pozycji).")
+    print("Rozkład eksponatów pomiędzy skrzydła:")
+    for w, count in sorted(wing_counts.items(), key=lambda x: -x[1]):
+        print(f"  * Skrzydło '{w}': {count} eksponatów")
 
 if __name__ == "__main__":
     prepare_data()

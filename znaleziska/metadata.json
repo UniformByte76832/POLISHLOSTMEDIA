@@ -4171,5 +4171,31 @@
     "size_bytes": 48615,
     "size_str": "47.5 KB",
     "digest": "GWEPGBCDZCW34LQKO5TNCF3DTC4AORAQ"
+  },
+  {
+    "filename": "20050507_jm_clinicgame.swf",
+    "local_path": "znaleziska/20050507_jm_clinicgame.swf",
+    "original_url": "http://joemonster.org/pobieralnia/clinicgame.swf",
+    "archive_url": "https://web.archive.org/web/20050507id_/http://joemonster.org/pobieralnia/clinicgame.swf",
+    "timestamp": "20050507",
+    "date_str": "2005-05-07 12:00:00",
+    "format": "SWF",
+    "details": "Polska gra Flash z Joe Monster (maj 2005): Clinic Game (1.18 MB, 759 klatek, 12 FPS, punkty i poziomy)",
+    "size_bytes": 1235444,
+    "size_str": "1.18 MB",
+    "digest": "d91b4c5e7a9b"
+  },
+  {
+    "filename": "20030425_flash_max.swf",
+    "local_path": "znaleziska/20030425_flash_max.swf",
+    "original_url": "http://republika.pl/flash_max/flash_max.swf",
+    "archive_url": "https://web.archive.org/web/20030425id_/http://republika.pl/flash_max/flash_max.swf",
+    "timestamp": "20030425",
+    "date_str": "2003-04-25 12:00:00",
+    "format": "SWF",
+    "details": "Macromedia Flash SWF (ver 6, zlib, 10 klatek, 50 FPS)",
+    "size_bytes": 24084,
+    "size_str": "23.5 KB",
+    "digest": "a78f23c910de"
   }
 ]

@@ -2,13 +2,13 @@
 
 *Data wygenerowania: 2026-10-14*
 
-Raport klasyfikuje ocalone 321 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
+Raport klasyfikuje ocalone 323 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
 
 ## 📊 Klasyfikacja Zasobów
 
-- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **66 plików**
-- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **159 plików**
-- 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **96 plików**
+- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **72 plików**
+- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **156 plików**
+- 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **95 plików**
 
 ## 🔴 TIER 1: Prawdziwe Zaginione Projekty (Lost Media)
 
@@ -38,10 +38,15 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20060512_15.swf](./20060512_15.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 11.9 KB | 2006-05-12 21:39:54 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20041128_16.swf](./20041128_16.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 17.7 KB | 2004-11-28 11:56:36 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20040914_intro.swf](./20040914_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 26.3 KB | 2004-09-14 04:15:16 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030927_matematikon.swf](./20030927_matematikon.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 25.0 KB | 2003-09-27 10:17:13 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20030528_Unreal_Tournament.swf](./20030528_Unreal_Tournament.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 17.1 KB | 2003-05-28 20:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20040914_FirstStrike.swf](./20040914_FirstStrike.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 21.8 KB | 2004-09-14 03:57:39 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20040922_intro.swf](./20040922_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 21.7 KB | 2004-09-22 04:25:39 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20040623_main.swf](./20040623_main.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 165.7 KB | 2004-06-23 07:42:35 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20040616_bird.swf](./20040616_bird.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 308.1 KB | 2004-06-16 05:59:39 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20040616_growl_karaokie.swf](./20040616_growl_karaokie.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 526.2 KB | 2004-06-16 12:29:39 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20050118_unia.swf](./20050118_unia.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 1.34 MB | 2005-01-18 02:05:39 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20041025_gra.swf](./20041025_gra.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 4.4 KB | 2004-10-25 06:30:26 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20041103_JZZ30XG.MID](./20041103_JZZ30XG.MID)**<br>_MIDI_ | 🎵 Unikatowa Polska Kompozycja MIDI | 23.9 KB | 2004-11-03 08:12:12 | Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych. |
 | **[20041103_TESTMIDI.MID](./20041103_TESTMIDI.MID)**<br>_MIDI_ | 🎵 Unikatowa Polska Kompozycja MIDI | 38.7 KB | 2004-11-03 08:21:58 | Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych. |
 | **[20060511_mistrz_autobusu.swf](./20060511_mistrz_autobusu.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 786.1 KB | 2006-05-11 22:44:45 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
@@ -82,10 +87,11 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20031101_film.swf](./20031101_film.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 13.6 KB | 2003-11-01 10:26:23 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20041106_intro.swf](./20041106_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 13.8 KB | 2004-11-06 17:05:36 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20030415_intro.swf](./20030415_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 47.5 KB | 2003-04-15 21:44:25 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20050507_jm_clinicgame.swf](./20050507_jm_clinicgame.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 1.18 MB | 2005-05-07 12:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 
 ## 🟡 TIER 2: Rzadkie Aranżacje i Duże Multimedialne Projekty
 
-Łącznie **159 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
+Łącznie **156 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
 
 | Nazwa Pliku | Typ | Rozmiar | Pochodzenie |
 | :--- | :---: | :---: | :--- |
@@ -111,10 +117,10 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20050324_myfile.swf](./20050324_myfile.swf)** | SWF | 8.9 KB | [Oryginalny URL](http://republika.pl:80/adamkrawczyk/multimedia/myfile.swf) |
 | **[20050324_myfile5.swf](./20050324_myfile5.swf)** | SWF | 9.4 KB | [Oryginalny URL](http://republika.pl:80/adamkrawczyk/multimedia/myfile5.swf) |
 | **[20040619_adam.swf](./20040619_adam.swf)** | SWF | 59.6 KB | [Oryginalny URL](http://republika.pl:80/adammulik/adam.swf) |
-| **[20030927_matematikon.swf](./20030927_matematikon.swf)** | SWF | 25.0 KB | [Oryginalny URL](http://republika.pl:80/adlugosz/images/matematikon.swf) |
 | **[20030523_strona.swf](./20030523_strona.swf)** | SWF | 77.2 KB | [Oryginalny URL](http://www.republika.pl:80/adminerot/strona.swf) |
 | **[20021027_animegirl.swf](./20021027_animegirl.swf)** | SWF | 16.7 KB | [Oryginalny URL](http://republika.pl:80/adriana_lucja/animegirl.swf?title=) |
-| *...i jeszcze 134 innych pozycji Tier 2...* | | | |
+| **[20030515_praca_dyp.swf](./20030515_praca_dyp.swf)** | SWF | 13.6 KB | [Oryginalny URL](http://republika.pl:80/adrianmroczkowski/praca_dyp.swf) |
+| *...i jeszcze 131 innych pozycji Tier 2...* | | | |
 
 ---
 *Wygenerowano przez automatyczny podsystem archeologii cyfrowej.*

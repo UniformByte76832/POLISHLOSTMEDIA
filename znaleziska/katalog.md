@@ -1,13 +1,13 @@
 # 🏛️ Muzeum Archeologii Cyfrowej: Katalog Znalezisk (1998–2006)
 
-*Ostatnia aktualizacja ekspedycji: 2026-10-14 16:14:03*
+*Ostatnia aktualizacja ekspedycji: 2026-10-14 16:25:56*
 
 Niniejszy katalog dokumentuje ocalone artefakty multimedialne z epoki wczesnego polskiego i światowego internetu (m.in. `republika.pl`, `free.polbox.pl`, `webpark.pl` i `geocities.com`). Pliki zostały pobrane w oryginalnej, czystej postaci binarnej przy użyciu bezpośredniego endpointu `id_` na Internet Archive Wayback Machine.
 
 ## 📊 Podsumowanie Kolekcji
 
-- **Łączna liczba zabezpieczonych obiektów:** 321
-- **Łączny rozmiar archiwum:** 31.50 MB
+- **Łączna liczba zabezpieczonych obiektów:** 323
+- **Łączny rozmiar archiwum:** 32.71 MB
 
 ## 🗂️ Tabela Znalezisk
 
@@ -334,6 +334,8 @@ Niniejszy katalog dokumentuje ocalone artefakty multimedialne z epoki wczesnego 
 | ⚡ **FLASH** | **[20031101_film.swf](./20031101_film.swf)**<br>_Macromedia Flash SWF (ver 5, nieskompresowany, 9 klatek, 12 FPS)_ | 13.6 KB | 2003-11-01 10:26:23 | [Oryginał](http://www.ademar.friko.pl:80/pliki/film.swf)<br>[Wayback id_](https://web.archive.org/web/20031101102623id_/http://www.ademar.friko.pl:80/pliki/film.swf) |
 | ⚡ **FLASH** | **[20041106_intro.swf](./20041106_intro.swf)**<br>_Macromedia Flash SWF (ver 5, nieskompresowany, 61 klatek, 12 FPS)_ | 13.8 KB | 2004-11-06 17:05:36 | [Oryginał](http://www.alanex.friko.pl:80/intro.swf)<br>[Wayback id_](https://web.archive.org/web/20041106170536id_/http://www.alanex.friko.pl:80/intro.swf) |
 | ⚡ **FLASH** | **[20030415_intro.swf](./20030415_intro.swf)**<br>_Macromedia Flash SWF (ver 6, zlib, 109 klatek, 20 FPS)_ | 47.5 KB | 2003-04-15 21:44:25 | [Oryginał](http://www.anastasis.friko.pl:80/intro.swf)<br>[Wayback id_](https://web.archive.org/web/20030415214425id_/http://www.anastasis.friko.pl:80/intro.swf) |
+| ⚡ **FLASH** | **[20050507_jm_clinicgame.swf](./20050507_jm_clinicgame.swf)**<br>_Polska gra Flash z Joe Monster (maj 2005): Clinic Game (1.18 MB, 759 klatek, 12 FPS, punkty i poziomy)_ | 1.18 MB | 2005-05-07 12:00:00 | [Oryginał](http://joemonster.org/pobieralnia/clinicgame.swf)<br>[Wayback id_](https://web.archive.org/web/20050507id_/http://joemonster.org/pobieralnia/clinicgame.swf) |
+| ⚡ **FLASH** | **[20030425_flash_max.swf](./20030425_flash_max.swf)**<br>_Macromedia Flash SWF (ver 6, zlib, 10 klatek, 50 FPS)_ | 23.5 KB | 2003-04-25 12:00:00 | [Oryginał](http://republika.pl/flash_max/flash_max.swf)<br>[Wayback id_](https://web.archive.org/web/20030425id_/http://republika.pl/flash_max/flash_max.swf) |
 
 ---
 *Wygenerowano automatycznie przez podsystem archeologii cyfrowej.*

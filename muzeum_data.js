@@ -2,7 +2,7 @@
 window.MUSEUM_DATA = [
   {
     "filename": "20020322_black.gif",
-    "title": "Grafika archiwalna: black.gif",
+    "title": "Grafika archiwalna: black",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (640x636 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -13,11 +13,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020322_black.gif",
     "details": "Animacja/Obraz GIF89a (640x636 px)",
     "original_url": "http://republika.pl:80/aaatoco/mirror/black/black.gif",
-    "archive_url": "https://web.archive.org/web/20020322095209id_/http://republika.pl:80/aaatoco/mirror/black/black.gif"
+    "archive_url": "https://web.archive.org/web/20020322095209id_/http://republika.pl:80/aaatoco/mirror/black/black.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030106_goh1.gif",
-    "title": "Grafika archiwalna: goh1.gif",
+    "title": "Grafika archiwalna: goh1",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (160x120 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -28,11 +31,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030106_goh1.gif",
     "details": "Animacja/Obraz GIF89a (160x120 px)",
     "original_url": "http://republika.pl:80/a_bendi/dball/goh1.gif",
-    "archive_url": "https://web.archive.org/web/20030106175939id_/http://republika.pl:80/a_bendi/dball/goh1.gif"
+    "archive_url": "https://web.archive.org/web/20030106175939id_/http://republika.pl:80/a_bendi/dball/goh1.gif",
+    "tier": 1,
+    "category": "📸 Prywatne Archiwum Fotograficzne / Digital Art",
+    "why_lost": "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
   },
   {
     "filename": "20030330_kk.gif",
-    "title": "Grafika archiwalna: kk.gif",
+    "title": "Grafika archiwalna: kk",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (592x384 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -43,14 +49,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030330_kk.gif",
     "details": "Animacja/Obraz GIF89a (592x384 px)",
     "original_url": "http://www.republika.pl:80/a_didka/kk.gif",
-    "archive_url": "https://web.archive.org/web/20030330153933id_/http://www.republika.pl:80/a_didka/kk.gif"
+    "archive_url": "https://web.archive.org/web/20030330153933id_/http://www.republika.pl:80/a_didka/kk.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030818_index.swf",
-    "title": "Projekt Flash: 20030818_index.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 4 klatek, 12 FPS)).",
+    "title": "Gra Flash: index",
+    "desc": "Interaktywna gra Flash z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 4 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "arcade",
     "domain": "republika.pl",
     "year": "2003",
     "size_str": "96.1 KB",
@@ -58,11 +67,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030818_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 4 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/a1t2/index.swf",
-    "archive_url": "https://web.archive.org/web/20030818213333id_/http://republika.pl:80/a1t2/index.swf"
+    "archive_url": "https://web.archive.org/web/20030818213333id_/http://republika.pl:80/a1t2/index.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20040314_veegorresite.gif",
-    "title": "Grafika archiwalna: veegorresite.gif",
+    "title": "Grafika archiwalna: veegorresite",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (400x50 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -73,11 +85,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040314_veegorresite.gif",
     "details": "Animacja/Obraz GIF89a (400x50 px)",
     "original_url": "http://republika.pl:80/a1wasiek/veegorresite.gif",
-    "archive_url": "https://web.archive.org/web/20040314115953id_/http://republika.pl:80/a1wasiek/veegorresite.gif"
+    "archive_url": "https://web.archive.org/web/20040314115953id_/http://republika.pl:80/a1wasiek/veegorresite.gif",
+    "tier": 1,
+    "category": "📸 Prywatne Archiwum Fotograficzne / Digital Art",
+    "why_lost": "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
   },
   {
     "filename": "20040627_gora.swf",
-    "title": "Projekt Flash: 20040627_gora.swf",
+    "title": "Projekt Flash: gora",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 126 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -88,7 +103,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040627_gora.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 126 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/0HOSTING/www.absoweb.com/gora.swf",
-    "archive_url": "https://web.archive.org/web/20040627161044id_/http://republika.pl:80/0HOSTING/www.absoweb.com/gora.swf"
+    "archive_url": "https://web.archive.org/web/20040627161044id_/http://republika.pl:80/0HOSTING/www.absoweb.com/gora.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040822_SAINTS.MID",
@@ -103,11 +121,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040822_SAINTS.MID",
     "details": "Standard MIDI File (format 1, tracks 12)",
     "original_url": "http://republika.pl:80/aaela/SAINTS.MID",
-    "archive_url": "https://web.archive.org/web/20040822103156id_/http://republika.pl:80/aaela/SAINTS.MID"
+    "archive_url": "https://web.archive.org/web/20040822103156id_/http://republika.pl:80/aaela/SAINTS.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041025_natalia_pz.gif",
-    "title": "Grafika archiwalna: pz.gif",
+    "title": "Grafika archiwalna: natalia pz",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (256x192 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -118,11 +139,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041025_natalia_pz.gif",
     "details": "Animacja/Obraz GIF89a (256x192 px)",
     "original_url": "http://republika.pl:80/aaella/natalia%20pz.gif",
-    "archive_url": "https://web.archive.org/web/20041025211054id_/http://republika.pl:80/aaella/natalia%20pz.gif"
+    "archive_url": "https://web.archive.org/web/20041025211054id_/http://republika.pl:80/aaella/natalia%20pz.gif",
+    "tier": 1,
+    "category": "📸 Prywatne Archiwum Fotograficzne / Digital Art",
+    "why_lost": "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
   },
   {
     "filename": "20041114_index.swf",
-    "title": "Projekt Flash: 20041114_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 749 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -133,11 +157,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041114_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 749 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/a_natkaniec/index.swf",
-    "archive_url": "https://web.archive.org/web/20041114190319id_/http://republika.pl:80/a_natkaniec/index.swf"
+    "archive_url": "https://web.archive.org/web/20041114190319id_/http://republika.pl:80/a_natkaniec/index.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20041213_PIESIE.gif",
-    "title": "Grafika archiwalna: PIESIE.gif",
+    "title": "Grafika archiwalna: PIESIE",
     "desc": "Rozmiar: Animacja/Obraz GIF87a (539x439 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -148,11 +175,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041213_PIESIE.gif",
     "details": "Animacja/Obraz GIF87a (539x439 px)",
     "original_url": "http://republika.pl:80/aaggaattkkaa/PIESIE.gif",
-    "archive_url": "https://web.archive.org/web/20041213033121id_/http://republika.pl:80/aaggaattkkaa/PIESIE.gif"
+    "archive_url": "https://web.archive.org/web/20041213033121id_/http://republika.pl:80/aaggaattkkaa/PIESIE.gif",
+    "tier": 1,
+    "category": "📸 Prywatne Archiwum Fotograficzne / Digital Art",
+    "why_lost": "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
   },
   {
     "filename": "20041213_PIMBI.gif",
-    "title": "Grafika archiwalna: PIMBI.gif",
+    "title": "Grafika archiwalna: PIMBI",
     "desc": "Rozmiar: Animacja/Obraz GIF87a (389x548 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -163,11 +193,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041213_PIMBI.gif",
     "details": "Animacja/Obraz GIF87a (389x548 px)",
     "original_url": "http://republika.pl:80/aaggaattkkaa/PIMBI.gif",
-    "archive_url": "https://web.archive.org/web/20041213020922id_/http://republika.pl:80/aaggaattkkaa/PIMBI.gif"
+    "archive_url": "https://web.archive.org/web/20041213020922id_/http://republika.pl:80/aaggaattkkaa/PIMBI.gif",
+    "tier": 1,
+    "category": "📸 Prywatne Archiwum Fotograficzne / Digital Art",
+    "why_lost": "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
   },
   {
     "filename": "20041213_hau.gif",
-    "title": "Grafika archiwalna: hau.gif",
+    "title": "Grafika archiwalna: hau",
     "desc": "Rozmiar: Animacja/Obraz GIF87a (480x640 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -178,11 +211,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041213_hau.gif",
     "details": "Animacja/Obraz GIF87a (480x640 px)",
     "original_url": "http://republika.pl:80/aaggaattkkaa/hau.gif",
-    "archive_url": "https://web.archive.org/web/20041213035734id_/http://republika.pl:80/aaggaattkkaa/hau.gif"
+    "archive_url": "https://web.archive.org/web/20041213035734id_/http://republika.pl:80/aaggaattkkaa/hau.gif",
+    "tier": 1,
+    "category": "📸 Prywatne Archiwum Fotograficzne / Digital Art",
+    "why_lost": "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
   },
   {
     "filename": "20060322_agr2.gif",
-    "title": "Grafika archiwalna: agr2.gif",
+    "title": "Grafika archiwalna: agr2",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (100x100 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -193,11 +229,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060322_agr2.gif",
     "details": "Animacja/Obraz GIF89a (100x100 px)",
     "original_url": "http://republika.pl:80/a12345670/agr2.gif",
-    "archive_url": "https://web.archive.org/web/20060322133605id_/http://republika.pl:80/a12345670/agr2.gif"
+    "archive_url": "https://web.archive.org/web/20060322133605id_/http://republika.pl:80/a12345670/agr2.gif",
+    "tier": 2,
+    "category": "🖼️ Wysokorozdzielcza Grafika z Epoki",
+    "why_lost": "Duży plik graficzny (>200 KB), który w tamtych czasach ładował się minutami przez modem dial-up."
   },
   {
     "filename": "20060705_bs14.jpg",
-    "title": "Grafika archiwalna: bs14.jpg",
+    "title": "Grafika archiwalna: bs14",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -208,11 +247,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060705_bs14.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs14.jpg",
-    "archive_url": "https://web.archive.org/web/20060705121037id_/http://www.republika.pl:80/a58szczepzhr/bs14.jpg"
+    "archive_url": "https://web.archive.org/web/20060705121037id_/http://www.republika.pl:80/a58szczepzhr/bs14.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060705_bs18.jpg",
-    "title": "Grafika archiwalna: bs18.jpg",
+    "title": "Grafika archiwalna: bs18",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -223,11 +265,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060705_bs18.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs18.jpg",
-    "archive_url": "https://web.archive.org/web/20060705121052id_/http://www.republika.pl:80/a58szczepzhr/bs18.jpg"
+    "archive_url": "https://web.archive.org/web/20060705121052id_/http://www.republika.pl:80/a58szczepzhr/bs18.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060705_bs20.jpg",
-    "title": "Grafika archiwalna: bs20.jpg",
+    "title": "Grafika archiwalna: bs20",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -238,11 +283,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060705_bs20.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs20.jpg",
-    "archive_url": "https://web.archive.org/web/20060705121105id_/http://www.republika.pl:80/a58szczepzhr/bs20.jpg"
+    "archive_url": "https://web.archive.org/web/20060705121105id_/http://www.republika.pl:80/a58szczepzhr/bs20.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060709_bs19.jpg",
-    "title": "Grafika archiwalna: bs19.jpg",
+    "title": "Grafika archiwalna: bs19",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -253,11 +301,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060709_bs19.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs19.jpg",
-    "archive_url": "https://web.archive.org/web/20060709062846id_/http://www.republika.pl:80/a58szczepzhr/bs19.jpg"
+    "archive_url": "https://web.archive.org/web/20060709062846id_/http://www.republika.pl:80/a58szczepzhr/bs19.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060818_oneinamillion.gif",
-    "title": "Grafika archiwalna: oneinamillion.gif",
+    "title": "Grafika archiwalna: oneinamillion",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (90x68 px), pochodzenie: republika.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -268,11 +319,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060818_oneinamillion.gif",
     "details": "Animacja/Obraz GIF89a (90x68 px)",
     "original_url": "http://republika.pl:80/aaliyah_aaliyah/oneinamillion.gif",
-    "archive_url": "https://web.archive.org/web/20060818083025id_/http://republika.pl:80/aaliyah_aaliyah/oneinamillion.gif"
+    "archive_url": "https://web.archive.org/web/20060818083025id_/http://republika.pl:80/aaliyah_aaliyah/oneinamillion.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20061117_but3.jpg",
-    "title": "Grafika archiwalna: but3.jpg",
+    "title": "Grafika archiwalna: but3",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -283,7 +337,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20061117_but3.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a09/d/but3.jpg",
-    "archive_url": "https://web.archive.org/web/20061117102122id_/http://republika.pl:80/a09/d/but3.jpg"
+    "archive_url": "https://web.archive.org/web/20061117102122id_/http://republika.pl:80/a09/d/but3.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030408_snakearena.swf",
@@ -298,7 +355,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030408_snakearena.swf",
     "details": "Pełna gra Flash: Snake Arena (Single & 2-Player, Quake 3 Announcer, power-upy)",
     "original_url": "http://a1t2.republika.pl:80/flashki/snakearena[1].swf",
-    "archive_url": "https://web.archive.org/web/20030408190310id_/http://a1t2.republika.pl:80/flashki/snakearena%5b1%5d.swf"
+    "archive_url": "https://web.archive.org/web/20030408190310id_/http://a1t2.republika.pl:80/flashki/snakearena%5b1%5d.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20020318_ALL.MID",
@@ -313,7 +373,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020318_ALL.MID",
     "details": "Limahl - The NeverEnding Story (Ręczna rekonstrukcja 16 ścieżek: syntezatory, arpeggia, efekty wind/seashore)",
     "original_url": "http://free.polbox.pl:80/a/adklimek/ALL.MID",
-    "archive_url": "https://web.archive.org/web/20020318154119id_/http://free.polbox.pl:80/a/adklimek/ALL.MID"
+    "archive_url": "https://web.archive.org/web/20020318154119id_/http://free.polbox.pl:80/a/adklimek/ALL.MID",
+    "tier": 1,
+    "category": "🎵 Unikatowa Polska Kompozycja MIDI",
+    "why_lost": "Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych."
   },
   {
     "filename": "20030922_ORLACIEN.MID",
@@ -328,7 +391,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030922_ORLACIEN.MID",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/a/adklimek/ORLACIEN.MID",
-    "archive_url": "https://web.archive.org/web/20030922004348id_/http://free.polbox.pl:80/a/adklimek/ORLACIEN.MID"
+    "archive_url": "https://web.archive.org/web/20030922004348id_/http://free.polbox.pl:80/a/adklimek/ORLACIEN.MID",
+    "tier": 1,
+    "category": "🎵 Unikatowa Polska Kompozycja MIDI",
+    "why_lost": "Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych."
   },
   {
     "filename": "20031112_INT30XG.MID",
@@ -343,11 +409,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031112_INT30XG.MID",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/a/alpispa/hp/mus/INT30XG.MID",
-    "archive_url": "https://web.archive.org/web/20031112065948id_/http://free.polbox.pl:80/a/alpispa/hp/mus/INT30XG.MID"
+    "archive_url": "https://web.archive.org/web/20031112065948id_/http://free.polbox.pl:80/a/alpispa/hp/mus/INT30XG.MID",
+    "tier": 1,
+    "category": "🎵 Unikatowa Polska Kompozycja MIDI",
+    "why_lost": "Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych."
   },
   {
     "filename": "20041120_MK.gif",
-    "title": "Grafika archiwalna: MK.gif",
+    "title": "Grafika archiwalna: MK",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (988x84 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -358,11 +427,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041120_MK.gif",
     "details": "Animacja/Obraz GIF89a (988x84 px)",
     "original_url": "http://free.polbox.pl:80/2/2kotwica/MK.gif",
-    "archive_url": "https://web.archive.org/web/20041120171034id_/http://free.polbox.pl:80/2/2kotwica/MK.gif"
+    "archive_url": "https://web.archive.org/web/20041120171034id_/http://free.polbox.pl:80/2/2kotwica/MK.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030511_r1.gif",
-    "title": "Grafika archiwalna: r1.gif",
+    "title": "Grafika archiwalna: r1",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (500x325 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -373,11 +445,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030511_r1.gif",
     "details": "Animacja/Obraz GIF89a (500x325 px)",
     "original_url": "http://free.polbox.pl:80/a/agrok/r1.gif",
-    "archive_url": "https://web.archive.org/web/20030511114908id_/http://free.polbox.pl:80/a/agrok/r1.gif"
+    "archive_url": "https://web.archive.org/web/20030511114908id_/http://free.polbox.pl:80/a/agrok/r1.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030511_r2.gif",
-    "title": "Grafika archiwalna: r2.gif",
+    "title": "Grafika archiwalna: r2",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (500x349 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -388,11 +463,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030511_r2.gif",
     "details": "Animacja/Obraz GIF89a (500x349 px)",
     "original_url": "http://free.polbox.pl:80/a/agrok/r2.gif",
-    "archive_url": "https://web.archive.org/web/20030511120417id_/http://free.polbox.pl:80/a/agrok/r2.gif"
+    "archive_url": "https://web.archive.org/web/20030511120417id_/http://free.polbox.pl:80/a/agrok/r2.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030511_r3.gif",
-    "title": "Grafika archiwalna: r3.gif",
+    "title": "Grafika archiwalna: r3",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (500x355 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -403,11 +481,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030511_r3.gif",
     "details": "Animacja/Obraz GIF89a (500x355 px)",
     "original_url": "http://free.polbox.pl:80/a/agrok/r3.gif",
-    "archive_url": "https://web.archive.org/web/20030511123603id_/http://free.polbox.pl:80/a/agrok/r3.gif"
+    "archive_url": "https://web.archive.org/web/20030511123603id_/http://free.polbox.pl:80/a/agrok/r3.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20041024_plancgk.gif",
-    "title": "Grafika archiwalna: plancgk.gif",
+    "title": "Grafika archiwalna: plancgk",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (2478x1587 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -418,11 +499,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041024_plancgk.gif",
     "details": "Animacja/Obraz GIF89a (2478x1587 px)",
     "original_url": "http://free.polbox.pl:80/a/alfacom/plancgk.gif",
-    "archive_url": "https://web.archive.org/web/20041024133643id_/http://free.polbox.pl:80/a/alfacom/plancgk.gif"
+    "archive_url": "https://web.archive.org/web/20041024133643id_/http://free.polbox.pl:80/a/alfacom/plancgk.gif",
+    "tier": 1,
+    "category": "📸 Prywatne Archiwum Fotograficzne / Digital Art",
+    "why_lost": "Oryginalne fotografie z lat 2002-2004 z domowych stron WWW; unikatowy zapis codzienności wczesnego polskiego internetu."
   },
   {
     "filename": "20030511_wiosna.gif",
-    "title": "Grafika archiwalna: wiosna.gif",
+    "title": "Grafika archiwalna: wiosna",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (632x51 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -433,12 +517,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030511_wiosna.gif",
     "details": "Animacja/Obraz GIF89a (632x51 px)",
     "original_url": "http://free.polbox.pl:80/a/alpispa/wiosna.gif",
-    "archive_url": "https://web.archive.org/web/20030511124159id_/http://free.polbox.pl:80/a/alpispa/wiosna.gif"
+    "archive_url": "https://web.archive.org/web/20030511124159id_/http://free.polbox.pl:80/a/alpispa/wiosna.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20050319_intro.swf",
-    "title": "Animacja Flash: 20050319_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 1147 klatek, 23 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 1147 klatek, 23 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -448,12 +535,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050319_intro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 1147 klatek, 23 FPS)",
     "original_url": "http://republika.pl:80/akpiwosz/intro.swf",
-    "archive_url": "https://web.archive.org/web/20050319085544id_/http://republika.pl:80/akpiwosz/intro.swf"
+    "archive_url": "https://web.archive.org/web/20050319085544id_/http://republika.pl:80/akpiwosz/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20031126_nauczyciel.swf",
-    "title": "Animacja Flash: 20031126_nauczyciel.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 350 klatek, 12 FPS)).",
+    "title": "Animacja Flash: nauczyciel",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 350 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -463,11 +553,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031126_nauczyciel.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 350 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/abcsztuki/nauczyciel.swf",
-    "archive_url": "https://web.archive.org/web/20031126065741id_/http://republika.pl:80/abcsztuki/nauczyciel.swf"
+    "archive_url": "https://web.archive.org/web/20031126065741id_/http://republika.pl:80/abcsztuki/nauczyciel.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041222_akwariumjacka.swf",
-    "title": "Projekt Flash: 20041222_akwariumjacka.swf",
+    "title": "Projekt Flash: akwariumjacka",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 124 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -478,12 +571,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041222_akwariumjacka.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 124 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/akwariumjacka/akwariumjacka.swf",
-    "archive_url": "https://web.archive.org/web/20041222210334id_/http://republika.pl:80/akwariumjacka/akwariumjacka.swf"
+    "archive_url": "https://web.archive.org/web/20041222210334id_/http://republika.pl:80/akwariumjacka/akwariumjacka.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20060710_Movie13.swf",
-    "title": "Animacja Flash: 20060710_Movie13.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 120 klatek, 10 FPS)).",
+    "title": "Animacja Flash: Movie13",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 120 klatek, 10 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -493,7 +589,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060710_Movie13.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 120 klatek, 10 FPS)",
     "original_url": "http://republika.pl:80/agrajter/multimedia/Movie13.swf",
-    "archive_url": "https://web.archive.org/web/20060710100315id_/http://republika.pl:80/agrajter/multimedia/Movie13.swf"
+    "archive_url": "https://web.archive.org/web/20060710100315id_/http://republika.pl:80/agrajter/multimedia/Movie13.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20090831_backfutr.mid",
@@ -508,7 +607,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20090831_backfutr.mid",
     "details": "Standard MIDI File (format 1, tracks 11)",
     "original_url": "http://geocities.com/Tokyo/1077/backfutr.mid",
-    "archive_url": "https://web.archive.org/web/20090831180119id_/http://geocities.com/Tokyo/1077/backfutr.mid"
+    "archive_url": "https://web.archive.org/web/20090831180119id_/http://geocities.com/Tokyo/1077/backfutr.mid",
+    "tier": 2,
+    "category": "🎼 Rzadka Sekwencja Syntezatorowa z Lat 90.",
+    "why_lost": "Specyficzna wersja partytury orkiestrowej/elektronicznej stworzona przez użytkowników dawnego internetu."
   },
   {
     "filename": "20090831_enterthedragon.mid",
@@ -523,7 +625,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20090831_enterthedragon.mid",
     "details": "Standard MIDI File (format 1, tracks 18)",
     "original_url": "http://geocities.com/Tokyo/1070/wcskka/enterthedragon.mid",
-    "archive_url": "https://web.archive.org/web/20090831203302id_/http://geocities.com/Tokyo/1070/wcskka/enterthedragon.mid"
+    "archive_url": "https://web.archive.org/web/20090831203302id_/http://geocities.com/Tokyo/1070/wcskka/enterthedragon.mid",
+    "tier": 2,
+    "category": "🎼 Rzadka Sekwencja Syntezatorowa z Lat 90.",
+    "why_lost": "Specyficzna wersja partytury orkiestrowej/elektronicznej stworzona przez użytkowników dawnego internetu."
   },
   {
     "filename": "20090821_enjoy.mid",
@@ -538,7 +643,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20090821_enjoy.mid",
     "details": "Standard MIDI File (format 1, tracks 16)",
     "original_url": "http://geocities.com/Tokyo/1000/enjoy.mid",
-    "archive_url": "https://web.archive.org/web/20090821232618id_/http://geocities.com/Tokyo/1000/enjoy.mid"
+    "archive_url": "https://web.archive.org/web/20090821232618id_/http://geocities.com/Tokyo/1000/enjoy.mid",
+    "tier": 2,
+    "category": "🎼 Rzadka Sekwencja Syntezatorowa z Lat 90.",
+    "why_lost": "Specyficzna wersja partytury orkiestrowej/elektronicznej stworzona przez użytkowników dawnego internetu."
   },
   {
     "filename": "19970301_closer3.mid",
@@ -553,7 +661,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/19970301_closer3.mid",
     "details": "Standard MIDI File (format 1, tracks 20)",
     "original_url": "http://www1.geocities.com:80/SunsetStrip/1006/closer3.mid",
-    "archive_url": "https://web.archive.org/web/19970301125652id_/http://www1.geocities.com:80/SunsetStrip/1006/closer3.mid"
+    "archive_url": "https://web.archive.org/web/19970301125652id_/http://www1.geocities.com:80/SunsetStrip/1006/closer3.mid",
+    "tier": 1,
+    "category": "🎹 Historyczna Aranżacja Tracker/MIDI (1994)",
+    "why_lost": "Archiwalna aranżacja z 1994 r. Warrena Rice'a z Seattle z zaszytymi znacznikami karaoke i autorskim podpisem z GeoCities SunsetStrip."
   },
   {
     "filename": "20030515_batman.MID",
@@ -568,7 +679,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030515_batman.MID",
     "details": "Standard MIDI File (format 1, tracks 9)",
     "original_url": "http://www.republika.pl:80/adamczaja/batman.MID",
-    "archive_url": "https://web.archive.org/web/20030515004624id_/http://www.republika.pl:80/adamczaja/batman.MID"
+    "archive_url": "https://web.archive.org/web/20030515004624id_/http://www.republika.pl:80/adamczaja/batman.MID",
+    "tier": 2,
+    "category": "🎼 Rzadka Sekwencja Syntezatorowa z Lat 90.",
+    "why_lost": "Specyficzna wersja partytury orkiestrowej/elektronicznej stworzona przez użytkowników dawnego internetu."
   },
   {
     "filename": "20020222_MUPPETS.MID",
@@ -583,7 +697,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020222_MUPPETS.MID",
     "details": "Standard MIDI File (format 1, tracks 10)",
     "original_url": "http://republika.pl:80/agape_os/MUPPETS.MID",
-    "archive_url": "https://web.archive.org/web/20020222011324id_/http://republika.pl:80/agape_os/MUPPETS.MID"
+    "archive_url": "https://web.archive.org/web/20020222011324id_/http://republika.pl:80/agape_os/MUPPETS.MID",
+    "tier": 2,
+    "category": "🎼 Rzadka Sekwencja Syntezatorowa z Lat 90.",
+    "why_lost": "Specyficzna wersja partytury orkiestrowej/elektronicznej stworzona przez użytkowników dawnego internetu."
   },
   {
     "filename": "20060310_baby.mid",
@@ -598,12 +715,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060310_baby.mid",
     "details": "Standard MIDI File (format 1, tracks 14)",
     "original_url": "http://republika.pl:80/akademia_krasnoludkow/baby.mid",
-    "archive_url": "https://web.archive.org/web/20060310231114id_/http://republika.pl:80/akademia_krasnoludkow/baby.mid"
+    "archive_url": "https://web.archive.org/web/20060310231114id_/http://republika.pl:80/akademia_krasnoludkow/baby.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20040517_prezentacja.swf",
-    "title": "Animacja Flash: 20040517_prezentacja.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 923 klatek, 12 FPS)).",
+    "title": "Animacja Flash: prezentacja",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 923 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -613,11 +733,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040517_prezentacja.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 923 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/a_sim/prezentacja.swf",
-    "archive_url": "https://web.archive.org/web/20040517211438id_/http://republika.pl:80/a_sim/prezentacja.swf"
+    "archive_url": "https://web.archive.org/web/20040517211438id_/http://republika.pl:80/a_sim/prezentacja.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041104_republika.swf",
-    "title": "Projekt Flash: 20041104_republika.swf",
+    "title": "Projekt Flash: republika",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 200 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -628,11 +751,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041104_republika.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 200 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/aaadrian/multimedia/republika.swf",
-    "archive_url": "https://web.archive.org/web/20041104185817id_/http://republika.pl:80/aaadrian/multimedia/republika.swf"
+    "archive_url": "https://web.archive.org/web/20041104185817id_/http://republika.pl:80/aaadrian/multimedia/republika.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040510_andrew.swf",
-    "title": "Projekt Flash: 20040510_andrew.swf",
+    "title": "Projekt Flash: andrew",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 96 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -643,11 +769,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040510_andrew.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 96 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/aawa/andrew.swf",
-    "archive_url": "https://web.archive.org/web/20040510093825id_/http://republika.pl:80/aawa/andrew.swf"
+    "archive_url": "https://web.archive.org/web/20040510093825id_/http://republika.pl:80/aawa/andrew.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030921_abaddon2.swf",
-    "title": "Projekt Flash: 20030921_abaddon2.swf",
+    "title": "Projekt Flash: abaddon2",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 23 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -658,12 +787,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030921_abaddon2.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 23 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/abaddon_tattoo/abaddon2.swf",
-    "archive_url": "https://web.archive.org/web/20030921090712id_/http://republika.pl:80/abaddon_tattoo/abaddon2.swf"
+    "archive_url": "https://web.archive.org/web/20030921090712id_/http://republika.pl:80/abaddon_tattoo/abaddon2.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040511_Movie1.swf",
-    "title": "Animacja Flash: 20040511_Movie1.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 15 klatek, 12 FPS)).",
+    "title": "Animacja Flash: Movie1",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 15 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -673,11 +805,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040511_Movie1.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 15 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/abaddon_tattoo/Movie1.swf",
-    "archive_url": "https://web.archive.org/web/20040511113353id_/http://republika.pl:80/abaddon_tattoo/Movie1.swf"
+    "archive_url": "https://web.archive.org/web/20040511113353id_/http://republika.pl:80/abaddon_tattoo/Movie1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040914_omnie.swf",
-    "title": "Projekt Flash: 20040914_omnie.swf",
+    "title": "Projekt Flash: omnie",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 184 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -688,11 +823,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040914_omnie.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 184 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/abc_poligrafia/omnie.swf",
-    "archive_url": "https://web.archive.org/web/20040914035713id_/http://republika.pl:80/abc_poligrafia/omnie.swf"
+    "archive_url": "https://web.archive.org/web/20040914035713id_/http://republika.pl:80/abc_poligrafia/omnie.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040710_prezetacja.swf",
-    "title": "Projekt Flash: 20040710_prezetacja.swf",
+    "title": "Projekt Flash: prezetacja",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 3 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -703,11 +841,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040710_prezetacja.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 3 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/abchtml/prezetacja.swf",
-    "archive_url": "https://web.archive.org/web/20040710194912id_/http://republika.pl:80/abchtml/prezetacja.swf"
+    "archive_url": "https://web.archive.org/web/20040710194912id_/http://republika.pl:80/abchtml/prezetacja.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20060708_clouds.swf",
-    "title": "Projekt Flash: 20060708_clouds.swf",
+    "title": "Projekt Flash: clouds",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 507 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -718,11 +859,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060708_clouds.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 507 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/abomination/clouds.swf",
-    "archive_url": "https://web.archive.org/web/20060708152722id_/http://republika.pl:80/abomination/clouds.swf"
+    "archive_url": "https://web.archive.org/web/20060708152722id_/http://republika.pl:80/abomination/clouds.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20060708_zegar.swf",
-    "title": "Projekt Flash: 20060708_zegar.swf",
+    "title": "Projekt Flash: zegar",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -733,11 +877,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060708_zegar.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/abomination/zegar.swf",
-    "archive_url": "https://web.archive.org/web/20060708152335id_/http://republika.pl:80/abomination/zegar.swf"
+    "archive_url": "https://web.archive.org/web/20060708152335id_/http://republika.pl:80/abomination/zegar.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20041107_Jelenia_Gora3.swf",
-    "title": "Projekt Flash: 20041107_Jelenia_Gora3.swf",
+    "title": "Projekt Flash: Jelenia Gora3",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 21 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -748,11 +895,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041107_Jelenia_Gora3.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 21 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/absolwenci85/multimedia/Jelenia%20Gora3.swf",
-    "archive_url": "https://web.archive.org/web/20041107085231id_/http://republika.pl:80/absolwenci85/multimedia/Jelenia%20Gora3.swf"
+    "archive_url": "https://web.archive.org/web/20041107085231id_/http://republika.pl:80/absolwenci85/multimedia/Jelenia%20Gora3.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040914_enter_zse.swf",
-    "title": "Projekt Flash: 20040914_enter_zse.swf",
+    "title": "Projekt Flash: enter zse",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -763,14 +913,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040914_enter_zse.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/absolwenci_zse/enter_zse.swf",
-    "archive_url": "https://web.archive.org/web/20040914042223id_/http://republika.pl:80/absolwenci_zse/enter_zse.swf"
+    "archive_url": "https://web.archive.org/web/20040914042223id_/http://republika.pl:80/absolwenci_zse/enter_zse.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20060512_12.swf",
-    "title": "Projekt Flash: 20060512_12.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 770 klatek, 20 FPS)).",
+    "title": "Animacja Flash: 12",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 770 klatek, 20 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2006",
     "size_str": "17.0 KB",
@@ -778,14 +931,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060512_12.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 770 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/accounts/12.swf",
-    "archive_url": "https://web.archive.org/web/20060512213918id_/http://republika.pl:80/accounts/12.swf"
+    "archive_url": "https://web.archive.org/web/20060512213918id_/http://republika.pl:80/accounts/12.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20060512_13.swf",
-    "title": "Projekt Flash: 20060512_13.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 618 klatek, 20 FPS)).",
+    "title": "Animacja Flash: 13",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 618 klatek, 20 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2006",
     "size_str": "11.3 KB",
@@ -793,14 +949,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060512_13.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 618 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/accounts/13.swf",
-    "archive_url": "https://web.archive.org/web/20060512213930id_/http://republika.pl:80/accounts/13.swf"
+    "archive_url": "https://web.archive.org/web/20060512213930id_/http://republika.pl:80/accounts/13.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20060512_14.swf",
-    "title": "Projekt Flash: 20060512_14.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 638 klatek, 20 FPS)).",
+    "title": "Animacja Flash: 14",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 638 klatek, 20 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2006",
     "size_str": "11.2 KB",
@@ -808,14 +967,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060512_14.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 638 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/accounts/14.swf",
-    "archive_url": "https://web.archive.org/web/20060512213942id_/http://republika.pl:80/accounts/14.swf"
+    "archive_url": "https://web.archive.org/web/20060512213942id_/http://republika.pl:80/accounts/14.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20060512_15.swf",
-    "title": "Projekt Flash: 20060512_15.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 670 klatek, 20 FPS)).",
+    "title": "Animacja Flash: 15",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 670 klatek, 20 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2006",
     "size_str": "11.9 KB",
@@ -823,14 +985,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060512_15.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 670 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/accounts/15.swf",
-    "archive_url": "https://web.archive.org/web/20060512213954id_/http://republika.pl:80/accounts/15.swf"
+    "archive_url": "https://web.archive.org/web/20060512213954id_/http://republika.pl:80/accounts/15.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041128_16.swf",
-    "title": "Projekt Flash: 20041128_16.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 883 klatek, 20 FPS)).",
+    "title": "Animacja Flash: 16",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 883 klatek, 20 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2004",
     "size_str": "17.7 KB",
@@ -838,11 +1003,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041128_16.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 883 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/accounts/16.swf",
-    "archive_url": "https://web.archive.org/web/20041128115636id_/http://republika.pl:80/accounts/16.swf"
+    "archive_url": "https://web.archive.org/web/20041128115636id_/http://republika.pl:80/accounts/16.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041128_17.swf",
-    "title": "Projekt Flash: 20041128_17.swf",
+    "title": "Projekt Flash: 17",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 470 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -853,11 +1021,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041128_17.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 470 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/accounts/17.swf",
-    "archive_url": "https://web.archive.org/web/20041128114244id_/http://republika.pl:80/accounts/17.swf"
+    "archive_url": "https://web.archive.org/web/20041128114244id_/http://republika.pl:80/accounts/17.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050220_napis.swf",
-    "title": "Projekt Flash: 20050220_napis.swf",
+    "title": "Projekt Flash: napis",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 101 klatek, 18 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -868,11 +1039,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050220_napis.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 101 klatek, 18 FPS)",
     "original_url": "http://republika.pl:80/aceofbase/napis.swf",
-    "archive_url": "https://web.archive.org/web/20050220070506id_/http://republika.pl:80/aceofbase/napis.swf"
+    "archive_url": "https://web.archive.org/web/20050220070506id_/http://republika.pl:80/aceofbase/napis.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20050428_myfile3.swf",
-    "title": "Projekt Flash: 20050428_myfile3.swf",
+    "title": "Projekt Flash: myfile3",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 100 klatek, 18 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -883,11 +1057,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050428_myfile3.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 100 klatek, 18 FPS)",
     "original_url": "http://republika.pl:80/adam33k/multimedia/myfile3.swf",
-    "archive_url": "https://web.archive.org/web/20050428210122id_/http://republika.pl:80/adam33k/multimedia/myfile3.swf"
+    "archive_url": "https://web.archive.org/web/20050428210122id_/http://republika.pl:80/adam33k/multimedia/myfile3.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050324_myfile.swf",
-    "title": "Projekt Flash: 20050324_myfile.swf",
+    "title": "Projekt Flash: myfile",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 51 klatek, 18 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -898,11 +1075,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050324_myfile.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 51 klatek, 18 FPS)",
     "original_url": "http://republika.pl:80/adamkrawczyk/multimedia/myfile.swf",
-    "archive_url": "https://web.archive.org/web/20050324181908id_/http://republika.pl:80/adamkrawczyk/multimedia/myfile.swf"
+    "archive_url": "https://web.archive.org/web/20050324181908id_/http://republika.pl:80/adamkrawczyk/multimedia/myfile.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050324_myfile5.swf",
-    "title": "Projekt Flash: 20050324_myfile5.swf",
+    "title": "Projekt Flash: myfile5",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 366 klatek, 18 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -913,11 +1093,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050324_myfile5.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 366 klatek, 18 FPS)",
     "original_url": "http://republika.pl:80/adamkrawczyk/multimedia/myfile5.swf",
-    "archive_url": "https://web.archive.org/web/20050324175424id_/http://republika.pl:80/adamkrawczyk/multimedia/myfile5.swf"
+    "archive_url": "https://web.archive.org/web/20050324175424id_/http://republika.pl:80/adamkrawczyk/multimedia/myfile5.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040619_adam.swf",
-    "title": "Projekt Flash: 20040619_adam.swf",
+    "title": "Projekt Flash: adam",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 110 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -928,11 +1111,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040619_adam.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 110 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/adammulik/adam.swf",
-    "archive_url": "https://web.archive.org/web/20040619031010id_/http://republika.pl:80/adammulik/adam.swf"
+    "archive_url": "https://web.archive.org/web/20040619031010id_/http://republika.pl:80/adammulik/adam.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040917_omnie.swf",
-    "title": "Projekt Flash: 20040917_omnie.swf",
+    "title": "Projekt Flash: omnie",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 184 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -943,12 +1129,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040917_omnie.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 184 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/adamszum/omnie.swf",
-    "archive_url": "https://web.archive.org/web/20040917182037id_/http://republika.pl:80/adamszum/omnie.swf"
+    "archive_url": "https://web.archive.org/web/20040917182037id_/http://republika.pl:80/adamszum/omnie.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040914_intro.swf",
-    "title": "Animacja Flash: 20040914_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 7, nieskompresowany, 205 klatek, 24 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 7, nieskompresowany, 205 klatek, 24 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -958,14 +1147,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040914_intro.swf",
     "details": "Macromedia Flash SWF (ver 7, nieskompresowany, 205 klatek, 24 FPS)",
     "original_url": "http://republika.pl:80/adikor/Flash/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040914041516id_/http://republika.pl:80/adikor/Flash/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040914041516id_/http://republika.pl:80/adikor/Flash/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030927_matematikon.swf",
-    "title": "Projekt Flash: 20030927_matematikon.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 104 klatek, 12 FPS)).",
+    "title": "Matematikon (Wrzesień 2003)",
+    "desc": "Polska gra logiczno-edukacyjna sprawdzająca refleks i umiejętności matematyczne pod presją uciekającego czasu (Flash v5).",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "arcade",
     "domain": "republika.pl",
     "year": "2003",
     "size_str": "25.0 KB",
@@ -973,11 +1165,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030927_matematikon.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 104 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/adlugosz/images/matematikon.swf",
-    "archive_url": "https://web.archive.org/web/20030927101713id_/http://republika.pl:80/adlugosz/images/matematikon.swf"
+    "archive_url": "https://web.archive.org/web/20030927101713id_/http://republika.pl:80/adlugosz/images/matematikon.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20030523_strona.swf",
-    "title": "Projekt Flash: 20030523_strona.swf",
+    "title": "Projekt Flash: strona",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 261 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -988,11 +1183,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030523_strona.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 261 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/adminerot/strona.swf",
-    "archive_url": "https://web.archive.org/web/20030523033736id_/http://www.republika.pl:80/adminerot/strona.swf"
+    "archive_url": "https://web.archive.org/web/20030523033736id_/http://www.republika.pl:80/adminerot/strona.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030424_zegar.swf",
-    "title": "Projekt Flash: 20030424_zegar.swf",
+    "title": "Projekt Flash: zegar",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 24 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1003,11 +1201,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030424_zegar.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 24 FPS)",
     "original_url": "http://republika.pl:80/adph/multimedia/zegar.swf",
-    "archive_url": "https://web.archive.org/web/20030424042948id_/http://republika.pl:80/adph/multimedia/zegar.swf"
+    "archive_url": "https://web.archive.org/web/20030424042948id_/http://republika.pl:80/adph/multimedia/zegar.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040619_czytaj.swf",
-    "title": "Projekt Flash: 20040619_czytaj.swf",
+    "title": "Projekt Flash: czytaj",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 25 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1018,14 +1219,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040619_czytaj.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 25 FPS)",
     "original_url": "http://republika.pl:80/adrian2/czytaj.swf",
-    "archive_url": "https://web.archive.org/web/20040619023111id_/http://republika.pl:80/adrian2/czytaj.swf"
+    "archive_url": "https://web.archive.org/web/20040619023111id_/http://republika.pl:80/adrian2/czytaj.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20021027_animegirl.swf",
-    "title": "Projekt Flash: 20021027_animegirl.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 4 klatek, 100 FPS)).",
+    "title": "Anime Girl (Październik 2002)",
+    "desc": "Wczesna animacja postaci w stylu anime z 2002 roku z archiwum GeoCities.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2002",
     "size_str": "16.7 KB",
@@ -1033,11 +1237,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20021027_animegirl.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 4 klatek, 100 FPS)",
     "original_url": "http://republika.pl:80/adriana_lucja/animegirl.swf?title=",
-    "archive_url": "https://web.archive.org/web/20021027123019id_/http://republika.pl:80/adriana_lucja/animegirl.swf?title="
+    "archive_url": "https://web.archive.org/web/20021027123019id_/http://republika.pl:80/adriana_lucja/animegirl.swf?title=",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030515_praca_dyp.swf",
-    "title": "Projekt Flash: 20030515_praca_dyp.swf",
+    "title": "Projekt Flash: praca dyp",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 109 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1048,11 +1255,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030515_praca_dyp.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 109 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/adrianmroczkowski/praca_dyp.swf",
-    "archive_url": "https://web.archive.org/web/20030515140458id_/http://republika.pl:80/adrianmroczkowski/praca_dyp.swf"
+    "archive_url": "https://web.archive.org/web/20030515140458id_/http://republika.pl:80/adrianmroczkowski/praca_dyp.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040929_niepewnosc.swf",
-    "title": "Projekt Flash: 20040929_niepewnosc.swf",
+    "title": "Projekt Flash: niepewnosc",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 6 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1063,11 +1273,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040929_niepewnosc.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 6 FPS)",
     "original_url": "http://republika.pl:80/adriano2/grafika/teksty/niepewnosc.swf",
-    "archive_url": "https://web.archive.org/web/20040929153926id_/http://republika.pl:80/adriano2/grafika/teksty/niepewnosc.swf"
+    "archive_url": "https://web.archive.org/web/20040929153926id_/http://republika.pl:80/adriano2/grafika/teksty/niepewnosc.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040621_piosenka.swf",
-    "title": "Projekt Flash: 20040621_piosenka.swf",
+    "title": "Projekt Flash: piosenka",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 6 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1078,14 +1291,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040621_piosenka.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 6 FPS)",
     "original_url": "http://republika.pl:80/adriano2/grafika/teksty/piosenka.swf",
-    "archive_url": "https://web.archive.org/web/20040621140201id_/http://republika.pl:80/adriano2/grafika/teksty/piosenka.swf"
+    "archive_url": "https://web.archive.org/web/20040621140201id_/http://republika.pl:80/adriano2/grafika/teksty/piosenka.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040929_sen_zlotowlosej_dziewczynki.swf",
-    "title": "Projekt Flash: 20040929_sen_zlotowlosej_dziewczynki.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 6 FPS)).",
+    "title": "Sen Złotowłosej Dziewczynki (2004)",
+    "desc": "Autorska poetycka animacja Flash z muzyką, opublikowana na Republice we wrześniu 2004 roku.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2004",
     "size_str": "21.9 KB",
@@ -1093,11 +1309,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040929_sen_zlotowlosej_dziewczynki.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 6 FPS)",
     "original_url": "http://republika.pl:80/adriano2/grafika/teksty/sen_zlotowlosej_dziewczynki.swf",
-    "archive_url": "https://web.archive.org/web/20040929023429id_/http://republika.pl:80/adriano2/grafika/teksty/sen_zlotowlosej_dziewczynki.swf"
+    "archive_url": "https://web.archive.org/web/20040929023429id_/http://republika.pl:80/adriano2/grafika/teksty/sen_zlotowlosej_dziewczynki.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040724_tekst_zadymka.swf",
-    "title": "Projekt Flash: 20040724_tekst_zadymka.swf",
+    "title": "Projekt Flash: tekst zadymka",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1108,11 +1327,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040724_tekst_zadymka.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 632 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/adriano2/grafika/teksty/tekst_zadymka.swf",
-    "archive_url": "https://web.archive.org/web/20040724143344id_/http://republika.pl:80/adriano2/grafika/teksty/tekst_zadymka.swf"
+    "archive_url": "https://web.archive.org/web/20040724143344id_/http://republika.pl:80/adriano2/grafika/teksty/tekst_zadymka.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20060715_pomoc_napis.swf",
-    "title": "Projekt Flash: 20060715_pomoc_napis.swf",
+    "title": "Projekt Flash: pomoc napis",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 36 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1123,11 +1345,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060715_pomoc_napis.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 36 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/adriano2/pomoc_napis.swf",
-    "archive_url": "https://web.archive.org/web/20060715013631id_/http://republika.pl:80/adriano2/pomoc_napis.swf"
+    "archive_url": "https://web.archive.org/web/20060715013631id_/http://republika.pl:80/adriano2/pomoc_napis.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20061222_index.swf",
-    "title": "Projekt Flash: 20061222_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 140 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1138,11 +1363,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20061222_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 140 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/adspectatores/index.swf",
-    "archive_url": "https://web.archive.org/web/20061222130025id_/http://republika.pl:80/adspectatores/index.swf"
+    "archive_url": "https://web.archive.org/web/20061222130025id_/http://republika.pl:80/adspectatores/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050319_left.swf",
-    "title": "Projekt Flash: 20050319_left.swf",
+    "title": "Projekt Flash: left",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 2 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1153,11 +1381,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050319_left.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 2 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/adspectatores/left.swf",
-    "archive_url": "https://web.archive.org/web/20050319091636id_/http://republika.pl:80/adspectatores/left.swf"
+    "archive_url": "https://web.archive.org/web/20050319091636id_/http://republika.pl:80/adspectatores/left.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030404_index.swf",
-    "title": "Projekt Flash: 20030404_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 28 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1168,11 +1399,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030404_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 28 FPS)",
     "original_url": "http://www.republika.pl:80/advicomp/flash/index.swf",
-    "archive_url": "https://web.archive.org/web/20030404155441id_/http://www.republika.pl:80/advicomp/flash/index.swf"
+    "archive_url": "https://web.archive.org/web/20030404155441id_/http://www.republika.pl:80/advicomp/flash/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030701_aelefantx.swf",
-    "title": "Projekt Flash: 20030701_aelefantx.swf",
+    "title": "Projekt Flash: aelefantx",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 642 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1183,11 +1417,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030701_aelefantx.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 642 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/aelefant/images/aelefantx.swf",
-    "archive_url": "https://web.archive.org/web/20030701092716id_/http://republika.pl:80/aelefant/images/aelefantx.swf"
+    "archive_url": "https://web.archive.org/web/20030701092716id_/http://republika.pl:80/aelefant/images/aelefantx.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041031_twoja.swf",
-    "title": "Projekt Flash: 20041031_twoja.swf",
+    "title": "Projekt Flash: twoja",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 7, zlib, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1198,11 +1435,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041031_twoja.swf",
     "details": "Macromedia Flash SWF (ver 7, zlib, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/aerosoul/twoja.swf",
-    "archive_url": "https://web.archive.org/web/20041031092543id_/http://republika.pl:80/aerosoul/twoja.swf"
+    "archive_url": "https://web.archive.org/web/20041031092543id_/http://republika.pl:80/aerosoul/twoja.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040611_Neon.swf",
-    "title": "Projekt Flash: 20040611_Neon.swf",
+    "title": "Projekt Flash: Neon",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 25 klatek, 24 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1213,11 +1453,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040611_Neon.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 25 klatek, 24 FPS)",
     "original_url": "http://republika.pl:80/afc/multimedia/Neon.swf",
-    "archive_url": "https://web.archive.org/web/20040611151521id_/http://republika.pl:80/afc/multimedia/Neon.swf"
+    "archive_url": "https://web.archive.org/web/20040611151521id_/http://republika.pl:80/afc/multimedia/Neon.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041227_midihit.swf",
-    "title": "Projekt Flash: 20041227_midihit.swf",
+    "title": "Projekt Flash: midihit",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 40 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1228,11 +1471,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041227_midihit.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 40 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/aferapl/linki_pliki/midihit.swf",
-    "archive_url": "https://web.archive.org/web/20041227234311id_/http://www.republika.pl:80/aferapl/linki_pliki/midihit.swf"
+    "archive_url": "https://web.archive.org/web/20041227234311id_/http://www.republika.pl:80/aferapl/linki_pliki/midihit.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041021_index.swf",
-    "title": "Projekt Flash: 20041021_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1243,11 +1489,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041021_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/afganyola/index.swf",
-    "archive_url": "https://web.archive.org/web/20041021040014id_/http://republika.pl:80/afganyola/index.swf"
+    "archive_url": "https://web.archive.org/web/20041021040014id_/http://republika.pl:80/afganyola/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040915_index.swf",
-    "title": "Projekt Flash: 20040915_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 73 klatek, 40 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1258,11 +1507,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040915_index.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 73 klatek, 40 FPS)",
     "original_url": "http://republika.pl:80/africonnect/index.swf",
-    "archive_url": "https://web.archive.org/web/20040915122547id_/http://republika.pl:80/africonnect/index.swf"
+    "archive_url": "https://web.archive.org/web/20040915122547id_/http://republika.pl:80/africonnect/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041123_wstep.swf",
-    "title": "Projekt Flash: 20041123_wstep.swf",
+    "title": "Projekt Flash: wstep",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1273,12 +1525,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041123_wstep.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/afrodyzjak/wstep.swf",
-    "archive_url": "https://web.archive.org/web/20041123022813id_/http://republika.pl:80/afrodyzjak/wstep.swf"
+    "archive_url": "https://web.archive.org/web/20041123022813id_/http://republika.pl:80/afrodyzjak/wstep.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040501_intro.swf",
-    "title": "Animacja Flash: 20040501_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 90 klatek, 25 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 90 klatek, 25 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -1288,11 +1543,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040501_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 90 klatek, 25 FPS)",
     "original_url": "http://republika.pl:80/after_death/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040501194209id_/http://republika.pl:80/after_death/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040501194209id_/http://republika.pl:80/after_death/intro.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040310_index.swf",
-    "title": "Projekt Flash: 20040310_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 215 klatek, 16 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1303,14 +1561,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040310_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 215 klatek, 16 FPS)",
     "original_url": "http://republika.pl:80/ag_el/index.swf",
-    "archive_url": "https://web.archive.org/web/20040310052113id_/http://republika.pl:80/ag_el/index.swf"
+    "archive_url": "https://web.archive.org/web/20040310052113id_/http://republika.pl:80/ag_el/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030528_Unreal_Tournament.swf",
-    "title": "Projekt Flash: 20030528_Unreal_Tournament.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 401 klatek, 8 FPS)).",
+    "title": "Unreal Tournament Flash (Maj 2003)",
+    "desc": "Kultowy FPS w wersji Flash 2D ocalony z klanowej strony na Republice. Interaktywna minigra z uniwersum UT z 401 klatkami animacji broni i pojedynków.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "arcade",
     "domain": "republika.pl",
     "year": "2003",
     "size_str": "17.1 KB",
@@ -1318,11 +1579,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030528_Unreal_Tournament.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 401 klatek, 8 FPS)",
     "original_url": "http://republika.pl:80/aga_sim/Unreal_Tournament.swf",
-    "archive_url": "https://web.archive.org/web/20030528200000id_/http://republika.pl:80/aga_sim/Unreal_Tournament.swf"
+    "archive_url": "https://web.archive.org/web/20030528200000id_/http://republika.pl:80/aga_sim/Unreal_Tournament.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20050220_index.swf",
-    "title": "Projekt Flash: 20050220_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 41 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1333,11 +1597,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050220_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 41 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/agacrow/index.swf",
-    "archive_url": "https://web.archive.org/web/20050220060136id_/http://republika.pl:80/agacrow/index.swf"
+    "archive_url": "https://web.archive.org/web/20050220060136id_/http://republika.pl:80/agacrow/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20051216_index.swf",
-    "title": "Projekt Flash: 20051216_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 1 klatek, 40 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1348,11 +1615,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20051216_index.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 1 klatek, 40 FPS)",
     "original_url": "http://www.republika.pl:80/agat_art/index.swf",
-    "archive_url": "https://web.archive.org/web/20051216073156id_/http://www.republika.pl:80/agat_art/index.swf"
+    "archive_url": "https://web.archive.org/web/20051216073156id_/http://www.republika.pl:80/agat_art/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030515_email.swf",
-    "title": "Projekt Flash: 20030515_email.swf",
+    "title": "Projekt Flash: email",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1363,11 +1633,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030515_email.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/agathainschool/email.swf",
-    "archive_url": "https://web.archive.org/web/20030515172418id_/http://www.republika.pl:80/agathainschool/email.swf"
+    "archive_url": "https://web.archive.org/web/20030515172418id_/http://www.republika.pl:80/agathainschool/email.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20030516_misato.swf",
-    "title": "Projekt Flash: 20030516_misato.swf",
+    "title": "Projekt Flash: misato",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1378,11 +1651,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030516_misato.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/agathainschool/misato.swf",
-    "archive_url": "https://web.archive.org/web/20030516081019id_/http://www.republika.pl:80/agathainschool/misato.swf"
+    "archive_url": "https://web.archive.org/web/20030516081019id_/http://www.republika.pl:80/agathainschool/misato.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040318_przyciski.swf",
-    "title": "Projekt Flash: 20040318_przyciski.swf",
+    "title": "Projekt Flash: przyciski",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1393,14 +1669,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040318_przyciski.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/agatka143/przyciski.swf",
-    "archive_url": "https://web.archive.org/web/20040318225632id_/http://www.republika.pl:80/agatka143/przyciski.swf"
+    "archive_url": "https://web.archive.org/web/20040318225632id_/http://www.republika.pl:80/agatka143/przyciski.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040914_FirstStrike.swf",
-    "title": "Projekt Flash: 20040914_FirstStrike.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 104 klatek, 10 FPS)).",
+    "title": "First Strike (Wrzesień 2004)",
+    "desc": "Dynamiczna minigra zręcznościowa / symulator walki powietrznej ocalony z prywatnej witryny na Republice (104 klatki, Flash v4).",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "arcade",
     "domain": "republika.pl",
     "year": "2004",
     "size_str": "21.8 KB",
@@ -1408,11 +1687,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040914_FirstStrike.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 104 klatek, 10 FPS)",
     "original_url": "http://republika.pl:80/agnieszka1022/FirstStrike.swf",
-    "archive_url": "https://web.archive.org/web/20040914035739id_/http://republika.pl:80/agnieszka1022/FirstStrike.swf"
+    "archive_url": "https://web.archive.org/web/20040914035739id_/http://republika.pl:80/agnieszka1022/FirstStrike.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20040929_index.swf",
-    "title": "Projekt Flash: 20040929_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 344 klatek, 10 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1423,11 +1705,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040929_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 344 klatek, 10 FPS)",
     "original_url": "http://republika.pl:80/agnieszka_deker/index.swf",
-    "archive_url": "https://web.archive.org/web/20040929132547id_/http://republika.pl:80/agnieszka_deker/index.swf"
+    "archive_url": "https://web.archive.org/web/20040929132547id_/http://republika.pl:80/agnieszka_deker/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050214_portfolio2.swf",
-    "title": "Projekt Flash: 20050214_portfolio2.swf",
+    "title": "Projekt Flash: portfolio2",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 3 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1438,11 +1723,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050214_portfolio2.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 3 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/agozdecka/portfolio2.swf",
-    "archive_url": "https://web.archive.org/web/20050214204140id_/http://republika.pl:80/agozdecka/portfolio2.swf"
+    "archive_url": "https://web.archive.org/web/20050214204140id_/http://republika.pl:80/agozdecka/portfolio2.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040703_Ddddd.swf",
-    "title": "Projekt Flash: 20040703_Ddddd.swf",
+    "title": "Projekt Flash: Ddddd",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 85 klatek, 10 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1453,11 +1741,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040703_Ddddd.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 85 klatek, 10 FPS)",
     "original_url": "http://republika.pl:80/agrajter/multimedia/Ddddd.swf",
-    "archive_url": "https://web.archive.org/web/20040703152659id_/http://republika.pl:80/agrajter/multimedia/Ddddd.swf"
+    "archive_url": "https://web.archive.org/web/20040703152659id_/http://republika.pl:80/agrajter/multimedia/Ddddd.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20041128_rezerwacje1.swf",
-    "title": "Projekt Flash: 20041128_rezerwacje1.swf",
+    "title": "Projekt Flash: rezerwacje1",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 360 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1468,11 +1759,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041128_rezerwacje1.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 360 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/agrosalpik/flash/rezerwacje1.swf",
-    "archive_url": "https://web.archive.org/web/20041128113826id_/http://republika.pl:80/agrosalpik/flash/rezerwacje1.swf"
+    "archive_url": "https://web.archive.org/web/20041128113826id_/http://republika.pl:80/agrosalpik/flash/rezerwacje1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030824_dojazd.swf",
-    "title": "Projekt Flash: 20030824_dojazd.swf",
+    "title": "Projekt Flash: dojazd",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 5 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1483,11 +1777,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030824_dojazd.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 5 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/agrotur_huta/dojazd.swf",
-    "archive_url": "https://web.archive.org/web/20030824203640id_/http://republika.pl:80/agrotur_huta/dojazd.swf"
+    "archive_url": "https://web.archive.org/web/20030824203640id_/http://republika.pl:80/agrotur_huta/dojazd.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20030829_historia.swf",
-    "title": "Projekt Flash: 20030829_historia.swf",
+    "title": "Projekt Flash: historia",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 7 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1498,11 +1795,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030829_historia.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 7 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/agrotur_huta/historia.swf",
-    "archive_url": "https://web.archive.org/web/20030829145044id_/http://republika.pl:80/agrotur_huta/historia.swf"
+    "archive_url": "https://web.archive.org/web/20030829145044id_/http://republika.pl:80/agrotur_huta/historia.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030711_index.swf",
-    "title": "Projekt Flash: 20030711_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1513,11 +1813,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030711_index.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/agrotur_huta/index.swf",
-    "archive_url": "https://web.archive.org/web/20030711021718id_/http://republika.pl:80/agrotur_huta/index.swf"
+    "archive_url": "https://web.archive.org/web/20030711021718id_/http://republika.pl:80/agrotur_huta/index.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20030829_szlaki-tur.swf",
-    "title": "Projekt Flash: 20030829_szlaki-tur.swf",
+    "title": "Projekt Flash: szlaki-tur",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 14 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1528,11 +1831,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030829_szlaki-tur.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 14 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/agrotur_huta/szlaki-tur.swf",
-    "archive_url": "https://web.archive.org/web/20030829135803id_/http://republika.pl:80/agrotur_huta/szlaki-tur.swf"
+    "archive_url": "https://web.archive.org/web/20030829135803id_/http://republika.pl:80/agrotur_huta/szlaki-tur.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030710_zdjecia.swf",
-    "title": "Projekt Flash: 20030710_zdjecia.swf",
+    "title": "Projekt Flash: zdjecia",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 12 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1543,11 +1849,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030710_zdjecia.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 12 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/agrotur_huta/zdjecia.swf",
-    "archive_url": "https://web.archive.org/web/20030710224752id_/http://republika.pl:80/agrotur_huta/zdjecia.swf"
+    "archive_url": "https://web.archive.org/web/20030710224752id_/http://republika.pl:80/agrotur_huta/zdjecia.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20041107_sfinks.swf",
-    "title": "Projekt Flash: 20041107_sfinks.swf",
+    "title": "Projekt Flash: sfinks",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 146 klatek, 16 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1558,11 +1867,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041107_sfinks.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 146 klatek, 16 FPS)",
     "original_url": "http://republika.pl:80/agusiasfinks/multimedia/sfinks.swf",
-    "archive_url": "https://web.archive.org/web/20041107111437id_/http://republika.pl:80/agusiasfinks/multimedia/sfinks.swf"
+    "archive_url": "https://web.archive.org/web/20041107111437id_/http://republika.pl:80/agusiasfinks/multimedia/sfinks.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040503_flash.swf",
-    "title": "Projekt Flash: 20040503_flash.swf",
+    "title": "Projekt Flash: flash",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 49 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1573,11 +1885,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040503_flash.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 49 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/ahs/flash.swf",
-    "archive_url": "https://web.archive.org/web/20040503232819id_/http://republika.pl:80/ahs/flash.swf"
+    "archive_url": "https://web.archive.org/web/20040503232819id_/http://republika.pl:80/ahs/flash.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030405_glowna.swf",
-    "title": "Projekt Flash: 20030405_glowna.swf",
+    "title": "Projekt Flash: glowna",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1588,11 +1903,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030405_glowna.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/aisza1/glowna.swf",
-    "archive_url": "https://web.archive.org/web/20030405020837id_/http://republika.pl:80/aisza1/glowna.swf"
+    "archive_url": "https://web.archive.org/web/20030405020837id_/http://republika.pl:80/aisza1/glowna.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040518_aiu.prv.pl.swf",
-    "title": "Projekt Flash: 20040518_aiu.prv.pl.swf",
+    "title": "Projekt Flash: aiu.prv.pl",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 20 klatek, 30 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1603,14 +1921,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040518_aiu.prv.pl.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 20 klatek, 30 FPS)",
     "original_url": "http://www.republika.pl:80/aiu01/aiu.prv.pl.swf",
-    "archive_url": "https://web.archive.org/web/20040518012900id_/http://www.republika.pl:80/aiu01/aiu.prv.pl.swf"
+    "archive_url": "https://web.archive.org/web/20040518012900id_/http://www.republika.pl:80/aiu01/aiu.prv.pl.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041128_adam3,1.swf",
-    "title": "Projekt Flash: 20041128_adam3,1.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 113 klatek, 20 FPS)).",
+    "title": "Projekt Adam 3.1 (2004)",
+    "desc": "Autorski cykl animacji Flash o przygodach Adama z archiwum Republiki.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2004",
     "size_str": "403.1 KB",
@@ -1618,11 +1939,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041128_adam3,1.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 113 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/ajezier/adam3,1.swf",
-    "archive_url": "https://web.archive.org/web/20041128121354id_/http://republika.pl:80/ajezier/adam3,1.swf"
+    "archive_url": "https://web.archive.org/web/20041128121354id_/http://republika.pl:80/ajezier/adam3,1.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20041128_adam3,1eng.swf",
-    "title": "Projekt Flash: 20041128_adam3,1eng.swf",
+    "title": "Projekt Flash: adam3,1eng",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 113 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1633,11 +1957,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041128_adam3,1eng.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 113 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/ajezier/adam3,1eng.swf",
-    "archive_url": "https://web.archive.org/web/20041128114037id_/http://republika.pl:80/ajezier/adam3,1eng.swf"
+    "archive_url": "https://web.archive.org/web/20041128114037id_/http://republika.pl:80/ajezier/adam3,1eng.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20040821_why.swf",
-    "title": "Projekt Flash: 20040821_why.swf",
+    "title": "Projekt Flash: why",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 210 klatek, 25 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1648,12 +1975,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040821_why.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 210 klatek, 25 FPS)",
     "original_url": "http://republika.pl:80/ajmarottweilers/about/why.swf",
-    "archive_url": "https://web.archive.org/web/20040821120627id_/http://republika.pl:80/ajmarottweilers/about/why.swf"
+    "archive_url": "https://web.archive.org/web/20040821120627id_/http://republika.pl:80/ajmarottweilers/about/why.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030927_Movie6.swf",
-    "title": "Animacja Flash: 20030927_Movie6.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 220 klatek, 25 FPS)).",
+    "title": "Animacja Flash: Movie6",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 220 klatek, 25 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -1663,11 +1993,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030927_Movie6.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 220 klatek, 25 FPS)",
     "original_url": "http://republika.pl:80/ajmarottweilers/Movie6.swf",
-    "archive_url": "https://web.archive.org/web/20030927225336id_/http://republika.pl:80/ajmarottweilers/Movie6.swf"
+    "archive_url": "https://web.archive.org/web/20030927225336id_/http://republika.pl:80/ajmarottweilers/Movie6.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040914_obowiazkowe.swf",
-    "title": "Projekt Flash: 20040914_obowiazkowe.swf",
+    "title": "Projekt Flash: obowiazkowe",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 102 klatek, 23 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1678,11 +2011,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040914_obowiazkowe.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 102 klatek, 23 FPS)",
     "original_url": "http://republika.pl:80/ajolie/obowiazkowe.swf",
-    "archive_url": "https://web.archive.org/web/20040914042333id_/http://republika.pl:80/ajolie/obowiazkowe.swf"
+    "archive_url": "https://web.archive.org/web/20040914042333id_/http://republika.pl:80/ajolie/obowiazkowe.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20060710_ryby1.swf",
-    "title": "Projekt Flash: 20060710_ryby1.swf",
+    "title": "Projekt Flash: ryby1",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, nieskompresowany, 44 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -1693,12 +2029,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060710_ryby1.swf",
     "details": "Macromedia Flash SWF (ver 6, nieskompresowany, 44 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/akatyst/multimedia/ryby1.swf",
-    "archive_url": "https://web.archive.org/web/20060710083841id_/http://republika.pl:80/akatyst/multimedia/ryby1.swf"
+    "archive_url": "https://web.archive.org/web/20060710083841id_/http://republika.pl:80/akatyst/multimedia/ryby1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040922_intro.swf",
-    "title": "Animacja Flash: 20040922_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 48 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 48 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -1708,11 +2047,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040922_intro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 48 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/akcent_kalendarze/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040922042539id_/http://republika.pl:80/akcent_kalendarze/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040922042539id_/http://republika.pl:80/akcent_kalendarze/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20040710_tn_adservio.jpg",
-    "title": "Grafika archiwalna: adservio.jpg",
+    "title": "Grafika archiwalna: tn adservio",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1723,11 +2065,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040710_tn_adservio.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/0HOSTING/www.absoweb.com/tn_adservio.jpg",
-    "archive_url": "https://web.archive.org/web/20040710113003id_/http://republika.pl:80/0HOSTING/www.absoweb.com/tn_adservio.jpg"
+    "archive_url": "https://web.archive.org/web/20040710113003id_/http://republika.pl:80/0HOSTING/www.absoweb.com/tn_adservio.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20040710_tn_emedica.jpg",
-    "title": "Grafika archiwalna: emedica.jpg",
+    "title": "Grafika archiwalna: tn emedica",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1738,11 +2083,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040710_tn_emedica.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/0HOSTING/www.absoweb.com/tn_emedica.jpg",
-    "archive_url": "https://web.archive.org/web/20040710110747id_/http://republika.pl:80/0HOSTING/www.absoweb.com/tn_emedica.jpg"
+    "archive_url": "https://web.archive.org/web/20040710110747id_/http://republika.pl:80/0HOSTING/www.absoweb.com/tn_emedica.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20040710_tn_hagart.jpg",
-    "title": "Grafika archiwalna: hagart.jpg",
+    "title": "Grafika archiwalna: tn hagart",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1753,11 +2101,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040710_tn_hagart.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/0HOSTING/www.absoweb.com/tn_hagart.jpg",
-    "archive_url": "https://web.archive.org/web/20040710105123id_/http://republika.pl:80/0HOSTING/www.absoweb.com/tn_hagart.jpg"
+    "archive_url": "https://web.archive.org/web/20040710105123id_/http://republika.pl:80/0HOSTING/www.absoweb.com/tn_hagart.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20051107_hol.jpg",
-    "title": "Grafika archiwalna: hol.jpg",
+    "title": "Grafika archiwalna: hol",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1768,11 +2119,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20051107_hol.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/hol.jpg",
-    "archive_url": "https://web.archive.org/web/20051107080916id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/hol.jpg"
+    "archive_url": "https://web.archive.org/web/20051107080916id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/hol.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20051107_niem.jpg",
-    "title": "Grafika archiwalna: niem.jpg",
+    "title": "Grafika archiwalna: niem",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1783,11 +2137,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20051107_niem.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/niem.jpg",
-    "archive_url": "https://web.archive.org/web/20051107080454id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/niem.jpg"
+    "archive_url": "https://web.archive.org/web/20051107080454id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/niem.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20051107_usa.jpg",
-    "title": "Grafika archiwalna: usa.jpg",
+    "title": "Grafika archiwalna: usa",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1798,11 +2155,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20051107_usa.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/usa.jpg",
-    "archive_url": "https://web.archive.org/web/20051107080504id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/usa.jpg"
+    "archive_url": "https://web.archive.org/web/20051107080504id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/aupair_pliki/usa.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20051107_1.jpg",
-    "title": "Grafika archiwalna: 1.jpg",
+    "title": "Grafika archiwalna: 1",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1813,11 +2173,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20051107_1.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/1.jpg",
-    "archive_url": "https://web.archive.org/web/20051107080933id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/1.jpg"
+    "archive_url": "https://web.archive.org/web/20051107080933id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/1.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20051107_5.jpg",
-    "title": "Grafika archiwalna: 5.jpg",
+    "title": "Grafika archiwalna: 5",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1828,11 +2191,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20051107_5.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/5.jpg",
-    "archive_url": "https://web.archive.org/web/20051107080927id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/5.jpg"
+    "archive_url": "https://web.archive.org/web/20051107080927id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/5.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20051107_6.jpg",
-    "title": "Grafika archiwalna: 6.jpg",
+    "title": "Grafika archiwalna: 6",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1843,11 +2209,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20051107_6.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/6.jpg",
-    "archive_url": "https://web.archive.org/web/20051107080917id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/6.jpg"
+    "archive_url": "https://web.archive.org/web/20051107080917id_/http://republika.pl/0HOSTING/www.agencjafinansowa.com/image/6.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20041225_top1.jpg",
-    "title": "Grafika archiwalna: top1.jpg",
+    "title": "Grafika archiwalna: top1",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1858,11 +2227,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041225_top1.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a-a/top1.jpg",
-    "archive_url": "https://web.archive.org/web/20041225174036id_/http://republika.pl:80/a-a/top1.jpg"
+    "archive_url": "https://web.archive.org/web/20041225174036id_/http://republika.pl:80/a-a/top1.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20041225_top2.jpg",
-    "title": "Grafika archiwalna: top2.jpg",
+    "title": "Grafika archiwalna: top2",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1873,11 +2245,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041225_top2.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a-a/top2.jpg",
-    "archive_url": "https://web.archive.org/web/20041225182644id_/http://republika.pl:80/a-a/top2.jpg"
+    "archive_url": "https://web.archive.org/web/20041225182644id_/http://republika.pl:80/a-a/top2.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060303_GZ1.jpg",
-    "title": "Grafika archiwalna: GZ1.jpg",
+    "title": "Grafika archiwalna: GZ1",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1888,11 +2263,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060303_GZ1.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a09/au/GZ1.jpg",
-    "archive_url": "https://web.archive.org/web/20060303080138id_/http://republika.pl:80/a09/au/GZ1.jpg"
+    "archive_url": "https://web.archive.org/web/20060303080138id_/http://republika.pl:80/a09/au/GZ1.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060303_maszpileall.jpg",
-    "title": "Grafika archiwalna: maszpileall.jpg",
+    "title": "Grafika archiwalna: maszpileall",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1903,11 +2281,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060303_maszpileall.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a09/au/maszpileall.jpg",
-    "archive_url": "https://web.archive.org/web/20060303080422id_/http://republika.pl:80/a09/au/maszpileall.jpg"
+    "archive_url": "https://web.archive.org/web/20060303080422id_/http://republika.pl:80/a09/au/maszpileall.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060415_but2.jpg",
-    "title": "Grafika archiwalna: but2.jpg",
+    "title": "Grafika archiwalna: but2",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1918,11 +2299,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060415_but2.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a09/d/but2.jpg",
-    "archive_url": "https://web.archive.org/web/20060415221148id_/http://republika.pl:80/a09/d/but2.jpg"
+    "archive_url": "https://web.archive.org/web/20060415221148id_/http://republika.pl:80/a09/d/but2.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060415_zasady.jpg",
-    "title": "Grafika archiwalna: zasady.jpg",
+    "title": "Grafika archiwalna: zasady",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1933,11 +2317,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060415_zasady.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a09/zasady.jpg",
-    "archive_url": "https://web.archive.org/web/20060415140245id_/http://republika.pl:80/a09/zasady.jpg"
+    "archive_url": "https://web.archive.org/web/20060415140245id_/http://republika.pl:80/a09/zasady.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030128_image004.jpg",
-    "title": "Grafika archiwalna: image004.jpg",
+    "title": "Grafika archiwalna: image004",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1948,11 +2335,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030128_image004.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a1294477/index_pliki/image004.jpg",
-    "archive_url": "https://web.archive.org/web/20030128090417id_/http://republika.pl:80/a1294477/index_pliki/image004.jpg"
+    "archive_url": "https://web.archive.org/web/20030128090417id_/http://republika.pl:80/a1294477/index_pliki/image004.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20020525_wasieksite2.jpg",
-    "title": "Grafika archiwalna: wasieksite2.jpg",
+    "title": "Grafika archiwalna: wasieksite2",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1963,11 +2353,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020525_wasieksite2.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a1wasiek/wasieksite2.jpg",
-    "archive_url": "https://web.archive.org/web/20020525092802id_/http://republika.pl:80/a1wasiek/wasieksite2.jpg"
+    "archive_url": "https://web.archive.org/web/20020525092802id_/http://republika.pl:80/a1wasiek/wasieksite2.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20020313_wit.jpg",
-    "title": "Grafika archiwalna: wit.jpg",
+    "title": "Grafika archiwalna: wit",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1978,11 +2371,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020313_wit.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a1wasiek/wit.jpg",
-    "archive_url": "https://web.archive.org/web/20020313061609id_/http://republika.pl:80/a1wasiek/wit.jpg"
+    "archive_url": "https://web.archive.org/web/20020313061609id_/http://republika.pl:80/a1wasiek/wit.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060521_natura2.jpg",
-    "title": "Grafika archiwalna: natura2.jpg",
+    "title": "Grafika archiwalna: natura2",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -1993,11 +2389,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060521_natura2.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a2galeria/foto/natura2.jpg",
-    "archive_url": "https://web.archive.org/web/20060521212054id_/http://republika.pl:80/a2galeria/foto/natura2.jpg"
+    "archive_url": "https://web.archive.org/web/20060521212054id_/http://republika.pl:80/a2galeria/foto/natura2.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060521_natura3.jpg",
-    "title": "Grafika archiwalna: natura3.jpg",
+    "title": "Grafika archiwalna: natura3",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2008,11 +2407,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060521_natura3.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl:80/a2galeria/foto/natura3.jpg",
-    "archive_url": "https://web.archive.org/web/20060521212108id_/http://republika.pl:80/a2galeria/foto/natura3.jpg"
+    "archive_url": "https://web.archive.org/web/20060521212108id_/http://republika.pl:80/a2galeria/foto/natura3.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20050714_0021426_b.jpg",
-    "title": "Grafika archiwalna: b.jpg",
+    "title": "Grafika archiwalna: 0021426 b",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2023,11 +2425,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050714_0021426_b.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://republika.pl/a3tunning/0021426_b.jpg",
-    "archive_url": "https://web.archive.org/web/20050714062150id_/http://republika.pl/a3tunning/0021426_b.jpg"
+    "archive_url": "https://web.archive.org/web/20050714062150id_/http://republika.pl/a3tunning/0021426_b.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060708_22.JPG",
-    "title": "Grafika archiwalna: 22.JPG",
+    "title": "Grafika archiwalna: 22",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2038,11 +2443,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060708_22.JPG",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/22.JPG",
-    "archive_url": "https://web.archive.org/web/20060708102353id_/http://www.republika.pl:80/a58szczepzhr/22.JPG"
+    "archive_url": "https://web.archive.org/web/20060708102353id_/http://www.republika.pl:80/a58szczepzhr/22.JPG",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060720_27aa.jpg",
-    "title": "Grafika archiwalna: 27aa.jpg",
+    "title": "Grafika archiwalna: 27aa",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2053,11 +2461,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060720_27aa.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/27aa.jpg",
-    "archive_url": "https://web.archive.org/web/20060720182453id_/http://www.republika.pl:80/a58szczepzhr/27aa.jpg"
+    "archive_url": "https://web.archive.org/web/20060720182453id_/http://www.republika.pl:80/a58szczepzhr/27aa.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060713_3.JPG",
-    "title": "Grafika archiwalna: 3.JPG",
+    "title": "Grafika archiwalna: 3",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2068,11 +2479,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060713_3.JPG",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/3.JPG",
-    "archive_url": "https://web.archive.org/web/20060713155326id_/http://www.republika.pl:80/a58szczepzhr/3.JPG"
+    "archive_url": "https://web.archive.org/web/20060713155326id_/http://www.republika.pl:80/a58szczepzhr/3.JPG",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060714_bs11.jpg",
-    "title": "Grafika archiwalna: bs11.jpg",
+    "title": "Grafika archiwalna: bs11",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2083,11 +2497,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060714_bs11.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs11.jpg",
-    "archive_url": "https://web.archive.org/web/20060714190017id_/http://www.republika.pl:80/a58szczepzhr/bs11.jpg"
+    "archive_url": "https://web.archive.org/web/20060714190017id_/http://www.republika.pl:80/a58szczepzhr/bs11.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060707_bs12.jpg",
-    "title": "Grafika archiwalna: bs12.jpg",
+    "title": "Grafika archiwalna: bs12",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2098,11 +2515,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060707_bs12.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs12.jpg",
-    "archive_url": "https://web.archive.org/web/20060707211301id_/http://www.republika.pl:80/a58szczepzhr/bs12.jpg"
+    "archive_url": "https://web.archive.org/web/20060707211301id_/http://www.republika.pl:80/a58szczepzhr/bs12.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060707_bs13.jpg",
-    "title": "Grafika archiwalna: bs13.jpg",
+    "title": "Grafika archiwalna: bs13",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2113,11 +2533,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060707_bs13.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs13.jpg",
-    "archive_url": "https://web.archive.org/web/20060707211314id_/http://www.republika.pl:80/a58szczepzhr/bs13.jpg"
+    "archive_url": "https://web.archive.org/web/20060707211314id_/http://www.republika.pl:80/a58szczepzhr/bs13.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060704_bs15.jpg",
-    "title": "Grafika archiwalna: bs15.jpg",
+    "title": "Grafika archiwalna: bs15",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2128,11 +2551,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060704_bs15.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs15.jpg",
-    "archive_url": "https://web.archive.org/web/20060704140055id_/http://www.republika.pl:80/a58szczepzhr/bs15.jpg"
+    "archive_url": "https://web.archive.org/web/20060704140055id_/http://www.republika.pl:80/a58szczepzhr/bs15.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060705_bs16.jpg",
-    "title": "Grafika archiwalna: bs16.jpg",
+    "title": "Grafika archiwalna: bs16",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2143,11 +2569,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060705_bs16.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs16.jpg",
-    "archive_url": "https://web.archive.org/web/20060705121040id_/http://www.republika.pl:80/a58szczepzhr/bs16.jpg"
+    "archive_url": "https://web.archive.org/web/20060705121040id_/http://www.republika.pl:80/a58szczepzhr/bs16.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060707_bs17.jpg",
-    "title": "Grafika archiwalna: bs17.jpg",
+    "title": "Grafika archiwalna: bs17",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2158,11 +2587,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060707_bs17.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs17.jpg",
-    "archive_url": "https://web.archive.org/web/20060707051224id_/http://www.republika.pl:80/a58szczepzhr/bs17.jpg"
+    "archive_url": "https://web.archive.org/web/20060707051224id_/http://www.republika.pl:80/a58szczepzhr/bs17.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060707_bs21.jpg",
-    "title": "Grafika archiwalna: bs21.jpg",
+    "title": "Grafika archiwalna: bs21",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2173,11 +2605,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060707_bs21.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs21.jpg",
-    "archive_url": "https://web.archive.org/web/20060707211341id_/http://www.republika.pl:80/a58szczepzhr/bs21.jpg"
+    "archive_url": "https://web.archive.org/web/20060707211341id_/http://www.republika.pl:80/a58szczepzhr/bs21.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060707_bs22.jpg",
-    "title": "Grafika archiwalna: bs22.jpg",
+    "title": "Grafika archiwalna: bs22",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2188,11 +2623,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060707_bs22.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs22.jpg",
-    "archive_url": "https://web.archive.org/web/20060707211354id_/http://www.republika.pl:80/a58szczepzhr/bs22.jpg"
+    "archive_url": "https://web.archive.org/web/20060707211354id_/http://www.republika.pl:80/a58szczepzhr/bs22.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060714_bs23.jpg",
-    "title": "Grafika archiwalna: bs23.jpg",
+    "title": "Grafika archiwalna: bs23",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2203,11 +2641,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060714_bs23.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs23.jpg",
-    "archive_url": "https://web.archive.org/web/20060714190121id_/http://www.republika.pl:80/a58szczepzhr/bs23.jpg"
+    "archive_url": "https://web.archive.org/web/20060714190121id_/http://www.republika.pl:80/a58szczepzhr/bs23.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060705_bs24.jpg",
-    "title": "Grafika archiwalna: bs24.jpg",
+    "title": "Grafika archiwalna: bs24",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2218,11 +2659,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060705_bs24.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs24.jpg",
-    "archive_url": "https://web.archive.org/web/20060705121115id_/http://www.republika.pl:80/a58szczepzhr/bs24.jpg"
+    "archive_url": "https://web.archive.org/web/20060705121115id_/http://www.republika.pl:80/a58szczepzhr/bs24.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060711_bs25.jpg",
-    "title": "Grafika archiwalna: bs25.jpg",
+    "title": "Grafika archiwalna: bs25",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2233,11 +2677,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060711_bs25.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs25.jpg",
-    "archive_url": "https://web.archive.org/web/20060711163839id_/http://www.republika.pl:80/a58szczepzhr/bs25.jpg"
+    "archive_url": "https://web.archive.org/web/20060711163839id_/http://www.republika.pl:80/a58szczepzhr/bs25.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060704_bs26.jpg",
-    "title": "Grafika archiwalna: bs26.jpg",
+    "title": "Grafika archiwalna: bs26",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2248,11 +2695,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060704_bs26.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs26.jpg",
-    "archive_url": "https://web.archive.org/web/20060704140411id_/http://www.republika.pl:80/a58szczepzhr/bs26.jpg"
+    "archive_url": "https://web.archive.org/web/20060704140411id_/http://www.republika.pl:80/a58szczepzhr/bs26.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060704_bs27.jpg",
-    "title": "Grafika archiwalna: bs27.jpg",
+    "title": "Grafika archiwalna: bs27",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2263,11 +2713,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060704_bs27.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs27.jpg",
-    "archive_url": "https://web.archive.org/web/20060704140426id_/http://www.republika.pl:80/a58szczepzhr/bs27.jpg"
+    "archive_url": "https://web.archive.org/web/20060704140426id_/http://www.republika.pl:80/a58szczepzhr/bs27.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060710_bs28.jpg",
-    "title": "Grafika archiwalna: bs28.jpg",
+    "title": "Grafika archiwalna: bs28",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2278,11 +2731,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060710_bs28.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs28.jpg",
-    "archive_url": "https://web.archive.org/web/20060710015515id_/http://www.republika.pl:80/a58szczepzhr/bs28.jpg"
+    "archive_url": "https://web.archive.org/web/20060710015515id_/http://www.republika.pl:80/a58szczepzhr/bs28.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060707_bs29.jpg",
-    "title": "Grafika archiwalna: bs29.jpg",
+    "title": "Grafika archiwalna: bs29",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2293,11 +2749,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060707_bs29.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs29.jpg",
-    "archive_url": "https://web.archive.org/web/20060707051236id_/http://www.republika.pl:80/a58szczepzhr/bs29.jpg"
+    "archive_url": "https://web.archive.org/web/20060707051236id_/http://www.republika.pl:80/a58szczepzhr/bs29.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060711_bs30.jpg",
-    "title": "Grafika archiwalna: bs30.jpg",
+    "title": "Grafika archiwalna: bs30",
     "desc": "Rozmiar: Obraz JPEG, pochodzenie: republika.pl.",
     "format": "JPEG",
     "wing": "gallery",
@@ -2308,11 +2767,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060711_bs30.jpg",
     "details": "Obraz JPEG",
     "original_url": "http://www.republika.pl:80/a58szczepzhr/bs30.jpg",
-    "archive_url": "https://web.archive.org/web/20060711163851id_/http://www.republika.pl:80/a58szczepzhr/bs30.jpg"
+    "archive_url": "https://web.archive.org/web/20060711163851id_/http://www.republika.pl:80/a58szczepzhr/bs30.jpg",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20040214_index.swf",
-    "title": "Projekt Flash: 20040214_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 41 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2323,14 +2785,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040214_index.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 41 klatek, 12 FPS)",
     "original_url": "http://flash5.0.webpark.pl:80/index.swf",
-    "archive_url": "https://web.archive.org/web/20040214123153id_/http://flash5.0.webpark.pl:80/index.swf"
+    "archive_url": "https://web.archive.org/web/20040214123153id_/http://flash5.0.webpark.pl:80/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040623_main.swf",
-    "title": "Projekt Flash: 20040623_main.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 173 klatek, 20 FPS)).",
+    "title": "Animacja Flash: main",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 173 klatek, 20 FPS)) z domeny webpark.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "webpark.pl",
     "year": "2004",
     "size_str": "165.7 KB",
@@ -2338,11 +2803,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040623_main.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 173 klatek, 20 FPS)",
     "original_url": "http://007dj.webpark.pl:80/main.swf",
-    "archive_url": "https://web.archive.org/web/20040623074235id_/http://007dj.webpark.pl:80/main.swf"
+    "archive_url": "https://web.archive.org/web/20040623074235id_/http://007dj.webpark.pl:80/main.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20040615_gora.swf",
-    "title": "Projekt Flash: 20040615_gora.swf",
+    "title": "Projekt Flash: gora",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 135 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2353,11 +2821,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040615_gora.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 135 klatek, 12 FPS)",
     "original_url": "http://007jamesbond.webpark.pl:80/gora.swf",
-    "archive_url": "https://web.archive.org/web/20040615112732id_/http://007jamesbond.webpark.pl:80/gora.swf"
+    "archive_url": "https://web.archive.org/web/20040615112732id_/http://007jamesbond.webpark.pl:80/gora.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040615_lewy.swf",
-    "title": "Projekt Flash: 20040615_lewy.swf",
+    "title": "Projekt Flash: lewy",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2368,11 +2839,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040615_lewy.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://007jamesbond.webpark.pl:80/lewy.swf",
-    "archive_url": "https://web.archive.org/web/20040615131430id_/http://007jamesbond.webpark.pl:80/lewy.swf"
+    "archive_url": "https://web.archive.org/web/20040615131430id_/http://007jamesbond.webpark.pl:80/lewy.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20050507_omniee.swf",
-    "title": "Projekt Flash: 20050507_omniee.swf",
+    "title": "Projekt Flash: omniee",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, zlib, 12 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2383,11 +2857,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050507_omniee.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 12 klatek, 20 FPS)",
     "original_url": "http://04379.webpark.pl:80/omniee.swf",
-    "archive_url": "https://web.archive.org/web/20050507030222id_/http://04379.webpark.pl:80/omniee.swf"
+    "archive_url": "https://web.archive.org/web/20050507030222id_/http://04379.webpark.pl:80/omniee.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041109_head.swf",
-    "title": "Projekt Flash: 20041109_head.swf",
+    "title": "Projekt Flash: head",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 7, zlib, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2398,11 +2875,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041109_head.swf",
     "details": "Macromedia Flash SWF (ver 7, zlib, 1 klatek, 12 FPS)",
     "original_url": "http://www.07101986.webpark.pl:80/avril/pic/head.swf",
-    "archive_url": "https://web.archive.org/web/20041109105232id_/http://www.07101986.webpark.pl:80/avril/pic/head.swf"
+    "archive_url": "https://web.archive.org/web/20041109105232id_/http://www.07101986.webpark.pl:80/avril/pic/head.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040207_index.swf",
-    "title": "Projekt Flash: 20040207_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 966 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2413,11 +2893,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040207_index.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 966 klatek, 12 FPS)",
     "original_url": "http://strona.1.webpark.pl:80/index.swf",
-    "archive_url": "https://web.archive.org/web/20040207002350id_/http://strona.1.webpark.pl:80/index.swf"
+    "archive_url": "https://web.archive.org/web/20040207002350id_/http://strona.1.webpark.pl:80/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040721_a_flash.swf",
-    "title": "Projekt Flash: 20040721_a_flash.swf",
+    "title": "Projekt Flash: a flash",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 220 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2428,14 +2911,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040721_a_flash.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 220 klatek, 12 FPS)",
     "original_url": "http://1-lo.webpark.pl:80/a_flash.swf",
-    "archive_url": "https://web.archive.org/web/20040721103216id_/http://1-lo.webpark.pl:80/a_flash.swf"
+    "archive_url": "https://web.archive.org/web/20040721103216id_/http://1-lo.webpark.pl:80/a_flash.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040616_bird.swf",
-    "title": "Projekt Flash: 20040616_bird.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1580 klatek, 24 FPS)).",
+    "title": "Bird Animation (2004)",
+    "desc": "Wektorowa animacja ornitologiczna z płynnym lotem ptaka ocalona z Webparku.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "webpark.pl",
     "year": "2004",
     "size_str": "308.1 KB",
@@ -2443,14 +2929,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040616_bird.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1580 klatek, 24 FPS)",
     "original_url": "http://www.100lec.webpark.pl:80/zasoby/bird.swf",
-    "archive_url": "https://web.archive.org/web/20040616055939id_/http://www.100lec.webpark.pl:80/zasoby/bird.swf"
+    "archive_url": "https://web.archive.org/web/20040616055939id_/http://www.100lec.webpark.pl:80/zasoby/bird.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20040616_growl_karaokie.swf",
-    "title": "Projekt Flash: 20040616_growl_karaokie.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 678 klatek, 12 FPS)).",
+    "title": "Growl Karaoke (Czerwiec 2004)",
+    "desc": "Muzyczna gra interaktywna w stylu deathmetalowego karaoke z serwera 100lat.info/webpark.pl (526 KB, 678 klatek). Wokalne wyzwanie epoki!",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "arcade",
     "domain": "webpark.pl",
     "year": "2004",
     "size_str": "526.2 KB",
@@ -2458,11 +2947,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040616_growl_karaokie.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 678 klatek, 12 FPS)",
     "original_url": "http://www.100lec.webpark.pl:80/zasoby/growl_karaokie.swf",
-    "archive_url": "https://web.archive.org/web/20040616122939id_/http://www.100lec.webpark.pl:80/zasoby/growl_karaokie.swf"
+    "archive_url": "https://web.archive.org/web/20040616122939id_/http://www.100lec.webpark.pl:80/zasoby/growl_karaokie.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20040609_galeria.swf",
-    "title": "Projekt Flash: 20040609_galeria.swf",
+    "title": "Projekt Flash: galeria",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2473,11 +2965,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040609_galeria.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://www.110wgzdg.webpark.pl:80/graf/galeria.swf",
-    "archive_url": "https://web.archive.org/web/20040609222758id_/http://www.110wgzdg.webpark.pl:80/graf/galeria.swf"
+    "archive_url": "https://web.archive.org/web/20040609222758id_/http://www.110wgzdg.webpark.pl:80/graf/galeria.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20041105_1125.swf",
-    "title": "Projekt Flash: 20041105_1125.swf",
+    "title": "Projekt Flash: 1125",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 125 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2488,11 +2983,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041105_1125.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 125 klatek, 12 FPS)",
     "original_url": "http://1125.webpark.pl:80/1125.swf",
-    "archive_url": "https://web.archive.org/web/20041105140610id_/http://1125.webpark.pl:80/1125.swf"
+    "archive_url": "https://web.archive.org/web/20041105140610id_/http://1125.webpark.pl:80/1125.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050825_krol.swf",
-    "title": "Projekt Flash: 20050825_krol.swf",
+    "title": "Projekt Flash: krol",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 58 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2503,11 +3001,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050825_krol.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 58 klatek, 12 FPS)",
     "original_url": "http://przedszkole.14.webpark.pl:80/flash/krol.swf",
-    "archive_url": "https://web.archive.org/web/20050825035556id_/http://przedszkole.14.webpark.pl:80/flash/krol.swf"
+    "archive_url": "https://web.archive.org/web/20050825035556id_/http://przedszkole.14.webpark.pl:80/flash/krol.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040706_161at137.swf",
-    "title": "Projekt Flash: 20040706_161at137.swf",
+    "title": "Projekt Flash: 161at137",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, zlib, 754 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2518,11 +3019,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040706_161at137.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 754 klatek, 20 FPS)",
     "original_url": "http://161at137.webpark.pl:80/161at137.swf",
-    "archive_url": "https://web.archive.org/web/20040706132826id_/http://161at137.webpark.pl:80/161at137.swf"
+    "archive_url": "https://web.archive.org/web/20040706132826id_/http://161at137.webpark.pl:80/161at137.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20031210_pink.swf",
-    "title": "Projekt Flash: 20031210_pink.swf",
+    "title": "Projekt Flash: pink",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2533,11 +3037,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031210_pink.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://17planio.webpark.pl:80/pink.swf",
-    "archive_url": "https://web.archive.org/web/20031210172334id_/http://17planio.webpark.pl:80/pink.swf"
+    "archive_url": "https://web.archive.org/web/20031210172334id_/http://17planio.webpark.pl:80/pink.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040328_strona.swf",
-    "title": "Projekt Flash: 20040328_strona.swf",
+    "title": "Projekt Flash: strona",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 36 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2548,11 +3055,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040328_strona.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 36 klatek, 12 FPS)",
     "original_url": "http://187ulm.webpark.pl:80/BzN/strona.swf",
-    "archive_url": "https://web.archive.org/web/20040328094340id_/http://187ulm.webpark.pl:80/BzN/strona.swf"
+    "archive_url": "https://web.archive.org/web/20040328094340id_/http://187ulm.webpark.pl:80/BzN/strona.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20050118_download.swf",
-    "title": "Projekt Flash: 20050118_download.swf",
+    "title": "Projekt Flash: download",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 39 klatek, 15 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2563,11 +3073,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050118_download.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 39 klatek, 15 FPS)",
     "original_url": "http://1983lucas.webpark.pl:80/download.swf",
-    "archive_url": "https://web.archive.org/web/20050118011427id_/http://1983lucas.webpark.pl:80/download.swf"
+    "archive_url": "https://web.archive.org/web/20050118011427id_/http://1983lucas.webpark.pl:80/download.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040712_me.swf",
-    "title": "Projekt Flash: 20040712_me.swf",
+    "title": "Projekt Flash: me",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2578,11 +3091,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040712_me.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://19katowice64.webpark.pl:80/me.swf",
-    "archive_url": "https://web.archive.org/web/20040712034720id_/http://19katowice64.webpark.pl:80/me.swf"
+    "archive_url": "https://web.archive.org/web/20040712034720id_/http://19katowice64.webpark.pl:80/me.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040829_men.swf",
-    "title": "Projekt Flash: 20040829_men.swf",
+    "title": "Projekt Flash: men",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 168 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2593,11 +3109,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040829_men.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 168 klatek, 12 FPS)",
     "original_url": "http://19katowice64.webpark.pl:80/men.swf",
-    "archive_url": "https://web.archive.org/web/20040829191508id_/http://19katowice64.webpark.pl:80/men.swf"
+    "archive_url": "https://web.archive.org/web/20040829191508id_/http://19katowice64.webpark.pl:80/men.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041102_index.swf",
-    "title": "Projekt Flash: 20041102_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 43 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2608,11 +3127,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041102_index.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 43 klatek, 20 FPS)",
     "original_url": "http://1a1.webpark.pl:80/index.swf",
-    "archive_url": "https://web.archive.org/web/20041102091402id_/http://1a1.webpark.pl:80/index.swf"
+    "archive_url": "https://web.archive.org/web/20041102091402id_/http://1a1.webpark.pl:80/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041128_m.swf",
-    "title": "Projekt Flash: 20041128_m.swf",
+    "title": "Projekt Flash: m",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2623,11 +3145,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041128_m.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://1a_page.webpark.pl:80/m.swf",
-    "archive_url": "https://web.archive.org/web/20041128071233id_/http://1a_page.webpark.pl:80/m.swf"
+    "archive_url": "https://web.archive.org/web/20041128071233id_/http://1a_page.webpark.pl:80/m.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040706_clock_calendar.swf",
-    "title": "Projekt Flash: 20040706_clock_calendar.swf",
+    "title": "Projekt Flash: clock calendar",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 107 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2638,11 +3163,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040706_clock_calendar.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 107 klatek, 20 FPS)",
     "original_url": "http://1alo-matfiz.webpark.pl:80/pliki/clock_calendar.swf",
-    "archive_url": "https://web.archive.org/web/20040706094151id_/http://1alo-matfiz.webpark.pl:80/pliki/clock_calendar.swf"
+    "archive_url": "https://web.archive.org/web/20040706094151id_/http://1alo-matfiz.webpark.pl:80/pliki/clock_calendar.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040920_klasa.swf",
-    "title": "Projekt Flash: 20040920_klasa.swf",
+    "title": "Projekt Flash: klasa",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2653,11 +3181,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040920_klasa.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://1c-6lo.webpark.pl:80/klasa.swf",
-    "archive_url": "https://web.archive.org/web/20040920063440id_/http://1c-6lo.webpark.pl:80/klasa.swf"
+    "archive_url": "https://web.archive.org/web/20040920063440id_/http://1c-6lo.webpark.pl:80/klasa.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041121_nidzica.swf",
-    "title": "Projekt Flash: 20041121_nidzica.swf",
+    "title": "Projekt Flash: nidzica",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 37 klatek, 10 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2668,11 +3199,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041121_nidzica.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 37 klatek, 10 FPS)",
     "original_url": "http://1dick1.webpark.pl:80/nidzica.swf",
-    "archive_url": "https://web.archive.org/web/20041121095552id_/http://1dick1.webpark.pl:80/nidzica.swf"
+    "archive_url": "https://web.archive.org/web/20041121095552id_/http://1dick1.webpark.pl:80/nidzica.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041106_index1.swf",
-    "title": "Projekt Flash: 20041106_index1.swf",
+    "title": "Projekt Flash: index1",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 7, zlib, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2683,11 +3217,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041106_index1.swf",
     "details": "Macromedia Flash SWF (ver 7, zlib, 1 klatek, 12 FPS)",
     "original_url": "http://1ee.webpark.pl:80/index1.swf",
-    "archive_url": "https://web.archive.org/web/20041106211706id_/http://1ee.webpark.pl:80/index1.swf"
+    "archive_url": "https://web.archive.org/web/20041106211706id_/http://1ee.webpark.pl:80/index1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040921_1.swf",
-    "title": "Projekt Flash: 20040921_1.swf",
+    "title": "Projekt Flash: 1",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 7, zlib, 122 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2698,14 +3235,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040921_1.swf",
     "details": "Macromedia Flash SWF (ver 7, zlib, 122 klatek, 12 FPS)",
     "original_url": "http://www.1li.webpark.pl:80/pliki/1.swf",
-    "archive_url": "https://web.archive.org/web/20040921132721id_/http://www.1li.webpark.pl:80/pliki/1.swf"
+    "archive_url": "https://web.archive.org/web/20040921132721id_/http://www.1li.webpark.pl:80/pliki/1.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20050118_unia.swf",
-    "title": "Projekt Flash: 20050118_unia.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1187 klatek, 12 FPS)).",
+    "title": "Gra Flash: unia",
+    "desc": "Interaktywna gra Flash z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 1187 klatek, 12 FPS)) z domeny webpark.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "arcade",
     "domain": "webpark.pl",
     "year": "2005",
     "size_str": "1.34 MB",
@@ -2713,11 +3253,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050118_unia.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1187 klatek, 12 FPS)",
     "original_url": "http://unia.1lo.webpark.pl:80/unia.swf",
-    "archive_url": "https://web.archive.org/web/20050118020539id_/http://unia.1lo.webpark.pl:80/unia.swf"
+    "archive_url": "https://web.archive.org/web/20050118020539id_/http://unia.1lo.webpark.pl:80/unia.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20040911_muzyka1.swf",
-    "title": "Projekt Flash: 20040911_muzyka1.swf",
+    "title": "Projekt Flash: muzyka1",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, zlib, 2 klatek, 30 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2728,11 +3271,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040911_muzyka1.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 2 klatek, 30 FPS)",
     "original_url": "http://1ogien1.webpark.pl:80/muzyka1.swf",
-    "archive_url": "https://web.archive.org/web/20040911072945id_/http://1ogien1.webpark.pl:80/muzyka1.swf"
+    "archive_url": "https://web.archive.org/web/20040911072945id_/http://1ogien1.webpark.pl:80/muzyka1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050518_index.swf",
-    "title": "Projekt Flash: 20050518_index.swf",
+    "title": "Projekt Flash: index",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, nieskompresowany, 21 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2743,11 +3289,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050518_index.swf",
     "details": "Macromedia Flash SWF (ver 6, nieskompresowany, 21 klatek, 20 FPS)",
     "original_url": "http://artbaco.2.webpark.pl:80/index.swf",
-    "archive_url": "https://web.archive.org/web/20050518185800id_/http://artbaco.2.webpark.pl:80/index.swf"
+    "archive_url": "https://web.archive.org/web/20050518185800id_/http://artbaco.2.webpark.pl:80/index.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040330_pomogl_pajaczek.swf",
-    "title": "Projekt Flash: 20040330_pomogl_pajaczek.swf",
+    "title": "Projekt Flash: pomogl pajaczek",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 10 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2758,11 +3307,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040330_pomogl_pajaczek.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1 klatek, 10 FPS)",
     "original_url": "http://commandos.2.webpark.pl:80/index/pomogl_pajaczek.swf",
-    "archive_url": "https://web.archive.org/web/20040330024140id_/http://commandos.2.webpark.pl:80/index/pomogl_pajaczek.swf"
+    "archive_url": "https://web.archive.org/web/20040330024140id_/http://commandos.2.webpark.pl:80/index/pomogl_pajaczek.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040702_enter.swf",
-    "title": "Projekt Flash: 20040702_enter.swf",
+    "title": "Projekt Flash: enter",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 104 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2773,14 +3325,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040702_enter.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 104 klatek, 20 FPS)",
     "original_url": "http://2-wojna-arsenal.webpark.pl:80/enter.swf",
-    "archive_url": "https://web.archive.org/web/20040702020002id_/http://2-wojna-arsenal.webpark.pl:80/enter.swf"
+    "archive_url": "https://web.archive.org/web/20040702020002id_/http://2-wojna-arsenal.webpark.pl:80/enter.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050225_gryzinskiatom.swf",
-    "title": "Projekt Flash: 20050225_gryzinskiatom.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 36 klatek, 12 FPS)).",
+    "title": "Model Atomu Gryzińskiego (2005)",
+    "desc": "Naukowa animacja dydaktyczna prezentująca model atomu według prof. Michała Gryzińskiego.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "webpark.pl",
     "year": "2005",
     "size_str": "4.8 KB",
@@ -2788,12 +3343,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050225_gryzinskiatom.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 36 klatek, 12 FPS)",
     "original_url": "http://www.2010x.webpark.pl:80/gryzinskiatom.swf",
-    "archive_url": "https://web.archive.org/web/20050225005608id_/http://www.2010x.webpark.pl:80/gryzinskiatom.swf"
+    "archive_url": "https://web.archive.org/web/20050225005608id_/http://www.2010x.webpark.pl:80/gryzinskiatom.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20030920_movie_3.swf",
-    "title": "Animacja Flash: 20030920_movie_3.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 433 klatek, 16 FPS)).",
+    "title": "Animacja Flash: movie 3",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 433 klatek, 16 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -2803,11 +3361,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030920_movie_3.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 433 klatek, 16 FPS)",
     "original_url": "http://20ton.webpark.pl:80/20ton/movie_3.swf",
-    "archive_url": "https://web.archive.org/web/20030920152027id_/http://20ton.webpark.pl:80/20ton/movie_3.swf"
+    "archive_url": "https://web.archive.org/web/20030920152027id_/http://20ton.webpark.pl:80/20ton/movie_3.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041121_bv2.swf",
-    "title": "Projekt Flash: 20041121_bv2.swf",
+    "title": "Projekt Flash: bv2",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2818,11 +3379,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041121_bv2.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://21antest.webpark.pl:80/bv2.swf",
-    "archive_url": "https://web.archive.org/web/20041121094925id_/http://21antest.webpark.pl:80/bv2.swf"
+    "archive_url": "https://web.archive.org/web/20041121094925id_/http://21antest.webpark.pl:80/bv2.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20050507_ogl1.swf",
-    "title": "Projekt Flash: 20050507_ogl1.swf",
+    "title": "Projekt Flash: ogl1",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 582 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2833,11 +3397,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050507_ogl1.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 582 klatek, 20 FPS)",
     "original_url": "http://226.webpark.pl:80/swf/ogl1.swf",
-    "archive_url": "https://web.archive.org/web/20050507204143id_/http://226.webpark.pl:80/swf/ogl1.swf"
+    "archive_url": "https://web.archive.org/web/20050507204143id_/http://226.webpark.pl:80/swf/ogl1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050507_radkos1.swf",
-    "title": "Projekt Flash: 20050507_radkos1.swf",
+    "title": "Projekt Flash: radkos1",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 188 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2848,11 +3415,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050507_radkos1.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 188 klatek, 12 FPS)",
     "original_url": "http://226.webpark.pl:80/swf/radkos1.swf",
-    "archive_url": "https://web.archive.org/web/20050507030304id_/http://226.webpark.pl:80/swf/radkos1.swf"
+    "archive_url": "https://web.archive.org/web/20050507030304id_/http://226.webpark.pl:80/swf/radkos1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050430_kronika.swf",
-    "title": "Projekt Flash: 20050430_kronika.swf",
+    "title": "Projekt Flash: kronika",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, nieskompresowany, 4 klatek, 15 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2863,11 +3433,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050430_kronika.swf",
     "details": "Macromedia Flash SWF (ver 6, nieskompresowany, 4 klatek, 15 FPS)",
     "original_url": "http://www.22mdhcichociemni.webpark.pl:80/flash/kronika.swf",
-    "archive_url": "https://web.archive.org/web/20050430184447id_/http://www.22mdhcichociemni.webpark.pl:80/flash/kronika.swf"
+    "archive_url": "https://web.archive.org/web/20050430184447id_/http://www.22mdhcichociemni.webpark.pl:80/flash/kronika.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050113_pasek.swf",
-    "title": "Projekt Flash: 20050113_pasek.swf",
+    "title": "Projekt Flash: pasek",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, zlib, 300 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2878,11 +3451,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050113_pasek.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 300 klatek, 20 FPS)",
     "original_url": "http://29gimnazjum.webpark.pl:80/pasek.swf",
-    "archive_url": "https://web.archive.org/web/20050113031014id_/http://29gimnazjum.webpark.pl:80/pasek.swf"
+    "archive_url": "https://web.archive.org/web/20050113031014id_/http://29gimnazjum.webpark.pl:80/pasek.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040623_impreza.swf",
-    "title": "Projekt Flash: 20040623_impreza.swf",
+    "title": "Projekt Flash: impreza",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 102 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2893,11 +3469,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040623_impreza.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 102 klatek, 20 FPS)",
     "original_url": "http://2atlantyda.webpark.pl:80/anonse/foto/impreza.swf",
-    "archive_url": "https://web.archive.org/web/20040623164322id_/http://2atlantyda.webpark.pl:80/anonse/foto/impreza.swf"
+    "archive_url": "https://web.archive.org/web/20040623164322id_/http://2atlantyda.webpark.pl:80/anonse/foto/impreza.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050409_kompu.swf",
-    "title": "Projekt Flash: 20050409_kompu.swf",
+    "title": "Projekt Flash: kompu",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 102 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2908,11 +3487,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050409_kompu.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 102 klatek, 20 FPS)",
     "original_url": "http://2atlantyda.webpark.pl:80/anonse/foto/kompu.swf",
-    "archive_url": "https://web.archive.org/web/20050409130516id_/http://2atlantyda.webpark.pl:80/anonse/foto/kompu.swf"
+    "archive_url": "https://web.archive.org/web/20050409130516id_/http://2atlantyda.webpark.pl:80/anonse/foto/kompu.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050409_praca.swf",
-    "title": "Projekt Flash: 20050409_praca.swf",
+    "title": "Projekt Flash: praca",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 183 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2923,11 +3505,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050409_praca.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 183 klatek, 20 FPS)",
     "original_url": "http://2atlantyda.webpark.pl:80/anonse/foto/praca.swf",
-    "archive_url": "https://web.archive.org/web/20050409130925id_/http://2atlantyda.webpark.pl:80/anonse/foto/praca.swf"
+    "archive_url": "https://web.archive.org/web/20050409130925id_/http://2atlantyda.webpark.pl:80/anonse/foto/praca.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20040730_zegar4.swf",
-    "title": "Projekt Flash: 20040730_zegar4.swf",
+    "title": "Projekt Flash: zegar4",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 361 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2938,11 +3523,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040730_zegar4.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 361 klatek, 20 FPS)",
     "original_url": "http://2atlantyda.webpark.pl:80/anonse/zegar4.swf",
-    "archive_url": "https://web.archive.org/web/20040730014018id_/http://2atlantyda.webpark.pl:80/anonse/zegar4.swf"
+    "archive_url": "https://web.archive.org/web/20040730014018id_/http://2atlantyda.webpark.pl:80/anonse/zegar4.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050223_bud.swf",
-    "title": "Projekt Flash: 20050223_bud.swf",
+    "title": "Projekt Flash: bud",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 55 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2953,11 +3541,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050223_bud.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 55 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/bud.swf",
-    "archive_url": "https://web.archive.org/web/20050223001841id_/http://2c-kossuth.webpark.pl:80/bud.swf"
+    "archive_url": "https://web.archive.org/web/20050223001841id_/http://2c-kossuth.webpark.pl:80/bud.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040217_galeria.swf",
-    "title": "Projekt Flash: 20040217_galeria.swf",
+    "title": "Projekt Flash: galeria",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 55 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2968,14 +3559,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040217_galeria.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 55 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/galeria.swf",
-    "archive_url": "https://web.archive.org/web/20040217173902id_/http://2c-kossuth.webpark.pl:80/galeria.swf"
+    "archive_url": "https://web.archive.org/web/20040217173902id_/http://2c-kossuth.webpark.pl:80/galeria.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20041025_gra.swf",
-    "title": "Projekt Flash: 20041025_gra.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 47 klatek, 20 FPS)).",
+    "title": "Szkolna Gra Zręcznościowa (Liceum Kossutha 2004)",
+    "desc": "Unikatowa amatorska minigra Flash v3 stworzona przez uczniów warszawskiego liceum im. Kossutha na platformie Webpark.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "arcade",
     "domain": "webpark.pl",
     "year": "2004",
     "size_str": "4.4 KB",
@@ -2983,11 +3577,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041025_gra.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 47 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/gra.swf",
-    "archive_url": "https://web.archive.org/web/20041025063026id_/http://2c-kossuth.webpark.pl:80/gra.swf"
+    "archive_url": "https://web.archive.org/web/20041025063026id_/http://2c-kossuth.webpark.pl:80/gra.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20041025_hist.swf",
-    "title": "Projekt Flash: 20041025_hist.swf",
+    "title": "Projekt Flash: hist",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 57 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -2998,11 +3595,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041025_hist.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 57 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/hist.swf",
-    "archive_url": "https://web.archive.org/web/20041025062025id_/http://2c-kossuth.webpark.pl:80/hist.swf"
+    "archive_url": "https://web.archive.org/web/20041025062025id_/http://2c-kossuth.webpark.pl:80/hist.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040609_ksiega.swf",
-    "title": "Projekt Flash: 20040609_ksiega.swf",
+    "title": "Projekt Flash: ksiega",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 65 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -3013,11 +3613,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040609_ksiega.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 65 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/ksiega.swf",
-    "archive_url": "https://web.archive.org/web/20040609233357id_/http://2c-kossuth.webpark.pl:80/ksiega.swf"
+    "archive_url": "https://web.archive.org/web/20040609233357id_/http://2c-kossuth.webpark.pl:80/ksiega.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040217_linki.swf",
-    "title": "Projekt Flash: 20040217_linki.swf",
+    "title": "Projekt Flash: linki",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 51 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -3028,11 +3631,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040217_linki.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 51 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/linki.swf",
-    "archive_url": "https://web.archive.org/web/20040217170527id_/http://2c-kossuth.webpark.pl:80/linki.swf"
+    "archive_url": "https://web.archive.org/web/20040217170527id_/http://2c-kossuth.webpark.pl:80/linki.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20031124_news.swf",
-    "title": "Projekt Flash: 20031124_news.swf",
+    "title": "Projekt Flash: news",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 49 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -3043,11 +3649,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031124_news.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 49 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/news.swf",
-    "archive_url": "https://web.archive.org/web/20031124104307id_/http://2c-kossuth.webpark.pl:80/news.swf"
+    "archive_url": "https://web.archive.org/web/20031124104307id_/http://2c-kossuth.webpark.pl:80/news.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20050222_patron.swf",
-    "title": "Projekt Flash: 20050222_patron.swf",
+    "title": "Projekt Flash: patron",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 52 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -3058,11 +3667,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050222_patron.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 52 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/patron.swf",
-    "archive_url": "https://web.archive.org/web/20050222234500id_/http://2c-kossuth.webpark.pl:80/patron.swf"
+    "archive_url": "https://web.archive.org/web/20050222234500id_/http://2c-kossuth.webpark.pl:80/patron.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20050222_sms.swf",
-    "title": "Projekt Flash: 20050222_sms.swf",
+    "title": "Projekt Flash: sms",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 3, nieskompresowany, 61 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -3073,7 +3685,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050222_sms.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 61 klatek, 20 FPS)",
     "original_url": "http://2c-kossuth.webpark.pl:80/sms.swf",
-    "archive_url": "https://web.archive.org/web/20050222232031id_/http://2c-kossuth.webpark.pl:80/sms.swf"
+    "archive_url": "https://web.archive.org/web/20050222232031id_/http://2c-kossuth.webpark.pl:80/sms.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041103_JZZ30XG.MID",
@@ -3088,7 +3703,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041103_JZZ30XG.MID",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/a/alpispa/hp/mus/JZZ30XG.MID",
-    "archive_url": "https://web.archive.org/web/20041103081212id_/http://free.polbox.pl:80/a/alpispa/hp/mus/JZZ30XG.MID"
+    "archive_url": "https://web.archive.org/web/20041103081212id_/http://free.polbox.pl:80/a/alpispa/hp/mus/JZZ30XG.MID",
+    "tier": 1,
+    "category": "🎵 Unikatowa Polska Kompozycja MIDI",
+    "why_lost": "Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych."
   },
   {
     "filename": "20041103_TESTMIDI.MID",
@@ -3103,7 +3721,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041103_TESTMIDI.MID",
     "details": "Standard MIDI File (format 1, tracks 24)",
     "original_url": "http://free.polbox.pl:80/a/alpispa/hp/mus/TESTMIDI.MID",
-    "archive_url": "https://web.archive.org/web/20041103082158id_/http://free.polbox.pl:80/a/alpispa/hp/mus/TESTMIDI.MID"
+    "archive_url": "https://web.archive.org/web/20041103082158id_/http://free.polbox.pl:80/a/alpispa/hp/mus/TESTMIDI.MID",
+    "tier": 1,
+    "category": "🎵 Unikatowa Polska Kompozycja MIDI",
+    "why_lost": "Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych."
   },
   {
     "filename": "20030517_z8.MID",
@@ -3118,7 +3739,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030517_z8.MID",
     "details": "Standard MIDI File (format 1, tracks 4)",
     "original_url": "http://free.polbox.pl:80/a/amplimar/z8.MID",
-    "archive_url": "https://web.archive.org/web/20030517165122id_/http://free.polbox.pl:80/a/amplimar/z8.MID"
+    "archive_url": "https://web.archive.org/web/20030517165122id_/http://free.polbox.pl:80/a/amplimar/z8.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20030510_z9.MID",
@@ -3133,7 +3757,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030510_z9.MID",
     "details": "Standard MIDI File (format 1, tracks 6)",
     "original_url": "http://free.polbox.pl:80/a/amplimar/z9.MID",
-    "archive_url": "https://web.archive.org/web/20030510133627id_/http://free.polbox.pl:80/a/amplimar/z9.MID"
+    "archive_url": "https://web.archive.org/web/20030510133627id_/http://free.polbox.pl:80/a/amplimar/z9.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20021109_2late.MID",
@@ -3148,7 +3775,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20021109_2late.MID",
     "details": "Standard MIDI File (format 1, tracks 14)",
     "original_url": "http://free.polbox.pl:80/a/astebis/midi/2late.MID",
-    "archive_url": "https://web.archive.org/web/20021109191456id_/http://free.polbox.pl:80/a/astebis/midi/2late.MID"
+    "archive_url": "https://web.archive.org/web/20021109191456id_/http://free.polbox.pl:80/a/astebis/midi/2late.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020312_LETTHERE.MID",
@@ -3163,7 +3793,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020312_LETTHERE.MID",
     "details": "Standard MIDI File (format 1, tracks 29)",
     "original_url": "http://free.polbox.pl:80/a/augusto/LETTHERE.MID",
-    "archive_url": "https://web.archive.org/web/20020312184554id_/http://free.polbox.pl:80/a/augusto/LETTHERE.MID"
+    "archive_url": "https://web.archive.org/web/20020312184554id_/http://free.polbox.pl:80/a/augusto/LETTHERE.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020620_ENTERTNR.MID",
@@ -3178,7 +3811,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020620_ENTERTNR.MID",
     "details": "Standard MIDI File (format 1, tracks 12)",
     "original_url": "http://free.polbox.pl:80/b/belgunia/ENTERTNR.MID",
-    "archive_url": "https://web.archive.org/web/20020620081504id_/http://free.polbox.pl:80/b/belgunia/ENTERTNR.MID"
+    "archive_url": "https://web.archive.org/web/20020620081504id_/http://free.polbox.pl:80/b/belgunia/ENTERTNR.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20030914_MH.MID",
@@ -3193,11 +3829,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030914_MH.MID",
     "details": "Standard MIDI File (format 1, tracks 15)",
     "original_url": "http://free.polbox.pl:80/b/blowman/MH.MID",
-    "archive_url": "https://web.archive.org/web/20030914011910id_/http://free.polbox.pl:80/b/blowman/MH.MID"
+    "archive_url": "https://web.archive.org/web/20030914011910id_/http://free.polbox.pl:80/b/blowman/MH.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041105_ALB_ADG.MID",
-    "title": "Utwór MIDI: ADG",
+    "title": "Utwór MIDI: ALB ADG",
     "desc": "Ścieżka dźwiękowa epoki (Standard MIDI File (format 1, tracks 10)) z domeny free.polbox.pl.",
     "format": "MIDI",
     "wing": "jukebox",
@@ -3208,7 +3847,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041105_ALB_ADG.MID",
     "details": "Standard MIDI File (format 1, tracks 10)",
     "original_url": "http://free.polbox.pl:80/b/btimi/inne/ALB_ADG.MID",
-    "archive_url": "https://web.archive.org/web/20041105120359id_/http://free.polbox.pl:80/b/btimi/inne/ALB_ADG.MID"
+    "archive_url": "https://web.archive.org/web/20041105120359id_/http://free.polbox.pl:80/b/btimi/inne/ALB_ADG.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041105_O-HAUPT.MID",
@@ -3223,11 +3865,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041105_O-HAUPT.MID",
     "details": "Standard MIDI File (format 1, tracks 14)",
     "original_url": "http://free.polbox.pl:80/b/btimi/inne/O-HAUPT.MID",
-    "archive_url": "https://web.archive.org/web/20041105120407id_/http://free.polbox.pl:80/b/btimi/inne/O-HAUPT.MID"
+    "archive_url": "https://web.archive.org/web/20041105120407id_/http://free.polbox.pl:80/b/btimi/inne/O-HAUPT.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20050321_CMNTY_01.MID",
-    "title": "Utwór MIDI: 01",
+    "title": "Utwór MIDI: CMNTY 01",
     "desc": "Ścieżka dźwiękowa epoki (Standard MIDI File (format 1, tracks 6)) z domeny free.polbox.pl.",
     "format": "MIDI",
     "wing": "jukebox",
@@ -3238,11 +3883,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050321_CMNTY_01.MID",
     "details": "Standard MIDI File (format 1, tracks 6)",
     "original_url": "http://free.polbox.pl:80/d/dhkom/CMNTY_01.MID",
-    "archive_url": "https://web.archive.org/web/20050321175205id_/http://free.polbox.pl:80/d/dhkom/CMNTY_01.MID"
+    "archive_url": "https://web.archive.org/web/20050321175205id_/http://free.polbox.pl:80/d/dhkom/CMNTY_01.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20030730_X_FILES4.MID",
-    "title": "Utwór MIDI: FILES4",
+    "title": "Utwór MIDI: X FILES4",
     "desc": "Ścieżka dźwiękowa epoki (Standard MIDI File (format 1, tracks 24)) z domeny free.polbox.pl.",
     "format": "MIDI",
     "wing": "jukebox",
@@ -3253,7 +3901,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030730_X_FILES4.MID",
     "details": "Standard MIDI File (format 1, tracks 24)",
     "original_url": "http://free.polbox.pl:80/e/ewachw/Xfiles/X_FILES4.MID",
-    "archive_url": "https://web.archive.org/web/20030730070251id_/http://free.polbox.pl:80/e/ewachw/Xfiles/X_FILES4.MID"
+    "archive_url": "https://web.archive.org/web/20030730070251id_/http://free.polbox.pl:80/e/ewachw/Xfiles/X_FILES4.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060615_bajobong.mid",
@@ -3268,7 +3919,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060615_bajobong.mid",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/f/falmar/bajobong.mid",
-    "archive_url": "https://web.archive.org/web/20060615002143id_/http://free.polbox.pl:80/f/falmar/bajobong.mid"
+    "archive_url": "https://web.archive.org/web/20060615002143id_/http://free.polbox.pl:80/f/falmar/bajobong.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060620_cannon.mid",
@@ -3283,7 +3937,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060620_cannon.mid",
     "details": "Standard MIDI File (format 1, tracks 11)",
     "original_url": "http://free.polbox.pl:80/f/family/media/cannon.mid",
-    "archive_url": "https://web.archive.org/web/20060620202107id_/http://free.polbox.pl:80/f/family/media/cannon.mid"
+    "archive_url": "https://web.archive.org/web/20060620202107id_/http://free.polbox.pl:80/f/family/media/cannon.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060705_party.mid",
@@ -3298,7 +3955,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060705_party.mid",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/g/gryzone/party.mid",
-    "archive_url": "https://web.archive.org/web/20060705025453id_/http://free.polbox.pl:80/g/gryzone/party.mid"
+    "archive_url": "https://web.archive.org/web/20060705025453id_/http://free.polbox.pl:80/g/gryzone/party.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20011218_MOUNT.MID",
@@ -3313,11 +3973,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20011218_MOUNT.MID",
     "details": "Standard MIDI File (format 1, tracks 15)",
     "original_url": "http://free.polbox.pl:80/g/gwcpl/MOUNT.MID",
-    "archive_url": "https://web.archive.org/web/20011218005350id_/http://free.polbox.pl:80/g/gwcpl/MOUNT.MID"
+    "archive_url": "https://web.archive.org/web/20011218005350id_/http://free.polbox.pl:80/g/gwcpl/MOUNT.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041105_Takie_tango.MID",
-    "title": "Utwór MIDI: tango",
+    "title": "Utwór MIDI: Takie tango",
     "desc": "Ścieżka dźwiękowa epoki (Standard MIDI File (format 0, tracks 1)) z domeny free.polbox.pl.",
     "format": "MIDI",
     "wing": "jukebox",
@@ -3328,7 +3991,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041105_Takie_tango.MID",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/h/hrabia/Takie_tango.MID",
-    "archive_url": "https://web.archive.org/web/20041105044701id_/http://free.polbox.pl:80/h/hrabia/Takie_tango.MID"
+    "archive_url": "https://web.archive.org/web/20041105044701id_/http://free.polbox.pl:80/h/hrabia/Takie_tango.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041024_CHILDREN.MID",
@@ -3343,7 +4009,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041024_CHILDREN.MID",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/j/jmaciek/CHILDREN.MID",
-    "archive_url": "https://web.archive.org/web/20041024172654id_/http://free.polbox.pl:80/j/jmaciek/CHILDREN.MID"
+    "archive_url": "https://web.archive.org/web/20041024172654id_/http://free.polbox.pl:80/j/jmaciek/CHILDREN.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020824_onyou.mid",
@@ -3358,7 +4027,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020824_onyou.mid",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/j/jotkajot/media/onyou.mid",
-    "archive_url": "https://web.archive.org/web/20020824200316id_/http://free.polbox.pl:80/j/jotkajot/media/onyou.mid"
+    "archive_url": "https://web.archive.org/web/20020824200316id_/http://free.polbox.pl:80/j/jotkajot/media/onyou.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20030921_0142.MID",
@@ -3373,7 +4045,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030921_0142.MID",
     "details": "Standard MIDI File (format 1, tracks 9)",
     "original_url": "http://free.polbox.pl:80/j/julkas/0142.MID",
-    "archive_url": "https://web.archive.org/web/20030921170536id_/http://free.polbox.pl:80/j/julkas/0142.MID"
+    "archive_url": "https://web.archive.org/web/20030921170536id_/http://free.polbox.pl:80/j/julkas/0142.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060203_index.mid",
@@ -3388,7 +4063,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060203_index.mid",
     "details": "Standard MIDI File (format 1, tracks 9)",
     "original_url": "http://free.polbox.pl:80/k/kjcondor/index.mid",
-    "archive_url": "https://web.archive.org/web/20060203151702id_/http://free.polbox.pl:80/k/kjcondor/index.mid"
+    "archive_url": "https://web.archive.org/web/20060203151702id_/http://free.polbox.pl:80/k/kjcondor/index.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060615_Smokegm.mid",
@@ -3403,7 +4081,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060615_Smokegm.mid",
     "details": "Standard MIDI File (format 1, tracks 15)",
     "original_url": "http://free.polbox.pl:80/k/kmarch/Smokegm.mid",
-    "archive_url": "https://web.archive.org/web/20060615002029id_/http://free.polbox.pl:80/k/kmarch/Smokegm.mid"
+    "archive_url": "https://web.archive.org/web/20060615002029id_/http://free.polbox.pl:80/k/kmarch/Smokegm.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20061029_muzyczka.mid",
@@ -3418,7 +4099,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20061029_muzyczka.mid",
     "details": "Standard MIDI File (format 0, tracks 1)",
     "original_url": "http://free.polbox.pl:80/k/kwchcn/muzyczka.mid",
-    "archive_url": "https://web.archive.org/web/20061029032944id_/http://free.polbox.pl:80/k/kwchcn/muzyczka.mid"
+    "archive_url": "https://web.archive.org/web/20061029032944id_/http://free.polbox.pl:80/k/kwchcn/muzyczka.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020322_GMASOCK.MID",
@@ -3433,7 +4117,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020322_GMASOCK.MID",
     "details": "Standard MIDI File (format 1, tracks 8)",
     "original_url": "http://free.polbox.pl:80/l/labort/GMASOCK.MID",
-    "archive_url": "https://web.archive.org/web/20020322111411id_/http://free.polbox.pl:80/l/labort/GMASOCK.MID"
+    "archive_url": "https://web.archive.org/web/20020322111411id_/http://free.polbox.pl:80/l/labort/GMASOCK.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20050121_WHATISLO.MID",
@@ -3448,11 +4135,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050121_WHATISLO.MID",
     "details": "Standard MIDI File (format 1, tracks 18)",
     "original_url": "http://free.polbox.pl:80/l/langner/WHATISLO.MID",
-    "archive_url": "https://web.archive.org/web/20050121211656id_/http://free.polbox.pl:80/l/langner/WHATISLO.MID"
+    "archive_url": "https://web.archive.org/web/20050121211656id_/http://free.polbox.pl:80/l/langner/WHATISLO.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020322_THE_RAIN.MID",
-    "title": "Utwór MIDI: RAIN",
+    "title": "Utwór MIDI: THE RAIN",
     "desc": "Ścieżka dźwiękowa epoki (Standard MIDI File (format 1, tracks 15)) z domeny free.polbox.pl.",
     "format": "MIDI",
     "wing": "jukebox",
@@ -3463,7 +4153,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020322_THE_RAIN.MID",
     "details": "Standard MIDI File (format 1, tracks 15)",
     "original_url": "http://free.polbox.pl:80/l/latch/THE_RAIN.MID",
-    "archive_url": "https://web.archive.org/web/20020322111858id_/http://free.polbox.pl:80/l/latch/THE_RAIN.MID"
+    "archive_url": "https://web.archive.org/web/20020322111858id_/http://free.polbox.pl:80/l/latch/THE_RAIN.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041028_muzyka1.MID",
@@ -3478,7 +4171,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041028_muzyka1.MID",
     "details": "Standard MIDI File (format 1, tracks 21)",
     "original_url": "http://free.polbox.pl:80/l/lesiodl/muzyka1.MID",
-    "archive_url": "https://web.archive.org/web/20041028194048id_/http://free.polbox.pl:80/l/lesiodl/muzyka1.MID"
+    "archive_url": "https://web.archive.org/web/20041028194048id_/http://free.polbox.pl:80/l/lesiodl/muzyka1.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041024_muzyka2.MID",
@@ -3493,7 +4189,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041024_muzyka2.MID",
     "details": "Standard MIDI File (format 1, tracks 21)",
     "original_url": "http://free.polbox.pl:80/l/lesiodl/muzyka2.MID",
-    "archive_url": "https://web.archive.org/web/20041024052222id_/http://free.polbox.pl:80/l/lesiodl/muzyka2.MID"
+    "archive_url": "https://web.archive.org/web/20041024052222id_/http://free.polbox.pl:80/l/lesiodl/muzyka2.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041105_muzyka3.MID",
@@ -3508,7 +4207,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041105_muzyka3.MID",
     "details": "Standard MIDI File (format 1, tracks 15)",
     "original_url": "http://free.polbox.pl:80/l/lesiodl/muzyka3.MID",
-    "archive_url": "https://web.archive.org/web/20041105042129id_/http://free.polbox.pl:80/l/lesiodl/muzyka3.MID"
+    "archive_url": "https://web.archive.org/web/20041105042129id_/http://free.polbox.pl:80/l/lesiodl/muzyka3.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20041117_TICOTICO.MID",
@@ -3523,7 +4225,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041117_TICOTICO.MID",
     "details": "Standard MIDI File (format 1, tracks 7)",
     "original_url": "http://free.polbox.pl:80/m/marbudek/TICOTICO.MID",
-    "archive_url": "https://web.archive.org/web/20041117143724id_/http://free.polbox.pl:80/m/marbudek/TICOTICO.MID"
+    "archive_url": "https://web.archive.org/web/20041117143724id_/http://free.polbox.pl:80/m/marbudek/TICOTICO.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020313_NEWYORK.MID",
@@ -3538,7 +4243,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020313_NEWYORK.MID",
     "details": "Standard MIDI File (format 1, tracks 11)",
     "original_url": "http://free.polbox.pl:80/m/martius/index/NEWYORK.MID",
-    "archive_url": "https://web.archive.org/web/20020313033904id_/http://free.polbox.pl:80/m/martius/index/NEWYORK.MID"
+    "archive_url": "https://web.archive.org/web/20020313033904id_/http://free.polbox.pl:80/m/martius/index/NEWYORK.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060208_yoteamo.mid",
@@ -3553,7 +4261,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060208_yoteamo.mid",
     "details": "Standard MIDI File (format 1, tracks 7)",
     "original_url": "http://free.polbox.pl:80/n/neodroga/sounds/yoteamo.mid",
-    "archive_url": "https://web.archive.org/web/20060208232149id_/http://free.polbox.pl:80/n/neodroga/sounds/yoteamo.mid"
+    "archive_url": "https://web.archive.org/web/20060208232149id_/http://free.polbox.pl:80/n/neodroga/sounds/yoteamo.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020628_ARABIAN.MID",
@@ -3568,7 +4279,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020628_ARABIAN.MID",
     "details": "Standard MIDI File (format 1, tracks 3)",
     "original_url": "http://free.polbox.pl:80/n/ntlmk/ARABIAN.MID",
-    "archive_url": "https://web.archive.org/web/20020628220921id_/http://free.polbox.pl:80/n/ntlmk/ARABIAN.MID"
+    "archive_url": "https://web.archive.org/web/20020628220921id_/http://free.polbox.pl:80/n/ntlmk/ARABIAN.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020628_MARCH.MID",
@@ -3583,7 +4297,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020628_MARCH.MID",
     "details": "Standard MIDI File (format 1, tracks 3)",
     "original_url": "http://free.polbox.pl:80/n/ntlmk/MARCH.MID",
-    "archive_url": "https://web.archive.org/web/20020628221544id_/http://free.polbox.pl:80/n/ntlmk/MARCH.MID"
+    "archive_url": "https://web.archive.org/web/20020628221544id_/http://free.polbox.pl:80/n/ntlmk/MARCH.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20020628_OVERTURE.MID",
@@ -3598,7 +4315,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020628_OVERTURE.MID",
     "details": "Standard MIDI File (format 1, tracks 3)",
     "original_url": "http://free.polbox.pl:80/n/ntlmk/OVERTURE.MID",
-    "archive_url": "https://web.archive.org/web/20020628221312id_/http://free.polbox.pl:80/n/ntlmk/OVERTURE.MID"
+    "archive_url": "https://web.archive.org/web/20020628221312id_/http://free.polbox.pl:80/n/ntlmk/OVERTURE.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20021127_WALTZ.MID",
@@ -3613,7 +4333,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20021127_WALTZ.MID",
     "details": "Standard MIDI File (format 1, tracks 8)",
     "original_url": "http://free.polbox.pl:80/n/ntlmk/WALTZ.MID",
-    "archive_url": "https://web.archive.org/web/20021127055932id_/http://free.polbox.pl:80/n/ntlmk/WALTZ.MID"
+    "archive_url": "https://web.archive.org/web/20021127055932id_/http://free.polbox.pl:80/n/ntlmk/WALTZ.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060713_fairsun.mid",
@@ -3628,7 +4351,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060713_fairsun.mid",
     "details": "Standard MIDI File (format 1, tracks 4)",
     "original_url": "http://free.polbox.pl:80/o/olcha/fairsun.mid",
-    "archive_url": "https://web.archive.org/web/20060713132312id_/http://free.polbox.pl:80/o/olcha/fairsun.mid"
+    "archive_url": "https://web.archive.org/web/20060713132312id_/http://free.polbox.pl:80/o/olcha/fairsun.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060713_filozof.mid",
@@ -3643,7 +4369,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060713_filozof.mid",
     "details": "Standard MIDI File (format 1, tracks 9)",
     "original_url": "http://free.polbox.pl:80/o/olcha/filozof.mid",
-    "archive_url": "https://web.archive.org/web/20060713132316id_/http://free.polbox.pl:80/o/olcha/filozof.mid"
+    "archive_url": "https://web.archive.org/web/20060713132316id_/http://free.polbox.pl:80/o/olcha/filozof.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060711_main.mid",
@@ -3658,7 +4387,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060711_main.mid",
     "details": "Standard MIDI File (format 1, tracks 21)",
     "original_url": "http://free.polbox.pl:80/o/olcha/main.mid",
-    "archive_url": "https://web.archive.org/web/20060711022003id_/http://free.polbox.pl:80/o/olcha/main.mid"
+    "archive_url": "https://web.archive.org/web/20060711022003id_/http://free.polbox.pl:80/o/olcha/main.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060713_song4.mid",
@@ -3673,7 +4405,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060713_song4.mid",
     "details": "Standard MIDI File (format 1, tracks 24)",
     "original_url": "http://free.polbox.pl:80/o/olcha/song4.mid",
-    "archive_url": "https://web.archive.org/web/20060713132116id_/http://free.polbox.pl:80/o/olcha/song4.mid"
+    "archive_url": "https://web.archive.org/web/20060713132116id_/http://free.polbox.pl:80/o/olcha/song4.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20010728_BEAT.MID",
@@ -3688,7 +4423,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20010728_BEAT.MID",
     "details": "Standard MIDI File (format 1, tracks 15)",
     "original_url": "http://free.polbox.pl:80/p/plwt/BEAT.MID",
-    "archive_url": "https://web.archive.org/web/20010728060601id_/http://free.polbox.pl:80/p/plwt/BEAT.MID"
+    "archive_url": "https://web.archive.org/web/20010728060601id_/http://free.polbox.pl:80/p/plwt/BEAT.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20031112_CHA-CHA.MID",
@@ -3703,7 +4441,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031112_CHA-CHA.MID",
     "details": "Standard MIDI File (format 1, tracks 12)",
     "original_url": "http://free.polbox.pl:80/p/plwt/CHA-CHA.MID",
-    "archive_url": "https://web.archive.org/web/20031112043439id_/http://free.polbox.pl:80/p/plwt/CHA-CHA.MID"
+    "archive_url": "https://web.archive.org/web/20031112043439id_/http://free.polbox.pl:80/p/plwt/CHA-CHA.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20060206_enter.mid",
@@ -3718,7 +4459,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060206_enter.mid",
     "details": "Standard MIDI File (format 1, tracks 11)",
     "original_url": "http://free.polbox.pl:80/p/plwt/enter.mid",
-    "archive_url": "https://web.archive.org/web/20060206101821id_/http://free.polbox.pl:80/p/plwt/enter.mid"
+    "archive_url": "https://web.archive.org/web/20060206101821id_/http://free.polbox.pl:80/p/plwt/enter.mid",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20010620_CYGANER.MID",
@@ -3733,11 +4477,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20010620_CYGANER.MID",
     "details": "Standard MIDI File (format 1, tracks 17)",
     "original_url": "http://free.polbox.pl:80/r/rafaljak/CYGANER.MID",
-    "archive_url": "https://web.archive.org/web/20010620011143id_/http://free.polbox.pl:80/r/rafaljak/CYGANER.MID"
+    "archive_url": "https://web.archive.org/web/20010620011143id_/http://free.polbox.pl:80/r/rafaljak/CYGANER.MID",
+    "tier": 2,
+    "category": "Plik Dźwiękowy MIDI",
+    "why_lost": "Muzyka tła prywatnej strony z lat 1998-2006."
   },
   {
     "filename": "20050324_mwnd.gif",
-    "title": "Grafika archiwalna: mwnd.gif",
+    "title": "Grafika archiwalna: mwnd",
     "desc": "Rozmiar: Animacja/Obraz GIF87a (497x408 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3748,11 +4495,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050324_mwnd.gif",
     "details": "Animacja/Obraz GIF87a (497x408 px)",
     "original_url": "http://free.polbox.pl:80/0/0lod/mwnd.gif",
-    "archive_url": "https://web.archive.org/web/20050324043157id_/http://free.polbox.pl:80/0/0lod/mwnd.gif"
+    "archive_url": "https://web.archive.org/web/20050324043157id_/http://free.polbox.pl:80/0/0lod/mwnd.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20050324_new.gif",
-    "title": "Grafika archiwalna: new.gif",
+    "title": "Grafika archiwalna: new",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (60x31 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3763,11 +4513,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050324_new.gif",
     "details": "Animacja/Obraz GIF89a (60x31 px)",
     "original_url": "http://free.polbox.pl:80/0/0lod/new.gif",
-    "archive_url": "https://web.archive.org/web/20050324082908id_/http://free.polbox.pl:80/0/0lod/new.gif"
+    "archive_url": "https://web.archive.org/web/20050324082908id_/http://free.polbox.pl:80/0/0lod/new.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20041120_ukus.gif",
-    "title": "Grafika archiwalna: ukus.gif",
+    "title": "Grafika archiwalna: ukus",
     "desc": "Rozmiar: Animacja/Obraz GIF87a (198x108 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3778,11 +4531,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041120_ukus.gif",
     "details": "Animacja/Obraz GIF87a (198x108 px)",
     "original_url": "http://free.polbox.pl:80/0/0lod/ukus.gif",
-    "archive_url": "https://web.archive.org/web/20041120170446id_/http://free.polbox.pl:80/0/0lod/ukus.gif"
+    "archive_url": "https://web.archive.org/web/20041120170446id_/http://free.polbox.pl:80/0/0lod/ukus.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030915_kontakt_c.GIF",
-    "title": "Grafika archiwalna: c.GIF",
+    "title": "Grafika archiwalna: kontakt c",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (206x59 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3793,11 +4549,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030915_kontakt_c.GIF",
     "details": "Animacja/Obraz GIF89a (206x59 px)",
     "original_url": "http://free.polbox.pl:80/1/100jan/kontakt_c.GIF",
-    "archive_url": "https://web.archive.org/web/20030915143754id_/http://free.polbox.pl:80/1/100jan/kontakt_c.GIF"
+    "archive_url": "https://web.archive.org/web/20030915143754id_/http://free.polbox.pl:80/1/100jan/kontakt_c.GIF",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20050508_top_2.gif",
-    "title": "Grafika archiwalna: 2.gif",
+    "title": "Grafika archiwalna: top 2",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (460x60 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3808,11 +4567,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050508_top_2.gif",
     "details": "Animacja/Obraz GIF89a (460x60 px)",
     "original_url": "http://www.free.polbox.pl:80/1/100jan/top_2.gif",
-    "archive_url": "https://web.archive.org/web/20050508021423id_/http://www.free.polbox.pl:80/1/100jan/top_2.gif"
+    "archive_url": "https://web.archive.org/web/20050508021423id_/http://www.free.polbox.pl:80/1/100jan/top_2.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20050210_burstani.gif",
-    "title": "Grafika archiwalna: burstani.gif",
+    "title": "Grafika archiwalna: burstani",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (462x18 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3823,11 +4585,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050210_burstani.gif",
     "details": "Animacja/Obraz GIF89a (462x18 px)",
     "original_url": "http://free.polbox.pl:80/1/123piotr/burstani.gif",
-    "archive_url": "https://web.archive.org/web/20050210082033id_/http://free.polbox.pl:80/1/123piotr/burstani.gif"
+    "archive_url": "https://web.archive.org/web/20050210082033id_/http://free.polbox.pl:80/1/123piotr/burstani.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20031207_a3d34.gif",
-    "title": "Grafika archiwalna: a3d34.gif",
+    "title": "Grafika archiwalna: a3d34",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (121x88 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3838,11 +4603,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031207_a3d34.gif",
     "details": "Animacja/Obraz GIF89a (121x88 px)",
     "original_url": "http://free.polbox.pl:80/1/123piotr/kazimierz%20_dolny/a3d34.gif",
-    "archive_url": "https://web.archive.org/web/20031207184359id_/http://free.polbox.pl:80/1/123piotr/kazimierz%20_dolny/a3d34.gif"
+    "archive_url": "https://web.archive.org/web/20031207184359id_/http://free.polbox.pl:80/1/123piotr/kazimierz%20_dolny/a3d34.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20031207_m08.gif",
-    "title": "Grafika archiwalna: m08.gif",
+    "title": "Grafika archiwalna: m08",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (150x100 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3853,11 +4621,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031207_m08.gif",
     "details": "Animacja/Obraz GIF89a (150x100 px)",
     "original_url": "http://free.polbox.pl:80/1/123piotr/kazimierz%20_dolny/m08.gif",
-    "archive_url": "https://web.archive.org/web/20031207203516id_/http://free.polbox.pl:80/1/123piotr/kazimierz%20_dolny/m08.gif"
+    "archive_url": "https://web.archive.org/web/20031207203516id_/http://free.polbox.pl:80/1/123piotr/kazimierz%20_dolny/m08.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20030609_m04.gif",
-    "title": "Grafika archiwalna: m04.gif",
+    "title": "Grafika archiwalna: m04",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (80x100 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3868,11 +4639,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030609_m04.gif",
     "details": "Animacja/Obraz GIF89a (80x100 px)",
     "original_url": "http://free.polbox.pl:80/1/123piotr/slub/m04.gif",
-    "archive_url": "https://web.archive.org/web/20030609110811id_/http://free.polbox.pl:80/1/123piotr/slub/m04.gif"
+    "archive_url": "https://web.archive.org/web/20030609110811id_/http://free.polbox.pl:80/1/123piotr/slub/m04.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20020227_czaszka.gif",
-    "title": "Grafika archiwalna: czaszka.gif",
+    "title": "Grafika archiwalna: czaszka",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (100x100 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3883,11 +4657,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020227_czaszka.gif",
     "details": "Animacja/Obraz GIF89a (100x100 px)",
     "original_url": "http://free.polbox.pl:80/1/123piotr/zabawy/czaszka.gif",
-    "archive_url": "https://web.archive.org/web/20020227091413id_/http://free.polbox.pl:80/1/123piotr/zabawy/czaszka.gif"
+    "archive_url": "https://web.archive.org/web/20020227091413id_/http://free.polbox.pl:80/1/123piotr/zabawy/czaszka.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20020227_file.gif",
-    "title": "Grafika archiwalna: file.gif",
+    "title": "Grafika archiwalna: file",
     "desc": "Rozmiar: Animacja/Obraz GIF89a (30x32 px), pochodzenie: free.polbox.pl.",
     "format": "GIF",
     "wing": "gallery",
@@ -3898,7 +4675,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20020227_file.gif",
     "details": "Animacja/Obraz GIF89a (30x32 px)",
     "original_url": "http://free.polbox.pl:80/1/123piotr/zabawy/file.gif",
-    "archive_url": "https://web.archive.org/web/20020227094338id_/http://free.polbox.pl:80/1/123piotr/zabawy/file.gif"
+    "archive_url": "https://web.archive.org/web/20020227094338id_/http://free.polbox.pl:80/1/123piotr/zabawy/file.gif",
+    "tier": 3,
+    "category": "Grafika Strony",
+    "why_lost": "Element layoutu z tamtych lat."
   },
   {
     "filename": "20060511_mistrz_autobusu.swf",
@@ -3913,7 +4693,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060511_mistrz_autobusu.swf",
     "details": "Polska gra Flash v6: Mistrz Autobusu (MPK) by Czaha (1073 klatki, 786 KB)",
     "original_url": "http://czaha.pl:80/autobus/autobus6.swf",
-    "archive_url": "https://web.archive.org/web/20060511224445id_/http://czaha.pl:80/autobus/autobus6.swf"
+    "archive_url": "https://web.archive.org/web/20060511224445id_/http://czaha.pl:80/autobus/autobus6.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20060412_kaczki.swf",
@@ -3928,7 +4711,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060412_kaczki.swf",
     "details": "Polska produkcja Flash v6 (532 KB) ocalona z 100lat.info",
     "original_url": "http://100lat.info:80/kaczki/kaczki.swf",
-    "archive_url": "https://web.archive.org/web/20060412113914id_/http://100lat.info:80/kaczki/kaczki.swf"
+    "archive_url": "https://web.archive.org/web/20060412113914id_/http://100lat.info:80/kaczki/kaczki.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20060301_aczy_trabka.swf",
@@ -3943,7 +4729,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060301_aczy_trabka.swf",
     "details": "Polska gra Flash v6: 'A' czy TRĄBKA? by Czaha (Subik, Jacek, Khaktooff, Zawur) (226 klatek, 9 przycisków, licznik punktów)",
     "original_url": "http://czaha.pl/aczy.swf",
-    "archive_url": "https://web.archive.org/web/20060301235829id_/http://czaha.pl/aczy.swf"
+    "archive_url": "https://web.archive.org/web/20060301235829id_/http://czaha.pl/aczy.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20061018_nalej_ruska_wodka.swf",
@@ -3958,7 +4747,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20061018_nalej_ruska_wodka.swf",
     "details": "Polska gra Flash v7: Podziel Ruską Wódkę (CDA / Milanos 2006)",
     "original_url": "http://dorotka-cda.neostrada.pl/nalej.swf",
-    "archive_url": "https://web.archive.org/web/20061018015428id_/http://dorotka-cda.neostrada.pl:80/nalej.swf"
+    "archive_url": "https://web.archive.org/web/20061018015428id_/http://dorotka-cda.neostrada.pl:80/nalej.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "2007_sextremalna_katapulta.swf",
@@ -3973,7 +4765,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/2007_sextremalna_katapulta.swf",
     "details": "Gra Flash v8: Sextremalna Katapulta z JoeMonster (1.1 MB, silnik fizyki)",
     "original_url": "http://download.joemonster.org/h/sextremalnakatapulta.swf",
-    "archive_url": "https://web.archive.org/web/20140929131512id_/http://download.joemonster.org/h/sextremalnakatapulta.swf"
+    "archive_url": "https://web.archive.org/web/20140929131512id_/http://download.joemonster.org/h/sextremalnakatapulta.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "killvader2.0.rar",
@@ -3988,7 +4783,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/killvader2.0.rar",
     "details": "Polska gra PC Borland Delphi: Kill Vader 2.0 by Czaha (2.6 MB, pełna wersja z dźwiękiem i tabelą rekordów)",
     "original_url": "http://czaha.pl/killvader2.0.rar",
-    "archive_url": "https://web.archive.org/web/20060301235829id_/http://czaha.pl/killvader2.0.rar"
+    "archive_url": "https://web.archive.org/web/20060301235829id_/http://czaha.pl/killvader2.0.rar",
+    "tier": 1,
+    "category": "🕹️ Zaginiona Gra / Program PC",
+    "why_lost": "Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami."
   },
   {
     "filename": "2005_jm_nu_pagadi.swf",
@@ -4003,7 +4801,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/2005_jm_nu_pagadi.swf",
     "details": "Polska gra Flash v5: Wilk i Zając: Jajka (Nu, Pogodi!) z JoeMonster (ActionScript: zbite_jaja, skucha, kosz_pos, punkty)",
     "original_url": "http://download.joemonster.org/flash/Gierki/nu_pagadi.swf",
-    "archive_url": "https://web.archive.org/web/20141208020010id_/http://download.joemonster.org/flash/Gierki/nu_pagadi.swf"
+    "archive_url": "https://web.archive.org/web/20141208020010id_/http://download.joemonster.org/flash/Gierki/nu_pagadi.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20070130_jm_killerquiz.swf",
@@ -4018,7 +4819,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20070130_jm_killerquiz.swf",
     "details": "Gra Flash v5: Killer Quiz - Coder or Cannibal? z Joe Monster (Bertrand Meyer, Gerald Sussman, David Berkowitz)",
     "original_url": "http://download.joemonster.org/flash/Gierki/killerquiz.swf",
-    "archive_url": "https://web.archive.org/web/20070130004806id_/http://download.joemonster.org/flash/Gierki/killerquiz.swf"
+    "archive_url": "https://web.archive.org/web/20070130004806id_/http://download.joemonster.org/flash/Gierki/killerquiz.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "2002_fz_batyskaf.swf",
@@ -4033,7 +4837,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/2002_fz_batyskaf.swf",
     "details": "Polska gra Flash v5 z czerwca 2002 r.: Batyskaf by Marcin L. (FlashZone Open Source, 140 KB, 6 dźwięków, torpedy na spację)",
     "original_url": "http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf",
-    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf"
+    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "2002_fz_arkanoid.swf",
@@ -4048,7 +4855,10 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/2002_fz_arkanoid.swf",
     "details": "Polska gra Flash v5 z czerwca 2002 r.: Arkanoid by Piotr K. Praga (FlashZone, 60 FPS, sterowanie myszką, punkty, kulki)",
     "original_url": "http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf",
-    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf"
+    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "2002_fz_zgadnij_liczbe.swf",
@@ -4063,12 +4873,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/2002_fz_zgadnij_liczbe.swf",
     "details": "Polska gra Flash v5 z czerwca 2002 r.: Zgadnij Liczbę by Jarek Głowacki (FlashZone, losowanie liczb, enter, backspace)",
     "original_url": "http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf",
-    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf"
+    "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20030528_mcintro.swf",
-    "title": "Animacja Flash: 20030528_mcintro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 263 klatek, 12 FPS)).",
+    "title": "Animacja Flash: mcintro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 263 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4078,12 +4891,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030528_mcintro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 263 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/agenziamcbibione/mcintro.swf",
-    "archive_url": "https://web.archive.org/web/20030528231020id_/http://www.republika.pl:80/agenziamcbibione/mcintro.swf"
+    "archive_url": "https://web.archive.org/web/20030528231020id_/http://www.republika.pl:80/agenziamcbibione/mcintro.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041128_intro005.swf",
-    "title": "Animacja Flash: 20041128_intro005.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 5 klatek, 18 FPS)).",
+    "title": "Animacja Flash: intro005",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 5 klatek, 18 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4093,12 +4909,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041128_intro005.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 5 klatek, 18 FPS)",
     "original_url": "http://republika.pl:80/akwarystyka4/intro005.swf",
-    "archive_url": "https://web.archive.org/web/20041128121252id_/http://republika.pl:80/akwarystyka4/intro005.swf"
+    "archive_url": "https://web.archive.org/web/20041128121252id_/http://republika.pl:80/akwarystyka4/intro005.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041103_intro.swf",
-    "title": "Animacja Flash: 20041103_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 270 klatek, 20 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 270 klatek, 20 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4108,12 +4927,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041103_intro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 270 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/amejtor/intro.swf",
-    "archive_url": "https://web.archive.org/web/20041103053923id_/http://republika.pl:80/amejtor/intro.swf"
+    "archive_url": "https://web.archive.org/web/20041103053923id_/http://republika.pl:80/amejtor/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030720_intro_xp.swf",
-    "title": "Animacja Flash: 20030720_intro_xp.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 89 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro xp",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 89 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4123,14 +4945,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030720_intro_xp.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 89 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/ams_xp/intro_xp.swf",
-    "archive_url": "https://web.archive.org/web/20030720211541id_/http://republika.pl:80/ams_xp/intro_xp.swf"
+    "archive_url": "https://web.archive.org/web/20030720211541id_/http://republika.pl:80/ams_xp/intro_xp.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040911_tasmafilm.swf",
-    "title": "Projekt Flash: 20040911_tasmafilm.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 400 klatek, 12 FPS)).",
+    "title": "Taśma Filmowa (400 klatek, 2004)",
+    "desc": "Polska animacja stylizowana na klasyczną taśmę celuloidową z 400 klatkami płynnego ruchu (Flash v5).",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2004",
     "size_str": "19.8 KB",
@@ -4138,12 +4963,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040911_tasmafilm.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 400 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/andkus/tasmafilm.swf",
-    "archive_url": "https://web.archive.org/web/20040911032742id_/http://republika.pl:80/andkus/tasmafilm.swf"
+    "archive_url": "https://web.archive.org/web/20040911032742id_/http://republika.pl:80/andkus/tasmafilm.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050523_flashintro.swf",
-    "title": "Animacja Flash: 20050523_flashintro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 43 klatek, 12 FPS)).",
+    "title": "Animacja Flash: flashintro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 43 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4153,12 +4981,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050523_flashintro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 43 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/andree/flashintro.swf",
-    "archive_url": "https://web.archive.org/web/20050523004136id_/http://republika.pl:80/andree/flashintro.swf"
+    "archive_url": "https://web.archive.org/web/20050523004136id_/http://republika.pl:80/andree/flashintro.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030731_intro1.swf",
-    "title": "Animacja Flash: 20030731_intro1.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro1",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4168,14 +4999,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030731_intro1.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/angelo2/intro1.swf",
-    "archive_url": "https://web.archive.org/web/20030731141218id_/http://www.republika.pl:80/angelo2/intro1.swf"
+    "archive_url": "https://web.archive.org/web/20030731141218id_/http://www.republika.pl:80/angelo2/intro1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040718_Kometa1.swf",
-    "title": "Projekt Flash: 20040718_Kometa1.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 226 klatek, 12 FPS)).",
+    "title": "Animacja Flash: Kometa1",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 226 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2004",
     "size_str": "389.0 KB",
@@ -4183,14 +5017,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040718_Kometa1.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 226 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/animacja/Kometa1.swf",
-    "archive_url": "https://web.archive.org/web/20040718170347id_/http://republika.pl:80/animacja/Kometa1.swf"
+    "archive_url": "https://web.archive.org/web/20040718170347id_/http://republika.pl:80/animacja/Kometa1.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20040621_odzysk.swf",
-    "title": "Projekt Flash: 20040621_odzysk.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 698 klatek, 20 FPS)).",
+    "title": "Animacja Flash: odzysk",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 698 klatek, 20 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "flash_artifacts",
+    "wing": "cinema",
     "domain": "republika.pl",
     "year": "2004",
     "size_str": "159.1 KB",
@@ -4198,11 +5035,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040621_odzysk.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 698 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/arcomputer/grafika/odzysk.swf",
-    "archive_url": "https://web.archive.org/web/20040621110111id_/http://republika.pl:80/arcomputer/grafika/odzysk.swf"
+    "archive_url": "https://web.archive.org/web/20040621110111id_/http://republika.pl:80/arcomputer/grafika/odzysk.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030605_oferta.swf",
-    "title": "Projekt Flash: 20030605_oferta.swf",
+    "title": "Projekt Flash: oferta",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 205 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -4213,14 +5053,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030605_oferta.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 205 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/arcomputer/grafika/oferta.swf",
-    "archive_url": "https://web.archive.org/web/20030605173338id_/http://republika.pl:80/arcomputer/grafika/oferta.swf"
+    "archive_url": "https://web.archive.org/web/20030605173338id_/http://republika.pl:80/arcomputer/grafika/oferta.swf",
+    "tier": 3,
+    "category": "Przycisk / Element Nawigacji Flash",
+    "why_lost": "Pojedynczy przycisk, etykieta tekstowa lub element menu nawigacyjnego z dawnej strony WWW."
   },
   {
     "filename": "20030911_intro.swf",
-    "title": "Animacja Flash: 20030911_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)).",
+    "title": "Gra Flash: intro",
+    "desc": "Interaktywna gra Flash z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
-    "wing": "cinema",
+    "wing": "arcade",
     "domain": "republika.pl",
     "year": "2003",
     "size_str": "72.5 KB",
@@ -4228,12 +5071,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030911_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/arturos/pliki/intro.swf",
-    "archive_url": "https://web.archive.org/web/20030911070629id_/http://republika.pl:80/arturos/pliki/intro.swf"
+    "archive_url": "https://web.archive.org/web/20030911070629id_/http://republika.pl:80/arturos/pliki/intro.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20030408_intro.swf",
-    "title": "Animacja Flash: 20030408_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 52 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 52 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4243,12 +5089,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030408_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 52 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/ashraf/images/intro.swf",
-    "archive_url": "https://web.archive.org/web/20030408114449id_/http://republika.pl:80/ashraf/images/intro.swf"
+    "archive_url": "https://web.archive.org/web/20030408114449id_/http://republika.pl:80/ashraf/images/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030521_intro.swf",
-    "title": "Animacja Flash: 20030521_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 90 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 90 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4258,12 +5107,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030521_intro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 90 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/astazan/intro.swf",
-    "archive_url": "https://web.archive.org/web/20030521230213id_/http://www.republika.pl:80/astazan/intro.swf"
+    "archive_url": "https://web.archive.org/web/20030521230213id_/http://www.republika.pl:80/astazan/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030829_intro_barum.swf",
-    "title": "Animacja Flash: 20030829_intro_barum.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 350 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro barum",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 350 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4273,12 +5125,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030829_intro_barum.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 350 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/autogum/intro%20barum.swf",
-    "archive_url": "https://web.archive.org/web/20030829134249id_/http://republika.pl:80/autogum/intro%20barum.swf"
+    "archive_url": "https://web.archive.org/web/20030829134249id_/http://republika.pl:80/autogum/intro%20barum.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20040321_intro04.swf",
-    "title": "Animacja Flash: 20040321_intro04.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 305 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro04",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 305 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4288,12 +5143,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040321_intro04.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 305 klatek, 12 FPS)",
     "original_url": "http://www.republika.pl:80/awm_ft/intro04.swf",
-    "archive_url": "https://web.archive.org/web/20040321182547id_/http://www.republika.pl:80/awm_ft/intro04.swf"
+    "archive_url": "https://web.archive.org/web/20040321182547id_/http://www.republika.pl:80/awm_ft/intro04.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030525_baczintro.swf",
-    "title": "Animacja Flash: 20030525_baczintro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 573 klatek, 50 FPS)).",
+    "title": "Animacja Flash: baczintro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 573 klatek, 50 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4303,11 +5161,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030525_baczintro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 573 klatek, 50 FPS)",
     "original_url": "http://republika.pl:80/bacz/baczintro.swf",
-    "archive_url": "https://web.archive.org/web/20030525014158id_/http://republika.pl:80/bacz/baczintro.swf"
+    "archive_url": "https://web.archive.org/web/20030525014158id_/http://republika.pl:80/bacz/baczintro.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030611_chrome.swf",
-    "title": "Projekt Flash: 20030611_chrome.swf",
+    "title": "Projekt Flash: chrome",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, nieskompresowany, 1 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -4318,11 +5179,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030611_chrome.swf",
     "details": "Macromedia Flash SWF (ver 6, nieskompresowany, 1 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/bandar/grafika/chrome.swf",
-    "archive_url": "https://web.archive.org/web/20030611024145id_/http://republika.pl:80/bandar/grafika/chrome.swf"
+    "archive_url": "https://web.archive.org/web/20030611024145id_/http://republika.pl:80/bandar/grafika/chrome.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030716_dyskografia_a.swf",
-    "title": "Projekt Flash: 20030716_dyskografia_a.swf",
+    "title": "Projekt Flash: dyskografia a",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -4333,12 +5197,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030716_dyskografia_a.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 40 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/barbara_zielinska_van/dyskografia_a.swf",
-    "archive_url": "https://web.archive.org/web/20030716165416id_/http://republika.pl:80/barbara_zielinska_van/dyskografia_a.swf"
+    "archive_url": "https://web.archive.org/web/20030716165416id_/http://republika.pl:80/barbara_zielinska_van/dyskografia_a.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20041114_intro.swf",
-    "title": "Animacja Flash: 20041114_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 99 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 99 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4348,12 +5215,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041114_intro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 99 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/bart0101/multimedia/intro.swf",
-    "archive_url": "https://web.archive.org/web/20041114183747id_/http://republika.pl:80/bart0101/multimedia/intro.swf"
+    "archive_url": "https://web.archive.org/web/20041114183747id_/http://republika.pl:80/bart0101/multimedia/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030702_intro.swf",
-    "title": "Animacja Flash: 20030702_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 300 klatek, 24 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 300 klatek, 24 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4363,12 +5233,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030702_intro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 300 klatek, 24 FPS)",
     "original_url": "http://www.republika.pl:80/bart__art/intro.swf",
-    "archive_url": "https://web.archive.org/web/20030702220813id_/http://www.republika.pl:80/bart__art/intro.swf"
+    "archive_url": "https://web.archive.org/web/20030702220813id_/http://www.republika.pl:80/bart__art/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20060221_intro.swf",
-    "title": "Animacja Flash: 20060221_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 7, zlib, 102 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 7, zlib, 102 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4378,11 +5251,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060221_intro.swf",
     "details": "Macromedia Flash SWF (ver 7, zlib, 102 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/bernfilmstudio/intro.swf",
-    "archive_url": "https://web.archive.org/web/20060221225850id_/http://republika.pl:80/bernfilmstudio/intro.swf"
+    "archive_url": "https://web.archive.org/web/20060221225850id_/http://republika.pl:80/bernfilmstudio/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030818_bez_granic_promo.swf",
-    "title": "Projekt Flash: 20030818_bez_granic_promo.swf",
+    "title": "Projekt Flash: bez granic promo",
     "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 4, nieskompresowany, 583 klatek, 20 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -4393,12 +5269,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030818_bez_granic_promo.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 583 klatek, 20 FPS)",
     "original_url": "http://republika.pl:80/bezgranic/bez%20granic%20promo.swf",
-    "archive_url": "https://web.archive.org/web/20030818232400id_/http://republika.pl:80/bezgranic/bez%20granic%20promo.swf"
+    "archive_url": "https://web.archive.org/web/20030818232400id_/http://republika.pl:80/bezgranic/bez%20granic%20promo.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040928_intro.swf",
-    "title": "Animacja Flash: 20040928_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 120 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 120 klatek, 12 FPS)) z domeny republika.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "republika.pl",
@@ -4408,14 +5287,17 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040928_intro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 120 klatek, 12 FPS)",
     "original_url": "http://republika.pl:80/bialyzuraw/img/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040928044831id_/http://republika.pl:80/bialyzuraw/img/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040928044831id_/http://republika.pl:80/bialyzuraw/img/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041107_intro.swf",
-    "title": "Animacja Flash: 20041107_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 347 klatek, 20 FPS)).",
+    "title": "Gra Flash: intro",
+    "desc": "Interaktywna gra Flash z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 347 klatek, 20 FPS)) z domeny webpark.pl.",
     "format": "SWF",
-    "wing": "cinema",
+    "wing": "arcade",
     "domain": "webpark.pl",
     "year": "2004",
     "size_str": "2.50 MB",
@@ -4423,12 +5305,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041107_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 347 klatek, 20 FPS)",
     "original_url": "http://3city.webpark.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20041107014414id_/http://3city.webpark.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20041107014414id_/http://3city.webpark.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
   },
   {
     "filename": "20040101_intro_got.swf",
-    "title": "Animacja Flash: 20040101_intro_got.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 435 klatek, 16 FPS)).",
+    "title": "Animacja Flash: intro got",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 435 klatek, 16 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4438,12 +5323,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040101_intro_got.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 435 klatek, 16 FPS)",
     "original_url": "http://4seasons.webpark.pl:80/intro_got.swf",
-    "archive_url": "https://web.archive.org/web/20040101173614id_/http://4seasons.webpark.pl:80/intro_got.swf"
+    "archive_url": "https://web.archive.org/web/20040101173614id_/http://4seasons.webpark.pl:80/intro_got.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20030923_animacja.swf",
-    "title": "Animacja Flash: 20030923_animacja.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 504 klatek, 16 FPS)).",
+    "title": "Animacja Flash: animacja",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 504 klatek, 16 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4453,12 +5341,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20030923_animacja.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 504 klatek, 16 FPS)",
     "original_url": "http://6hsp4sanok.webpark.pl:80/animacja.swf",
-    "archive_url": "https://web.archive.org/web/20030923154259id_/http://6hsp4sanok.webpark.pl:80/animacja.swf"
+    "archive_url": "https://web.archive.org/web/20030923154259id_/http://6hsp4sanok.webpark.pl:80/animacja.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041127_intro2.swf",
-    "title": "Animacja Flash: 20041127_intro2.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 110 klatek, 15 FPS)).",
+    "title": "Animacja Flash: intro2",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 110 klatek, 15 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4468,12 +5359,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041127_intro2.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 110 klatek, 15 FPS)",
     "original_url": "http://a-n-t.webpark.pl:80/ekoenergia/intro2.swf",
-    "archive_url": "https://web.archive.org/web/20041127184343id_/http://a-n-t.webpark.pl:80/ekoenergia/intro2.swf"
+    "archive_url": "https://web.archive.org/web/20041127184343id_/http://a-n-t.webpark.pl:80/ekoenergia/intro2.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040525_intro.swf",
-    "title": "Animacja Flash: 20040525_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 1 klatek, 18 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 1 klatek, 18 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4483,12 +5377,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040525_intro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 1 klatek, 18 FPS)",
     "original_url": "http://a_konopinski.webpark.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040525113653id_/http://a_konopinski.webpark.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040525113653id_/http://a_konopinski.webpark.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20050225_ABSENTintro.swf",
-    "title": "Animacja Flash: 20050225_ABSENTintro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 985 klatek, 25 FPS)).",
+    "title": "Animacja Flash: ABSENTintro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 985 klatek, 25 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4498,12 +5395,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050225_ABSENTintro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 985 klatek, 25 FPS)",
     "original_url": "http://absent.webpark.pl:80/ABSENTintro.swf",
-    "archive_url": "https://web.archive.org/web/20050225141612id_/http://absent.webpark.pl:80/ABSENTintro.swf"
+    "archive_url": "https://web.archive.org/web/20050225141612id_/http://absent.webpark.pl:80/ABSENTintro.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20040525_intro_JIORVJ.swf",
-    "title": "Animacja Flash: 20040525_intro_JIORVJ.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 196 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro JIORVJ",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 196 klatek, 12 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4513,12 +5413,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040525_intro_JIORVJ.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 196 klatek, 12 FPS)",
     "original_url": "http://adamvegt.webpark.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040525094741id_/http://adamvegt.webpark.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040525094741id_/http://adamvegt.webpark.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20040920_intro.swf",
-    "title": "Animacja Flash: 20040920_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 105 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 105 klatek, 12 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4528,12 +5431,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040920_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 105 klatek, 12 FPS)",
     "original_url": "http://adapciak2002.webpark.pl:80/av/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040920031504id_/http://adapciak2002.webpark.pl:80/av/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040920031504id_/http://adapciak2002.webpark.pl:80/av/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041105_intro.swf",
-    "title": "Animacja Flash: 20041105_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 129 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 129 klatek, 12 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4543,11 +5449,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041105_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 129 klatek, 12 FPS)",
     "original_url": "http://agatest.webpark.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20041105144346id_/http://agatest.webpark.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20041105144346id_/http://agatest.webpark.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041217_mapa.swf",
-    "title": "Projekt Flash: 20041217_mapa.swf",
+    "title": "Projekt Flash: mapa",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, zlib, 15 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -4558,11 +5467,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041217_mapa.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 15 klatek, 12 FPS)",
     "original_url": "http://agneess.webpark.pl:80/graf/mapa.swf",
-    "archive_url": "https://web.archive.org/web/20041217045455id_/http://agneess.webpark.pl:80/graf/mapa.swf"
+    "archive_url": "https://web.archive.org/web/20041217045455id_/http://agneess.webpark.pl:80/graf/mapa.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20060502_pocz.swf",
-    "title": "Projekt Flash: 20060502_pocz.swf",
+    "title": "Projekt Flash: pocz",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 6, zlib, 112 klatek, 12 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -4573,12 +5485,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20060502_pocz.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 112 klatek, 12 FPS)",
     "original_url": "http://www.agneess.webpark.pl:80/graf/pocz.swf",
-    "archive_url": "https://web.archive.org/web/20060502003105id_/http://www.agneess.webpark.pl:80/graf/pocz.swf"
+    "archive_url": "https://web.archive.org/web/20060502003105id_/http://www.agneess.webpark.pl:80/graf/pocz.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050307_intro.swf",
-    "title": "Animacja Flash: 20050307_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 3 klatek, 16 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 3 klatek, 16 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4588,12 +5503,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050307_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 3 klatek, 16 FPS)",
     "original_url": "http://agrobujnowski.webpark.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20050307012001id_/http://agrobujnowski.webpark.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20050307012001id_/http://agrobujnowski.webpark.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20031105_animacja.swf",
-    "title": "Animacja Flash: 20031105_animacja.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 2112 klatek, 12 FPS)).",
+    "title": "Animacja Flash: animacja",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 2112 klatek, 12 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4603,12 +5521,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20031105_animacja.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 2112 klatek, 12 FPS)",
     "original_url": "http://agrommczech.webpark.pl:80/multim/animacja.swf",
-    "archive_url": "https://web.archive.org/web/20031105134958id_/http://agrommczech.webpark.pl:80/multim/animacja.swf"
+    "archive_url": "https://web.archive.org/web/20031105134958id_/http://agrommczech.webpark.pl:80/multim/animacja.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20040331_intro_ak1.swf",
-    "title": "Animacja Flash: 20040331_intro_ak1.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 398 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro ak1",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 398 klatek, 12 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4618,11 +5539,14 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040331_intro_ak1.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 398 klatek, 12 FPS)",
     "original_url": "http://akchem.webpark.pl:80/intro_ak1.swf",
-    "archive_url": "https://web.archive.org/web/20040331001836id_/http://akchem.webpark.pl:80/intro_ak1.swf"
+    "archive_url": "https://web.archive.org/web/20040331001836id_/http://akchem.webpark.pl:80/intro_ak1.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20041126_wejscie.swf",
-    "title": "Projekt Flash: 20041126_wejscie.swf",
+    "title": "Projekt Flash: wejscie",
     "desc": "Interaktywny komponent lub intro WWW z domeny webpark.pl (Macromedia Flash SWF (ver 5, nieskompresowany, 18 klatek, 16 FPS)).",
     "format": "SWF",
     "wing": "flash_artifacts",
@@ -4633,12 +5557,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20041126_wejscie.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 18 klatek, 16 FPS)",
     "original_url": "http://akcjaanimacja.webpark.pl:80/wejscie.swf",
-    "archive_url": "https://web.archive.org/web/20041126044237id_/http://akcjaanimacja.webpark.pl:80/wejscie.swf"
+    "archive_url": "https://web.archive.org/web/20041126044237id_/http://akcjaanimacja.webpark.pl:80/wejscie.swf",
+    "tier": 2,
+    "category": "⚡ Rozbudowany Projekt Flash",
+    "why_lost": "Ciężki projekt multimedialny (>200 KB) zawierający zintegrowaną grafikę i dźwięk z wczesnej ery WWW."
   },
   {
     "filename": "20040918_intro_e.swf",
-    "title": "Animacja Flash: 20040918_intro_e.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 175 klatek, 20 FPS)).",
+    "title": "Animacja Flash: intro e",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 175 klatek, 20 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4648,12 +5575,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040918_intro_e.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 175 klatek, 20 FPS)",
     "original_url": "http://alarmsearch.webpark.pl:80/intro_e.swf",
-    "archive_url": "https://web.archive.org/web/20040918030216id_/http://alarmsearch.webpark.pl:80/intro_e.swf"
+    "archive_url": "https://web.archive.org/web/20040918030216id_/http://alarmsearch.webpark.pl:80/intro_e.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040918_intro_p.swf",
-    "title": "Animacja Flash: 20040918_intro_p.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 175 klatek, 20 FPS)).",
+    "title": "Animacja Flash: intro p",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 175 klatek, 20 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4663,12 +5593,15 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20040918_intro_p.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 175 klatek, 20 FPS)",
     "original_url": "http://alarmsearch.webpark.pl:80/intro_p.swf",
-    "archive_url": "https://web.archive.org/web/20040918031703id_/http://alarmsearch.webpark.pl:80/intro_p.swf"
+    "archive_url": "https://web.archive.org/web/20040918031703id_/http://alarmsearch.webpark.pl:80/intro_p.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050118_skullintro.swf",
-    "title": "Animacja Flash: 20050118_skullintro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 96 klatek, 12 FPS)).",
+    "title": "Animacja Flash: skullintro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 96 klatek, 12 FPS)) z domeny webpark.pl.",
     "format": "SWF",
     "wing": "cinema",
     "domain": "webpark.pl",
@@ -4678,141 +5611,207 @@ window.MUSEUM_DATA = [
     "rel_path": "znaleziska/20050118_skullintro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 96 klatek, 12 FPS)",
     "original_url": "http://aliennn1.webpark.pl:80/skullintro.swf",
-    "archive_url": "https://web.archive.org/web/20050118025333id_/http://aliennn1.webpark.pl:80/skullintro.swf"
+    "archive_url": "https://web.archive.org/web/20050118025333id_/http://aliennn1.webpark.pl:80/skullintro.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20040920_intro_HZXOJY.swf",
-    "title": "Animacja Flash: 20040920_intro_HZXOJY.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 283 klatek, 22 FPS)).",
+    "title": "Animacja Flash: intro HZXOJY",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 283 klatek, 22 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2004",
     "size_str": "73.4 KB",
     "date_str": "2004-09-20 06:59:16",
     "rel_path": "znaleziska/20040920_intro_HZXOJY.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 283 klatek, 22 FPS)",
     "original_url": "http://www.125p.friko.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040920065916id_/http://www.125p.friko.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040920065916id_/http://www.125p.friko.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20040328_intro.swf",
-    "title": "Animacja Flash: 20040328_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 120 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 120 klatek, 12 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2004",
     "size_str": "190.0 KB",
     "date_str": "2004-03-28 07:17:39",
     "rel_path": "znaleziska/20040328_intro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 120 klatek, 12 FPS)",
     "original_url": "http://www.1dteam.friko.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20040328071739id_/http://www.1dteam.friko.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20040328071739id_/http://www.1dteam.friko.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041222_3h_intro.swf",
-    "title": "Animacja Flash: 20041222_3h_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 517 klatek, 7 FPS)).",
+    "title": "Animacja Flash: 3h intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 517 klatek, 7 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2004",
     "size_str": "106.6 KB",
     "date_str": "2004-12-22 05:46:31",
     "rel_path": "znaleziska/20041222_3h_intro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 517 klatek, 7 FPS)",
     "original_url": "http://www.3h.friko.pl:80/3h_intro.swf",
-    "archive_url": "https://web.archive.org/web/20041222054631id_/http://www.3h.friko.pl:80/3h_intro.swf"
+    "archive_url": "https://web.archive.org/web/20041222054631id_/http://www.3h.friko.pl:80/3h_intro.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20050828_intro.swf",
-    "title": "Animacja Flash: 20050828_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 40 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany, 40 klatek, 12 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2005",
     "size_str": "39.3 KB",
     "date_str": "2005-08-28 13:50:18",
     "rel_path": "znaleziska/20050828_intro.swf",
     "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 40 klatek, 12 FPS)",
     "original_url": "http://www.44dh.friko.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20050828135018id_/http://www.44dh.friko.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20050828135018id_/http://www.44dh.friko.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20031208_intro.swf",
-    "title": "Animacja Flash: 20031208_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 100 klatek, 10 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 100 klatek, 10 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2003",
     "size_str": "137.5 KB",
     "date_str": "2003-12-08 13:11:58",
     "rel_path": "znaleziska/20031208_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 100 klatek, 10 FPS)",
     "original_url": "http://www.a2lo.friko.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20031208131158id_/http://www.a2lo.friko.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20031208131158id_/http://www.a2lo.friko.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041106_intro3.swf",
-    "title": "Animacja Flash: 20041106_intro3.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 3, nieskompresowany, 180 klatek, 20 FPS)).",
+    "title": "Animacja Flash: intro3",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 3, nieskompresowany, 180 klatek, 20 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2004",
     "size_str": "80.9 KB",
     "date_str": "2004-11-06 16:23:52",
     "rel_path": "znaleziska/20041106_intro3.swf",
     "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 180 klatek, 20 FPS)",
     "original_url": "http://www.adapt.friko.pl:80/intro3.swf",
-    "archive_url": "https://web.archive.org/web/20041106162352id_/http://www.adapt.friko.pl:80/intro3.swf"
+    "archive_url": "https://web.archive.org/web/20041106162352id_/http://www.adapt.friko.pl:80/intro3.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   },
   {
     "filename": "20031101_film.swf",
-    "title": "Projekt Flash: 20031101_film.swf",
-    "desc": "Interaktywny komponent lub intro WWW z domeny Nieznana (Macromedia Flash SWF (ver 5, nieskompresowany, 9 klatek, 12 FPS)).",
+    "title": "Etiuda Filmowa Flash (2003)",
+    "desc": "Krótkometrażowa etiuda animowana ocalona z prywatnej strony na Republice.",
     "format": "SWF",
-    "wing": "flash_artifacts",
-    "domain": "Nieznana",
+    "wing": "cinema",
+    "domain": "friko.pl",
     "year": "2003",
     "size_str": "13.6 KB",
     "date_str": "2003-11-01 10:26:23",
     "rel_path": "znaleziska/20031101_film.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 9 klatek, 12 FPS)",
     "original_url": "http://www.ademar.friko.pl:80/pliki/film.swf",
-    "archive_url": "https://web.archive.org/web/20031101102623id_/http://www.ademar.friko.pl:80/pliki/film.swf"
+    "archive_url": "https://web.archive.org/web/20031101102623id_/http://www.ademar.friko.pl:80/pliki/film.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20041106_intro.swf",
-    "title": "Animacja Flash: 20041106_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 61 klatek, 12 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 5, nieskompresowany, 61 klatek, 12 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2004",
     "size_str": "13.8 KB",
     "date_str": "2004-11-06 17:05:36",
     "rel_path": "znaleziska/20041106_intro.swf",
     "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 61 klatek, 12 FPS)",
     "original_url": "http://www.alanex.friko.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20041106170536id_/http://www.alanex.friko.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20041106170536id_/http://www.alanex.friko.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
   },
   {
     "filename": "20030415_intro.swf",
-    "title": "Animacja Flash: 20030415_intro.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 109 klatek, 20 FPS)).",
+    "title": "Animacja Flash: intro",
+    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 6, zlib, 109 klatek, 20 FPS)) z domeny friko.pl.",
     "format": "SWF",
     "wing": "cinema",
-    "domain": "Nieznana",
+    "domain": "friko.pl",
     "year": "2003",
     "size_str": "47.5 KB",
     "date_str": "2003-04-15 21:44:25",
     "rel_path": "znaleziska/20030415_intro.swf",
     "details": "Macromedia Flash SWF (ver 6, zlib, 109 klatek, 20 FPS)",
     "original_url": "http://www.anastasis.friko.pl:80/intro.swf",
-    "archive_url": "https://web.archive.org/web/20030415214425id_/http://www.anastasis.friko.pl:80/intro.swf"
+    "archive_url": "https://web.archive.org/web/20030415214425id_/http://www.anastasis.friko.pl:80/intro.swf",
+    "tier": 1,
+    "category": "🎬 Autorska Animacja / Kreskówka",
+    "why_lost": "Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds."
+  },
+  {
+    "filename": "20050507_jm_clinicgame.swf",
+    "title": "Clinic Game (Joe Monster 2005)",
+    "desc": "Satyryczna minigra medyczno-zręcznościowa z Joe Monster (maj 2005): dyżur lekarski z licznikiem punktów (score), poziomami trudności i upływającym czasem.",
+    "format": "SWF",
+    "wing": "arcade",
+    "domain": "joemonster.org",
+    "year": "2005",
+    "size_str": "1.18 MB",
+    "date_str": "2005-05-07 12:00:00",
+    "rel_path": "znaleziska/20050507_jm_clinicgame.swf",
+    "details": "Polska gra Flash z Joe Monster (maj 2005): Clinic Game (1.18 MB, 759 klatek, 12 FPS, punkty i poziomy)",
+    "original_url": "http://joemonster.org/pobieralnia/clinicgame.swf",
+    "archive_url": "https://web.archive.org/web/20050507id_/http://joemonster.org/pobieralnia/clinicgame.swf",
+    "tier": 1,
+    "category": "🎮 Zaginiona Gra Flash",
+    "why_lost": "Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku."
+  },
+  {
+    "filename": "20030425_flash_max.swf",
+    "title": "Projekt Flash: flash max",
+    "desc": "Interaktywny komponent lub intro WWW z domeny republika.pl (Macromedia Flash SWF (ver 6, zlib, 10 klatek, 50 FPS)).",
+    "format": "SWF",
+    "wing": "flash_artifacts",
+    "domain": "republika.pl",
+    "year": "2003",
+    "size_str": "23.5 KB",
+    "date_str": "2003-04-25 12:00:00",
+    "rel_path": "znaleziska/20030425_flash_max.swf",
+    "details": "Macromedia Flash SWF (ver 6, zlib, 10 klatek, 50 FPS)",
+    "original_url": "http://republika.pl/flash_max/flash_max.swf",
+    "archive_url": "https://web.archive.org/web/20030425id_/http://republika.pl/flash_max/flash_max.swf",
+    "tier": 2,
+    "category": "Interaktywny Element WWW",
+    "why_lost": "Interaktywny baner lub prezentacja Flash z archiwum Republiki/Webparku."
   }
 ];
