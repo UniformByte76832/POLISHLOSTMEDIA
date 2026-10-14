@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("div");
       card.className = "list-card";
       card.innerHTML = `
-        <div class="list-card-title">${item.filename}</div>
+        <div class="list-card-title">${item.title || item.filename}</div>
         <div class="list-card-meta">
           <span>${item.domain}</span>
           <span>${item.size_str}</span>
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(".museum-section").forEach(s => s.classList.remove("active"));
         document.querySelector('[data-tab="tab-arcade"]').classList.add("active");
         document.getElementById("tab-arcade").classList.add("active");
-        initRuffle(item.rel_path, `Animacja: ${item.filename}`, item.desc);
+        initRuffle(item.rel_path, item.title || `Animacja: ${item.filename}`, item.desc);
       });
       cinemaList.appendChild(card);
     });
