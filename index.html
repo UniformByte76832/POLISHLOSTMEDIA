@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏛️ Muzeum Archeologii Cyfrowej (1997–2006)</title>
+  <link rel="stylesheet" href="muzeum.css">
+  
+  <!-- Ruffle: WebAssembly Flash Player Emulator -->
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  
+  <!-- Magenta HTML MIDI Player -->
+  <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/html-midi-player@1.4.0"></script>
+  
+  <!-- Zbiory i Logika Muzeum -->
+  <script src="muzeum_data.js"></script>
+  <script src="muzeum.js" defer></script>
+</head>
+<body>
+
+  <!-- Nagłówek Aplikacji -->
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-icon">🏛️</div>
+      <div class="brand-text">
+        <h1>Archeologia Cyfrowa</h1>
+        <span>Muzeum Zaginionego Internetu (1997–2006)</span>
+      </div>
+    </div>
+
+    <!-- Pasek Statystyk -->
+    <div class="stats-bar">
+      <div class="stat-chip">Artefakty: <strong id="stat-total">315</strong></div>
+      <div class="stat-chip">⚡ Flash: <strong id="stat-swf">154</strong></div>
+      <div class="stat-chip">🎵 MIDI: <strong id="stat-midi">55</strong></div>
+      <div class="stat-chip">🖼️ Grafiki: <strong id="stat-img">107</strong></div>
+    </div>
+
+    <!-- Nawigacja po Skrzydłach Muzeum -->
+    <nav class="museum-nav">
+      <button class="nav-btn active" data-tab="tab-arcade">🕹️ Salon Gier</button>
+      <button class="nav-btn" data-tab="tab-cinema">🎬 Kino Flash</button>
+      <button class="nav-btn" data-tab="tab-jukebox">🎵 Szafa Grająca</button>
+      <button class="nav-btn" data-tab="tab-gallery">📸 Wystawa Grafik</button>
+      <button class="nav-btn" data-tab="tab-catalog">🗄️ Katalog Bazy</button>
+    </nav>
+  </header>
+
+  <!-- Główny Kontener Wystaw -->
+  <main class="container">
+
+    <!-- 1. SALON GIER FLASH -->
+    <section id="tab-arcade" class="museum-section active">
+      <div class="section-header">
+        <div>
+          <h2>🕹️ Salon Gier Retro Flash</h2>
+          <p>Oryginalne produkcje Macromedia Flash z lat 2002–2005 uruchamiane natywnie przez emulator WebAssembly (Ruffle).</p>
+        </div>
+      </div>
+
+      <div class="player-layout">
+        <div class="stage-wrapper">
+          <div class="stage-header">
+            <div class="stage-title">
+              <span id="current-stage-title">Snake Arena 1.0 (UMK Toruń, 2003)</span>
+            </div>
+            <div class="stage-badges">
+              <span class="badge badge-arcade">Macromedia Flash 5</span>
+              <span class="badge badge-lost">Lost Media</span>
+            </div>
+          </div>
+
+          <div class="stage-view">
+            <div id="ruffle-container"></div>
+          </div>
+
+          <div class="stage-controls">
+            <div id="current-stage-desc" style="font-size: 0.85rem; color: var(--text-muted); max-width: 60%;">
+              Autorska gra w węża z kwietnia 2003 roku z trybem single oraz multiplayer dla 2 graczy na jednej klawiaturze. Autor: TALEE (UMK Toruń).
+            </div>
+            <div class="btn-group">
+              <button id="btn-restart-swf" class="btn-action">🔄 Uruchom ponownie</button>
+              <button id="btn-fullscreen-swf" class="btn-action btn-primary">⛶ Pełny ekran</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Boczna Lista Wyboru Gier i Projektów -->
+        <div class="drawer-panel">
+          <div class="drawer-header">
+            <span>🎮 Wybór Produkcji</span>
+            <span class="badge">Interaktywne</span>
+          </div>
+          <div id="arcade-playlist" class="item-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. KINO FLASH -->
+    <section id="tab-cinema" class="museum-section">
+      <div class="section-header">
+        <div>
+          <h2>🎬 Kino Animacji i Prezentacji Flash</h2>
+          <p>Historyczne etiudy, kreskówki amatorskie i prezentacje multimedialne z polskiego internetu (Republika / Webpark).</p>
+        </div>
+      </div>
+
+      <div class="drawer-panel" style="height: auto; max-height: none;">
+        <div class="drawer-header">
+          <span>📽️ Zbiór Animacji i Etiud</span>
+          <span class="badge">Kliknij, aby odtworzyć w Salonie</span>
+        </div>
+        <div id="cinema-playlist" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; padding: 12px 0;"></div>
+      </div>
+    </section>
+
+    <!-- 3. SZAFA GRAJĄCA MIDI -->
+    <section id="tab-jukebox" class="museum-section">
+      <div class="section-header">
+        <div>
+          <h2>🎵 Szafa Grająca MIDI (1994–2006)</h2>
+          <p>Ocalone kompozycje polskiego internetu oraz kultowe tematy filmowe i syntetyczne z serwerów GeoCities i Polboxa.</p>
+        </div>
+      </div>
+
+      <div class="jukebox-layout">
+        <!-- Odtwarzacz Kasetowy -->
+        <div class="jukebox-deck">
+          <div class="cassette-visualizer">
+            <div class="cassette-label">
+              <h3 id="current-midi-title">Nine Inch Nails – Closer (Warren Rice 1994)</h3>
+              <p id="current-midi-meta">GeoCities SunsetStrip • Roland SCC-1 • 69.6 KB</p>
+            </div>
+            <div class="cassette-reels">
+              <div class="reel"></div>
+              <div class="reel"></div>
+            </div>
+          </div>
+
+          <!-- Miernik VU -->
+          <div class="vu-meter">
+            <div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div>
+            <div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div>
+            <div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div>
+            <div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div>
+            <div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div><div class="vu-bar"></div>
+          </div>
+
+          <!-- Kontrolki Audio -->
+          <div class="audio-controls">
+            <button id="btn-play-midi" class="btn-ctrl btn-play-big" title="Odtwarzaj / Pauza">▶</button>
+            <a id="btn-download-midi" href="#" download class="btn-ctrl" title="Pobierz plik .MID na dysk">💾</a>
+          </div>
+
+          <!-- Komponent HTML MIDI Player Magenta -->
+          <div style="width: 100%; max-width: 480px; margin-top: 10px;">
+            <midi-player id="embedded-midi-player" sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" style="width: 100%; filter: invert(0.9) hue-rotate(180deg);"></midi-player>
+          </div>
+        </div>
+
+        <!-- Lista Utworów MIDI -->
+        <div class="drawer-panel">
+          <div class="drawer-header">
+            <span>🎼 Lista Ścieżek Dźwiękowych</span>
+            <span class="badge">55 Utworów</span>
+          </div>
+          <div id="jukebox-playlist" class="item-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. WYSTAWA GRAFIK -->
+    <section id="tab-gallery" class="museum-section">
+      <div class="section-header">
+        <div>
+          <h2>📸 Wystawa Fotografii i Digital Art (1998–2006)</h2>
+          <p>Osobiste archiwa fotograficzne, unikatowe layouty oraz grafiki z epoki modemów dial-up.</p>
+        </div>
+      </div>
+
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </section>
+
+    <!-- 5. GŁÓWNY KATALOG BAZY -->
+    <section id="tab-catalog" class="museum-section">
+      <div class="section-header">
+        <div>
+          <h2>🗄️ Kompletne Archiwum Znalezisk</h2>
+          <p>Wszystkie 315 zabezpieczonych obiektów binarnych z możliwością natychmiastowego przeszukiwania i filtrowania.</p>
+        </div>
+        <div id="catalog-count" style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--neon-cyan);"></div>
+      </div>
+
+      <!-- Filtry tabeli -->
+      <div class="catalog-filter-bar">
+        <input type="text" id="catalog-search" class="search-input" placeholder="🔍 Szukaj po nazwie, domenie, autorze lub opisie...">
+        <select id="filter-format" class="select-filter">
+          <option value="all">Wszystkie Formaty</option>
+          <option value="SWF">⚡ Flash (SWF)</option>
+          <option value="MIDI">🎵 Muzyka (MIDI)</option>
+          <option value="GIF">🎞️ Animacje (GIF)</option>
+          <option value="JPEG">🖼️ Obrazy (JPEG)</option>
+        </select>
+        <select id="filter-domain" class="select-filter">
+          <option value="all">Wszystkie Domeny</option>
+          <option value="republika.pl">republika.pl</option>
+          <option value="webpark.pl">webpark.pl</option>
+          <option value="free.polbox.pl">free.polbox.pl</option>
+          <option value="geocities.com">geocities.com</option>
+        </select>
+      </div>
+
+      <!-- Tabela danych -->
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Format</th>
+              <th>Plik i Opis</th>
+              <th>Rozmiar</th>
+              <th>Data Archiwizacji</th>
+              <th>Domena</th>
+              <th>Archiwum</th>
+            </tr>
+          </thead>
+          <tbody id="catalog-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal Lightbox dla Grafik -->
+  <div id="lightbox-modal" class="lightbox-modal">
+    <div class="lightbox-content">
+      <div class="lightbox-body">
+        <img id="lightbox-img" src="" alt="Powiększenie">
+      </div>
+      <div class="lightbox-footer">
+        <div>
+          <h3 id="lightbox-title" style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--neon-cyan);"></h3>
+          <p id="lightbox-meta" style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);"></p>
+        </div>
+        <div class="btn-group">
+          <a id="lightbox-orig" href="#" target="_blank" class="btn-action">Źródłowy URL</a>
+          <button id="lightbox-close" class="btn-action btn-primary">Zamknij</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

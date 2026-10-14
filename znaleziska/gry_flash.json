@@ -1,0 +1,190 @@
+[
+  {
+    "filename": "20030818_index.swf",
+    "title": "Gra Logiczna / Interaktywna (20030818_index.swf)",
+    "local_path": "C:\\Users\\Oskar\\.gemini\\antigravity-ide\\scratch\\cyfrowa-archeologia\\znaleziska\\20030818_index.swf",
+    "size_str": "96.1 KB",
+    "date_str": "2003-08-18 21:33:33",
+    "original_url": "http://republika.pl:80/a1t2/index.swf",
+    "description": "Projekt z silnikiem kolizji obiektów i interakcją z kursorem myszy.",
+    "keywords": [
+      "hittest",
+      "level",
+      "game"
+    ],
+    "strings": [
+      "FWS",
+      "loaded",
+      "_root",
+      "getBytesLoaded",
+      "total",
+      "getBytesTotal",
+      "procent",
+      "Times New Roman",
+      "5d~",
+      "total",
+      "loaded",
+      "Dungeon",
+      "procent",
+      "<DV",
+      "}\"n2"
+    ]
+  },
+  {
+    "filename": "20030408_snakearena.swf",
+    "title": "Snake Arena (Wąż)",
+    "local_path": "C:\\Users\\Oskar\\.gemini\\antigravity-ide\\scratch\\cyfrowa-archeologia\\znaleziska\\20030408_snakearena.swf",
+    "size_str": "74.3 KB",
+    "date_str": "2003-04-08 19:03:10",
+    "original_url": "http://a1t2.republika.pl:80/flashki/snakearena[1].swf",
+    "description": "Klasyczna zręcznościowa gra w węża, sterowanie klawiaturą, mechanika zjadania i powiększania ogona.",
+    "keywords": [
+      "score",
+      "snake",
+      "arena",
+      "gra",
+      "game"
+    ],
+    "strings": [
+      "FWS",
+      "$1$PJ$5X7bffv1FRCG2UgkbQ.38.",
+      "ph>Q",
+      "n7E",
+      "Gl(",
+      "B\"'N",
+      "]K@\\",
+      "'>cb",
+      "fhn",
+      "Vxy",
+      "AFo",
+      "]W-i",
+      "!l$",
+      "3 d",
+      "(FNc["
+    ]
+  },
+  {
+    "filename": "20041222_akwariumjacka.swf",
+    "title": "Wirtualne Akwarium Jacka",
+    "local_path": "znaleziska\\20041222_akwariumjacka.swf",
+    "size_str": "121.6 KB",
+    "date_str": "2004-12-22 21:03:34",
+    "original_url": "http://republika.pl:80/akwariumjacka/akwariumjacka.swf",
+    "description": "Interaktywna symulacja akwarium z rybkami, roślinami i sterowaniem elementami zbiornika.",
+    "keywords": [
+      "akwarium"
+    ],
+    "strings": [
+      "FWS",
+      "getBytesLoaded",
+      "getBytesTotal",
+      "Times New Roman",
+      "progress",
+      "Loading...",
+      "getBytesLoaded",
+      "getBytesTotal",
+      "progress",
+      "getBytesLoaded",
+      "getBytesTotal",
+      "% - loading Flash...",
+      "hm,v",
+      "rq5",
+      "$l+"
+    ]
+  },
+  {
+    "filename": "20041128_adam3,1.swf",
+    "title": "Interaktywna Zabawka / Point & Click",
+    "local_path": "C:\\Users\\Oskar\\.gemini\\antigravity-ide\\scratch\\cyfrowa-archeologia\\znaleziska\\20041128_adam3,1.swf",
+    "size_str": "403.1 KB",
+    "date_str": "2004-11-28 12:13:54",
+    "original_url": "http://republika.pl:80/ajezier/adam3,1.swf",
+    "description": "Gra logiczno-interaktywna z zaawansowaną obsługą przeciągania elementów (startDrag/stopDrag).",
+    "keywords": [
+      "hittest",
+      "enterframe",
+      "keydown",
+      "startdrag",
+      "stopdrag",
+      "level"
+    ],
+    "strings": [
+      "CWS",
+      "y'W,",
+      "enabled",
+      "component",
+      "_parent",
+      "controller",
+      "selection",
+      "highlight_mc",
+      "registerSkinElement",
+      "@highlight_mc",
+      "disabled",
+      "selectionDisabled",
+      "highlight_mc2",
+      "component",
+      "registerSkinElement"
+    ]
+  },
+  {
+    "filename": "20041128_adam3,1eng.swf",
+    "title": "Interaktywna Zabawka / Point & Click",
+    "local_path": "C:\\Users\\Oskar\\.gemini\\antigravity-ide\\scratch\\cyfrowa-archeologia\\znaleziska\\20041128_adam3,1eng.swf",
+    "size_str": "406.4 KB",
+    "date_str": "2004-11-28 11:40:37",
+    "original_url": "http://republika.pl:80/ajezier/adam3,1eng.swf",
+    "description": "Gra logiczno-interaktywna z zaawansowaną obsługą przeciągania elementów (startDrag/stopDrag).",
+    "keywords": [
+      "hittest",
+      "enterframe",
+      "keydown",
+      "startdrag",
+      "stopdrag",
+      "level"
+    ],
+    "strings": [
+      "CWS",
+      "y'W,",
+      "enabled",
+      "component",
+      "_parent",
+      "controller",
+      "selection",
+      "highlight_mc",
+      "registerSkinElement",
+      "@highlight_mc",
+      "disabled",
+      "selectionDisabled",
+      "highlight_mc2",
+      "component",
+      "registerSkinElement"
+    ]
+  },
+  {
+    "filename": "20041025_gra.swf",
+    "title": "Gra Flash (Prywatny Projekt)",
+    "local_path": "C:\\Users\\Oskar\\.gemini\\antigravity-ide\\scratch\\cyfrowa-archeologia\\znaleziska\\20041025_gra.swf",
+    "size_str": "4.4 KB",
+    "date_str": "2004-10-25 06:30:26",
+    "original_url": "http://2c-kossuth.webpark.pl:80/gra.swf",
+    "description": "Autorska minigra odnaleziona na polskich serwerach.",
+    "keywords": [],
+    "strings": [
+      "FWS",
+      ")Jf",
+      "gU?",
+      "xgN4",
+      "ra6",
+      "l,J",
+      "B}/",
+      "o&{^",
+      "l.s",
+      "QJRM",
+      "Q,0",
+      "t&$",
+      "a5Z",
+      "|e2",
+      "|e2"
+    ]
+  }
+]
