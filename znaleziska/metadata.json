@@ -4238,32 +4238,6 @@
     "digest": "5APTE5Q6AM647MIRWVLEKTL4KL6WDXYI"
   },
   {
-    "filename": "20040522_baby.swf",
-    "local_path": "znaleziska/20040522_baby.swf",
-    "original_url": "http://flashzone.plocman.pl:80/filmy/baby.swf",
-    "archive_url": "https://web.archive.org/web/20040522064338id_/http://flashzone.plocman.pl:80/filmy/baby.swf",
-    "timestamp": "20040522064338",
-    "date_str": "2004-05-22 06:43:38",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 337 klatek, 12 FPS)",
-    "size_bytes": 530998,
-    "size_str": "518.6 KB",
-    "digest": "3QY5VJE6DGME2RZCD4ZXRQLWBLA2WFXB"
-  },
-  {
-    "filename": "20030512_bb3.swf",
-    "local_path": "znaleziska/20030512_bb3.swf",
-    "original_url": "http://flashzone.plocman.pl:80/filmy/bb3.swf",
-    "archive_url": "https://web.archive.org/web/20030512184852id_/http://flashzone.plocman.pl:80/filmy/bb3.swf",
-    "timestamp": "20030512184852",
-    "date_str": "2003-05-12 18:48:52",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 96 klatek, 18 FPS)",
-    "size_bytes": 330464,
-    "size_str": "322.7 KB",
-    "digest": "AOXEBIOMUMWAY3F466ULRH352WGC35NU"
-  },
-  {
     "filename": "20030512_break.swf",
     "local_path": "znaleziska/20030512_break.swf",
     "original_url": "http://flashzone.plocman.pl:80/filmy/break.swf",
@@ -4290,19 +4264,6 @@
     "digest": "77VZEU3VZ6FI2YU44NMSQNVB5DEV6T6O"
   },
   {
-    "filename": "20030725_charli.swf",
-    "local_path": "znaleziska/20030725_charli.swf",
-    "original_url": "http://flashzone.plocman.pl:80/filmy/charli.swf",
-    "archive_url": "https://web.archive.org/web/20030725231550id_/http://flashzone.plocman.pl:80/filmy/charli.swf",
-    "timestamp": "20030725231550",
-    "date_str": "2003-07-25 23:15:50",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 3, nieskompresowany, 2926 klatek, 12 FPS)",
-    "size_bytes": 894231,
-    "size_str": "873.3 KB",
-    "digest": "W3JXAI3TMJNKAADAY6HGJCLJRJVRTGSJ"
-  },
-  {
     "filename": "20031114_czolg.swf",
     "local_path": "znaleziska/20031114_czolg.swf",
     "original_url": "http://flashzone.plocman.pl:80/filmy/czolg.swf",
@@ -4314,19 +4275,6 @@
     "size_bytes": 127927,
     "size_str": "124.9 KB",
     "digest": "6KQHNGBHNTJ6WUU7BTDZXELTWQMN2W67"
-  },
-  {
-    "filename": "20051208_dancing_girl.swf",
-    "local_path": "znaleziska/20051208_dancing_girl.swf",
-    "original_url": "http://flashzone.plocman.pl:80/filmy/dancing_girl.swf",
-    "archive_url": "https://web.archive.org/web/20051208014931id_/http://flashzone.plocman.pl:80/filmy/dancing_girl.swf",
-    "timestamp": "20051208014931",
-    "date_str": "2005-12-08 01:49:31",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 5, nieskompresowany, 1350 klatek, 15 FPS)",
-    "size_bytes": 666182,
-    "size_str": "650.6 KB",
-    "digest": "DF437EA47TP2K2K5AYTZLZPCEY7K2LIY"
   },
   {
     "filename": "20040622_do_dna.swf",
@@ -4522,19 +4470,6 @@
     "size_bytes": 155136,
     "size_str": "151.5 KB",
     "digest": "6YJ7RABVVRT72TJQGDO35C2P5TCMKIYJ"
-  },
-  {
-    "filename": "20030410_lowca.swf",
-    "local_path": "znaleziska/20030410_lowca.swf",
-    "original_url": "http://flashzone.plocman.pl:80/filmy/lowca.swf",
-    "archive_url": "https://web.archive.org/web/20030410062451id_/http://flashzone.plocman.pl:80/filmy/lowca.swf",
-    "timestamp": "20030410062451",
-    "date_str": "2003-04-10 06:24:51",
-    "format": "SWF",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany, 1267 klatek, 12 FPS)",
-    "size_bytes": 345798,
-    "size_str": "337.7 KB",
-    "digest": "CU7ODDT3UQTWB73PX3TNSQFR2SG5IUQ3"
   },
   {
     "filename": "20030724_mag_atack.swf",

@@ -14,7 +14,8 @@ REPETITIVE_PATTERNS = [
     r'(?:^|[/._-])(top[_-]?page|bottom|menu|header[_-]?bg|footer)(?:[/._\d-]|$)',
     r'(?:^|[/._-])(text\d+|button\d+|btn\d+)(?:[/._-]|$)',
     r'republika[_-]?(top|bottom|logo|pasek)',
-    r'onet[_-]?(logo|baner|top)'
+    r'onet[_-]?(logo|baner|top)',
+    r'/(?:filmy/)?(lowca|charli|bb3|baby|dancing_girl)\.swf'
 ]
 
 COMPILED_REPETITIVE = re.compile('|'.join(REPETITIVE_PATTERNS), re.IGNORECASE)

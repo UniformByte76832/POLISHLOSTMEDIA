@@ -2,12 +2,12 @@
 
 *Data wygenerowania: 2026-10-14*
 
-Raport klasyfikuje ocalone 373 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
+Raport klasyfikuje ocalone 368 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
 
 ## 📊 Klasyfikacja Zasobów
 
-- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **86 plików**
-- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **192 plików**
+- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **85 plików**
+- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **188 plików**
 - 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **95 plików**
 
 ## 🔴 TIER 1: Prawdziwe Zaginione Projekty (Lost Media)
@@ -92,7 +92,6 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20060513_killvader2.0.rar](./20060513_killvader2.0.rar)**<br>_RAR_ | 🕹️ Zaginiona Gra / Program PC | 2.48 MB | 2006-05-13 06:24:50 | Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami. |
 | **[20031114_czolg.swf](./20031114_czolg.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 124.9 KB | 2003-11-14 22:51:43 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20040731_kregle.swf](./20040731_kregle.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 151.5 KB | 2004-07-31 13:55:14 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
-| **[20030410_lowca.swf](./20030410_lowca.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 337.7 KB | 2003-04-10 06:24:51 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20030724_mag_atack.swf](./20030724_mag_atack.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 132.4 KB | 2003-07-24 21:09:20 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20031205_mini_golf1.swf](./20031205_mini_golf1.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 241.4 KB | 2003-12-05 23:32:14 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20030725_prezenty.swf](./20030725_prezenty.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 354.8 KB | 2003-07-25 16:45:38 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
@@ -105,7 +104,7 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 
 ## 🟡 TIER 2: Rzadkie Aranżacje i Duże Multimedialne Projekty
 
-Łącznie **192 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
+Łącznie **188 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
 
 | Nazwa Pliku | Typ | Rozmiar | Pochodzenie |
 | :--- | :---: | :---: | :--- |
@@ -134,7 +133,7 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20030523_strona.swf](./20030523_strona.swf)** | SWF | 77.2 KB | [Oryginalny URL](http://www.republika.pl:80/adminerot/strona.swf) |
 | **[20021027_animegirl.swf](./20021027_animegirl.swf)** | SWF | 16.7 KB | [Oryginalny URL](http://republika.pl:80/adriana_lucja/animegirl.swf?title=) |
 | **[20030515_praca_dyp.swf](./20030515_praca_dyp.swf)** | SWF | 13.6 KB | [Oryginalny URL](http://republika.pl:80/adrianmroczkowski/praca_dyp.swf) |
-| *...i jeszcze 167 innych pozycji Tier 2...* | | | |
+| *...i jeszcze 163 innych pozycji Tier 2...* | | | |
 
 ---
 *Wygenerowano przez automatyczny podsystem archeologii cyfrowej.*

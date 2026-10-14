@@ -43,10 +43,6 @@ SPECIAL_CINEMA_FILES = {
         "Anime Girl (Październik 2002)",
         "Wczesna animacja postaci w stylu anime z 2002 roku z archiwum GeoCities."
     ),
-    '20030725_charli.swf': (
-        "Charlie Chaplin (FlashZone 2003)",
-        "Monumentalna etiuda animowana w hołdzie Charliemu Chaplinowi (873 KB, 2926 klatek animacji wektorowej)."
-    ),
     '20040822_gamer.swf': (
         "Gamer (FlashZone 2004)",
         "Kultowa kreskówka o perypetiach zapalonego gracza z 2004 roku (555 KB, 1469 klatek)."
@@ -59,14 +55,6 @@ SPECIAL_CINEMA_FILES = {
         "Emeryt (FlashZone 2003)",
         "Satyryczna kreskówka z FlashZone o życiu polskiego emeryta (297 KB, 604 klatki)."
     ),
-    '20040522_baby.swf': (
-        "Baby (FlashZone 2004)",
-        "Humorystyczna animacja FlashZone z maja 2004 roku (518 KB, 337 klatek)."
-    ),
-    '20030512_bb3.swf': (
-        "Big Brother 3 Parodia (FlashZone 2003)",
-        "Satyra na polską edycję reality show Big Brother z maja 2003 roku (322 KB, 96 klatek)."
-    ),
     '20031114_czolg.swf': (
         "Czołg (FlashZone 2003)",
         "Militarna animacja wektorowa z efektami dźwiękowymi z listopada 2003 roku."
@@ -74,11 +62,15 @@ SPECIAL_CINEMA_FILES = {
     '20031114_edward.swf': (
         "Edward (FlashZone 2003)",
         "Autorska etiuda animowana z 2003 roku z FlashZone (460 KB, 402 klatki)."
-    ),
-    '20051208_dancing_girl.swf': (
-        "Dancing Girl (FlashZone 2005)",
-        "Zaawansowana etiuda taneczno-muzyczna (650 KB, 1350 klatek) z grudnia 2005 roku."
     )
+}
+
+BLACKLISTED_NSFW_FILES = {
+    '20030410_lowca.swf',
+    '20030725_charli.swf',
+    '20030512_bb3.swf',
+    '20040522_baby.swf',
+    '20051208_dancing_girl.swf'
 }
 
 def make_clean_title(filename: str) -> str:
@@ -149,6 +141,8 @@ def prepare_data():
 
     for it in items:
         fn = it.get('filename', '')
+        if fn in BLACKLISTED_NSFW_FILES:
+            continue
         fmt = it.get('format', '')
         orig = it.get('original_url', '')
         size_str = it.get('size_str', '')
