@@ -32,6 +32,10 @@ def prepare_data():
         elif "polbox" in orig: domain = "free.polbox.pl"
         elif "webpark.pl" in orig: domain = "webpark.pl"
         elif "geocities.com" in orig: domain = "geocities.com"
+        elif "czaha.pl" in orig: domain = "czaha.pl"
+        elif "100lat.info" in orig: domain = "100lat.info"
+        elif "joemonster.org" in orig: domain = "joemonster.org"
+        elif "neostrada.pl" in orig: domain = "cda / neostrada"
 
         # Rok
         year = date_str[:4] if len(date_str) >= 4 else "2000"
@@ -45,6 +49,22 @@ def prepare_data():
             wing = "arcade"
             title = "Mistrz Autobusu (MPK 2006 by Czaha)"
             desc = "Kultowy polski symulator kierowcy autobusu miejskiego (luty 2006) z silnikiem kolizji hitTest, prędkościomierzem i czasem do przystanku. Autor: Czaha (czaha.pl)."
+        elif fn == "20060301_aczy_trabka.swf":
+            wing = "arcade"
+            title = "'A' czy TRĄBKA ? (Elektryczna gra 2003/2006 by Czaha)"
+            desc = "Kultowa polska gra towarzyska w wersji cyfrowej. Zgadnij co wypadnie: A czy trąbka? Silnik punktacji, losowania, 9 interaktywnych przycisków i unikalny humor Czahy."
+        elif fn == "20061018_nalej_ruska_wodka.swf":
+            wing = "arcade"
+            title = "Podziel Ruską Wódkę (CDA / Milanos 2006)"
+            desc = "Zręcznościowa minigra Flash polegająca na precyzyjnym rozlewaniu wódki do kieliszków. Zachowana z archiwum Milanos i CDA."
+        elif fn == "2007_sextremalna_katapulta.swf":
+            wing = "arcade"
+            title = "Sextremalna Katapulta (JoeMonster 2007)"
+            desc = "Fizyczna minigra zręcznościowa z katapultą i zbieraniem dopalaczy, zachowana z archiwum pobieralni Joe Monster."
+        elif fn == "killvader2.0.rar":
+            wing = "archive"
+            title = "Kill Vader 2.0 (Gra PC Delphi by Czaha)"
+            desc = "Oryginalna instalacja gry na PC w Delphi (2.6 MB) autorstwa Czahy z 2003 roku, zachowana w całości z dźwiękiem i tabelą rekordów."
         elif fn == "20060412_kaczki.swf":
             wing = "arcade"
             title = "Kaczki (Flash 2006)"
