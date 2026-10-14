@@ -646,21 +646,6 @@ window.MUSEUM_DATA = [
     "archive_url": "https://web.archive.org/web/20060310231114id_/http://republika.pl:80/akademia_krasnoludkow/baby.mid"
   },
   {
-    "filename": "20030921_laska1.swf",
-    "title": "Animacja Flash: 20030921_laska1.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany)).",
-    "format": "SWF",
-    "wing": "cinema",
-    "domain": "republika.pl",
-    "year": "2003",
-    "size_str": "535.8 KB",
-    "date_str": "2003-09-21 10:32:51",
-    "rel_path": "znaleziska/20030921_laska1.swf",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany)",
-    "original_url": "http://republika.pl:80/adimas/laska1.swf",
-    "archive_url": "https://web.archive.org/web/20030921103251id_/http://republika.pl:80/adimas/laska1.swf"
-  },
-  {
     "filename": "20040517_prezentacja.swf",
     "title": "Animacja Flash: 20040517_prezentacja.swf",
     "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany)).",
@@ -1064,21 +1049,6 @@ window.MUSEUM_DATA = [
     "details": "Macromedia Flash SWF (ver 7, nieskompresowany)",
     "original_url": "http://republika.pl:80/adikor/Flash/intro.swf",
     "archive_url": "https://web.archive.org/web/20040914041516id_/http://republika.pl:80/adikor/Flash/intro.swf"
-  },
-  {
-    "filename": "20030921_laska2.swf",
-    "title": "Animacja Flash: 20030921_laska2.swf",
-    "desc": "Historyczna etiuda/animacja multimedialna z epoki (Macromedia Flash SWF (ver 4, nieskompresowany)).",
-    "format": "SWF",
-    "wing": "cinema",
-    "domain": "republika.pl",
-    "year": "2003",
-    "size_str": "323.2 KB",
-    "date_str": "2003-09-21 11:06:36",
-    "rel_path": "znaleziska/20030921_laska2.swf",
-    "details": "Macromedia Flash SWF (ver 4, nieskompresowany)",
-    "original_url": "http://republika.pl:80/adimas/laska2.swf",
-    "archive_url": "https://web.archive.org/web/20030921110636id_/http://republika.pl:80/adimas/laska2.swf"
   },
   {
     "filename": "20030927_matematikon.swf",
