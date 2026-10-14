@@ -107,8 +107,8 @@ new_games = [
         "local_path": os.path.join(ZNALEZISKA_DIR, "20070130_jm_killerquiz.swf"),
         "original_url": "http://download.joemonster.org/flash/Gierki/killerquiz.swf",
         "archive_url": "https://web.archive.org/web/20070130004806id_/http://download.joemonster.org/flash/Gierki/killerquiz.swf",
-        "timestamp": "20050602",
-        "date_str": "2005-06-02 01:25:13",
+        "timestamp": "20070130",
+        "date_str": "2007-01-30 00:48:06",
         "format": "SWF",
         "details": "Gra Flash v5: Killer Quiz - Coder or Cannibal? z Joe Monster (Bertrand Meyer, Gerald Sussman, David Berkowitz)",
         "size_bytes": 267018,
@@ -156,14 +156,24 @@ new_games = [
     }
 ]
 
+item_by_filename = {it['filename']: it for it in items}
 added = 0
+updated = 0
+
 for ng in new_games:
-    if ng['filename'] not in existing_filenames:
+    fn = ng['filename']
+    if fn in item_by_filename:
+        target = item_by_filename[fn]
+        target['timestamp'] = ng['timestamp']
+        target['date_str'] = ng['date_str']
+        target['details'] = ng['details']
+        updated += 1
+    else:
         items.append(ng)
-        existing_filenames.add(ng['filename'])
+        item_by_filename[fn] = ng
         added += 1
 
 with open(METADATA_FILE, "w", encoding="utf-8") as f:
     json.dump(items, f, indent=2, ensure_ascii=False)
 
-print(f"Dodano {added} nowych zweryfikowanych artefaktów do metadata.json. Łącznie: {len(items)} artefaktów.")
+print(f"Zaktualizowano {updated} artefaktów, dodano {added} nowych. Łącznie: {len(items)} artefaktów.")

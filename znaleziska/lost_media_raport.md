@@ -2,11 +2,11 @@
 
 *Data wygenerowania: 2026-10-14*
 
-Raport klasyfikuje ocalone 315 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
+Raport klasyfikuje ocalone 324 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
 
 ## 📊 Klasyfikacja Zasobów
 
-- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **63 plików**
+- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **72 plików**
 - 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **153 plików**
 - 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **99 plików**
 
@@ -37,7 +37,6 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20041222_akwariumjacka.swf](./20041222_akwariumjacka.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 121.6 KB | 2004-12-22 21:03:34 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20060710_Movie13.swf](./20060710_Movie13.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 899.5 KB | 2006-07-10 10:03:15 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[19970301_closer3.mid](./19970301_closer3.mid)**<br>_MIDI_ | 🎹 Historyczna Aranżacja Tracker/MIDI (1994) | 69.6 KB | 1997-03-01 12:56:52 | Archiwalna aranżacja z 1994 r. Warrena Rice'a z Seattle z zaszytymi znacznikami karaoke i autorskim podpisem z GeoCities SunsetStrip. |
-| **[20030921_laska1.swf](./20030921_laska1.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 535.8 KB | 2003-09-21 10:32:51 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20040517_prezentacja.swf](./20040517_prezentacja.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 438.5 KB | 2004-05-17 21:14:38 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20040511_Movie1.swf](./20040511_Movie1.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 6.6 KB | 2004-05-11 11:33:53 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20040914_enter_zse.swf](./20040914_enter_zse.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 30.9 KB | 2004-09-14 04:22:23 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
@@ -48,7 +47,6 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20041128_16.swf](./20041128_16.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 17.7 KB | 2004-11-28 11:56:36 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20041128_17.swf](./20041128_17.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 9.3 KB | 2004-11-28 11:42:44 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20040914_intro.swf](./20040914_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 26.3 KB | 2004-09-14 04:15:16 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
-| **[20030921_laska2.swf](./20030921_laska2.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 323.2 KB | 2003-09-21 11:06:36 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20040619_czytaj.swf](./20040619_czytaj.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 3.8 KB | 2004-06-19 02:31:11 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20021027_animegirl.swf](./20021027_animegirl.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 16.7 KB | 2002-10-27 12:30:19 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 | **[20041021_index.swf](./20041021_index.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 32.8 KB | 2004-10-21 04:00:14 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
@@ -79,6 +77,17 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20041025_gra.swf](./20041025_gra.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 4.4 KB | 2004-10-25 06:30:26 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20041103_JZZ30XG.MID](./20041103_JZZ30XG.MID)**<br>_MIDI_ | 🎵 Unikatowa Polska Kompozycja MIDI | 23.9 KB | 2004-11-03 08:12:12 | Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych. |
 | **[20041103_TESTMIDI.MID](./20041103_TESTMIDI.MID)**<br>_MIDI_ | 🎵 Unikatowa Polska Kompozycja MIDI | 38.7 KB | 2004-11-03 08:21:58 | Lokalna, prywatna sekwencja muzyczna z polskich serwerów (Polbox/Republika), nieznaleziona w bazach komercyjnych. |
+| **[20060511_mistrz_autobusu.swf](./20060511_mistrz_autobusu.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 786.1 KB | 2006-05-11 22:44:45 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20060412_kaczki.swf](./20060412_kaczki.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 532.0 KB | 2006-04-12 11:39:14 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20060301_aczy_trabka.swf](./20060301_aczy_trabka.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 24.1 KB | 2006-03-01 23:58:29 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20061018_nalej_ruska_wodka.swf](./20061018_nalej_ruska_wodka.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 7.7 KB | 2006-10-18 01:54:28 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[2007_sextremalna_katapulta.swf](./2007_sextremalna_katapulta.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 1.07 MB | 2007-11-20 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[killvader2.0.rar](./killvader2.0.rar)**<br>_RAR_ | 🕹️ Zaginiona Gra / Program PC | 2.48 MB | 2006-03-01 23:58:29 | Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami. |
+| **[2005_jm_nu_pagadi.swf](./2005_jm_nu_pagadi.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 64.5 KB | 2005-06-02 01:25:13 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20070130_jm_killerquiz.swf](./20070130_jm_killerquiz.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 260.8 KB | 2007-01-30 00:48:06 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[2002_fz_batyskaf.swf](./2002_fz_batyskaf.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 137.2 KB | 2002-06-16 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[2002_fz_arkanoid.swf](./2002_fz_arkanoid.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 14.4 KB | 2002-06-16 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[2002_fz_zgadnij_liczbe.swf](./2002_fz_zgadnij_liczbe.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 19.8 KB | 2002-06-16 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 
 ## 🟡 TIER 2: Rzadkie Aranżacje i Duże Multimedialne Projekty
 
