@@ -2,12 +2,12 @@
 
 *Data wygenerowania: 2026-10-14*
 
-Raport klasyfikuje ocalone 368 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
+Raport klasyfikuje ocalone 418 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
 
 ## 📊 Klasyfikacja Zasobów
 
-- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **85 plików**
-- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **188 plików**
+- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **89 plików**
+- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **234 plików**
 - 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **95 plików**
 
 ## 🔴 TIER 1: Prawdziwe Zaginione Projekty (Lost Media)
@@ -101,10 +101,14 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20040801_snotshot.swf](./20040801_snotshot.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 80.3 KB | 2004-08-01 05:23:20 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20031206_tarzan.swf](./20031206_tarzan.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 846.9 KB | 2003-12-06 06:00:04 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[20031127_txtlogocreator.swf](./20031127_txtlogocreator.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 38.6 KB | 2003-11-27 02:23:52 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20060515_129.swf](./20060515_129.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 702.5 KB | 2006-05-15 04:46:19 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[19991002_amkonw.zip](./19991002_amkonw.zip)**<br>_ZIP_ | 🕹️ Zaginiona Gra / Program PC | 5.6 KB | 1999-10-02 01:57:16 | Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami. |
+| **[19990501_amslowo.zip](./19990501_amslowo.zip)**<br>_ZIP_ | 🕹️ Zaginiona Gra / Program PC | 5.2 KB | 1999-05-01 10:07:47 | Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami. |
+| **[19991122_starsNN4.zip](./19991122_starsNN4.zip)**<br>_ZIP_ | 🕹️ Zaginiona Gra / Program PC | 1.1 KB | 1999-11-22 09:10:13 | Samodzielna archiwalna aplikacja / instalator z epoki wczesnego internetu, zachowana w całości z dźwiękiem i zasobami. |
 
 ## 🟡 TIER 2: Rzadkie Aranżacje i Duże Multimedialne Projekty
 
-Łącznie **188 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
+Łącznie **234 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
 
 | Nazwa Pliku | Typ | Rozmiar | Pochodzenie |
 | :--- | :---: | :---: | :--- |
@@ -133,7 +137,7 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20030523_strona.swf](./20030523_strona.swf)** | SWF | 77.2 KB | [Oryginalny URL](http://www.republika.pl:80/adminerot/strona.swf) |
 | **[20021027_animegirl.swf](./20021027_animegirl.swf)** | SWF | 16.7 KB | [Oryginalny URL](http://republika.pl:80/adriana_lucja/animegirl.swf?title=) |
 | **[20030515_praca_dyp.swf](./20030515_praca_dyp.swf)** | SWF | 13.6 KB | [Oryginalny URL](http://republika.pl:80/adrianmroczkowski/praca_dyp.swf) |
-| *...i jeszcze 163 innych pozycji Tier 2...* | | | |
+| *...i jeszcze 209 innych pozycji Tier 2...* | | | |
 
 ---
 *Wygenerowano przez automatyczny podsystem archeologii cyfrowej.*

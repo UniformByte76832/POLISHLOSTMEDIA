@@ -267,6 +267,10 @@ def prepare_data():
                 wing = "arcade"
                 title = f"Gra Flash: {clean_title}"
                 desc = f"Interaktywna gra Flash z epoki ({details}) z domeny {domain}."
+            elif "100lat.info" in orig.lower():
+                wing = "cinema"
+                title = f"100lat.info: Skecz {clean_title}"
+                desc = f"Polska satyryczna etiuda Flash z kultowego portalu 100lat.info z maja 2006 roku ({details})."
             elif category == "🎬 Autorska Animacja / Kreskówka" or any(k in fn.lower() for k in ['nauczyciel', 'laska', 'prezentacja', 'intro', 'movie', 'animacja', 'projekt', 'film']):
                 wing = "cinema"
                 title = f"Animacja Flash: {clean_title}"
@@ -277,7 +281,10 @@ def prepare_data():
                 desc = f"Interaktywny komponent lub intro WWW z domeny {domain} ({details})."
         elif fmt == 'MIDI':
             wing = "jukebox"
-            if "closer" in fn.lower():
+            if "alanp" in orig.lower():
+                title = f"The Alan Parsons Project – {clean_title} (KKI Kraków 2000)"
+                desc = f"Archiwalna aranżacja MIDI utworu The Alan Parsons Project ocalona z serwera KKI Kraków (maj-lipiec 2000). {details}."
+            elif "closer" in fn.lower():
                 title = "Nine Inch Nails – Closer (Sequenced by Warren Rice 1994)"
                 desc = "Wybitna amatorska aranżacja na syntezator Roland SCC-1 z zaszytymi znacznikami tekstu karaoke z GeoCities SunsetStrip."
             elif "enjoy" in fn.lower():
@@ -307,8 +314,18 @@ def prepare_data():
             desc = f"Rozmiar: {details}, pochodzenie: {domain}."
         else:
             wing = "archive"
-            title = clean_title
-            desc = details
+            if "amkonw" in fn.lower():
+                title = "AmKonw (Konwerter Znaków Amiga/PC 1999)"
+                desc = "Narzędzie konwertujące polskie strony kodowe (AmigaPL / Mazovia / CP1250) z serwera KKI z października 1999 r."
+            elif "amslowo" in fn.lower():
+                title = "AmSłowo (Baza Słownikowa Amiga 1999)"
+                desc = "Archiwalne narzędzie tekstowe dla Amigi z serwera krakowskiego KKI z maja 1999 r."
+            elif "stars" in fn.lower():
+                title = "Stars Demo (Demoscena KKI 1999)"
+                desc = "Animacja gwiazdowa z archiwum demosceny KKI z listopada 1999 r."
+            else:
+                title = clean_title
+                desc = details
 
         wing_counts[wing] = wing_counts.get(wing, 0) + 1
 

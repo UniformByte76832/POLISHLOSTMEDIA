@@ -1,10 +1,10 @@
 """
-Moduł Szperacza (Scraper) - FALA 3:
+Moduł Szperacza (Scraper) - FALA 5:
 Poszukiwanie polskiego dziedzictwa cyfrowego (1997–2006) z naciskiem na:
-- Autorskie gry i animacje Flash (Republika, Webpark, Interia, Friko, Gery)
-- Portale pionierów i autorów (Czaha.pl, FlashZone, 100lat.info)
-- Archiwalne moduły dźwiękowe sceny (Amiga / PC Tracker MOD)
-- Pionierskie serwery lat 90. (KKI.net.pl, Polbox, Webpark)
+- Autorskie animacje i satyry (100lat.info)
+- Pionierskie serwery i demoscena lat 90. (KKI.net.pl, Free.polbox.pl)
+- Archiwalne moduły dźwiękowe i MIDI (Webpark.pl, Polbox, KKI)
+- Polskie gry Flash i projekty epoki (Gery.pl, Interia Miasto, Friko.pl, Republika.pl)
 Zoptymalizowany pod kątem CDX API (collapse, fl, retry backoff, pre-filtering min_length i anty-śmieć).
 """
 import os
@@ -69,52 +69,46 @@ def query_cdx(url_target: str, params: dict, timeout: int = 35) -> list[dict]:
     return []
 
 def get_exploration_targets():
-    """Zwraca cele poszukiwawcze dla Fali 4 (1997–2006) zoptymalizowane pod kątem szybkości i unikatowości."""
+    """Zwraca cele poszukiwawcze dla Fali 5 (1997–2006) zoptymalizowane pod kątem szybkości i unikatowości."""
     targets = [
-        # 1. Głębokie wykopaliska na domenach pionierów i autorów (domeny z błyskawicznym czasem odpowiedzi)
-        {
-            'url': 'czaha.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*\.(swf|rar|zip)$',
-            'min_length': 2048,
-            'name': 'Czaha.pl Projekty i Gry',
-            'limit': 50
-        },
-        {
-            'url': 'flashzone.plocman.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*\.(swf|rar|zip)$',
-            'min_length': 2048,
-            'name': 'FlashZone Plocman SWF/Archiwa',
-            'limit': 50
-        },
+        # 1. 100lat.info - kultowe polskie animacje satyryczne i etiudy Flash
         {
             'url': '100lat.info',
             'matchType': 'domain',
             'url_regex': r'original:.*\.(swf|rar|zip)$',
             'min_length': 2048,
             'name': '100lat.info Flash/Archiwa',
-            'limit': 50
+            'limit': 30
         },
 
-        # 2. Pionierskie serwery lat 90. i demoscena
+        # 2. KKI.net.pl - pionierski krakowski serwer lat 90., demoscena, MOD i MIDI
         {
             'url': 'kki.net.pl',
             'matchType': 'domain',
             'url_regex': r'original:.*\.(swf|mid|mod|rar|zip)$',
             'min_length': 1024,
             'name': 'KKI.net.pl Retro Multimedia',
-            'limit': 50
+            'limit': 30
         },
 
-        # 3. Webpark.pl (Dźwięk MIDI)
+        # 3. Free.polbox.pl - legendarny wczesny polski webhosting lat 1997-2002
+        {
+            'url': 'free.polbox.pl',
+            'matchType': 'domain',
+            'url_regex': r'original:.*\.(swf|mid|mod)$',
+            'min_length': 1024,
+            'name': 'Free.polbox.pl Retro Multimedia',
+            'limit': 30
+        },
+
+        # 4. Webpark.pl (Dźwięk MIDI)
         {
             'url': 'webpark.pl',
             'matchType': 'domain',
             'mimetype': 'audio/midi',
             'min_length': 1024,
             'name': 'Webpark.pl MIDI',
-            'limit': 50
+            'limit': 30
         },
 
         # 5. Gry i animacje z polskich portali i serwerów
