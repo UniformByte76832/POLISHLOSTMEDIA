@@ -13,7 +13,7 @@ existing_filenames = set(it['filename'] for it in items)
 new_games = [
     {
         "filename": "20060511_mistrz_autobusu.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "20060511_mistrz_autobusu.swf"),
+        "local_path": "znaleziska/20060511_mistrz_autobusu.swf",
         "original_url": "http://czaha.pl:80/autobus/autobus6.swf",
         "archive_url": "https://web.archive.org/web/20060511224445id_/http://czaha.pl:80/autobus/autobus6.swf",
         "timestamp": "20060511",
@@ -26,7 +26,7 @@ new_games = [
     },
     {
         "filename": "20060412_kaczki.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "20060412_kaczki.swf"),
+        "local_path": "znaleziska/20060412_kaczki.swf",
         "original_url": "http://100lat.info:80/kaczki/kaczki.swf",
         "archive_url": "https://web.archive.org/web/20060412113914id_/http://100lat.info:80/kaczki/kaczki.swf",
         "timestamp": "20060412",
@@ -39,7 +39,7 @@ new_games = [
     },
     {
         "filename": "20060301_aczy_trabka.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "20060301_aczy_trabka.swf"),
+        "local_path": "znaleziska/20060301_aczy_trabka.swf",
         "original_url": "http://czaha.pl/aczy.swf",
         "archive_url": "https://web.archive.org/web/20060301235829id_/http://czaha.pl/aczy.swf",
         "timestamp": "20060301",
@@ -52,7 +52,7 @@ new_games = [
     },
     {
         "filename": "20061018_nalej_ruska_wodka.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "20061018_nalej_ruska_wodka.swf"),
+        "local_path": "znaleziska/20061018_nalej_ruska_wodka.swf",
         "original_url": "http://dorotka-cda.neostrada.pl/nalej.swf",
         "archive_url": "https://web.archive.org/web/20061018015428id_/http://dorotka-cda.neostrada.pl:80/nalej.swf",
         "timestamp": "20061018",
@@ -65,7 +65,7 @@ new_games = [
     },
     {
         "filename": "2007_sextremalna_katapulta.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "2007_sextremalna_katapulta.swf"),
+        "local_path": "znaleziska/2007_sextremalna_katapulta.swf",
         "original_url": "http://download.joemonster.org/h/sextremalnakatapulta.swf",
         "archive_url": "https://web.archive.org/web/20140929131512id_/http://download.joemonster.org/h/sextremalnakatapulta.swf",
         "timestamp": "20071120",
@@ -78,7 +78,7 @@ new_games = [
     },
     {
         "filename": "killvader2.0.rar",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "killvader2.0.rar"),
+        "local_path": "znaleziska/killvader2.0.rar",
         "original_url": "http://czaha.pl/killvader2.0.rar",
         "archive_url": "https://web.archive.org/web/20060301235829id_/http://czaha.pl/killvader2.0.rar",
         "timestamp": "20060301",
@@ -91,7 +91,7 @@ new_games = [
     },
     {
         "filename": "2005_jm_nu_pagadi.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "2005_jm_nu_pagadi.swf"),
+        "local_path": "znaleziska/2005_jm_nu_pagadi.swf",
         "original_url": "http://download.joemonster.org/flash/Gierki/nu_pagadi.swf",
         "archive_url": "https://web.archive.org/web/20141208020010id_/http://download.joemonster.org/flash/Gierki/nu_pagadi.swf",
         "timestamp": "20050602",
@@ -104,7 +104,7 @@ new_games = [
     },
     {
         "filename": "20070130_jm_killerquiz.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "20070130_jm_killerquiz.swf"),
+        "local_path": "znaleziska/20070130_jm_killerquiz.swf",
         "original_url": "http://download.joemonster.org/flash/Gierki/killerquiz.swf",
         "archive_url": "https://web.archive.org/web/20070130004806id_/http://download.joemonster.org/flash/Gierki/killerquiz.swf",
         "timestamp": "20070130",
@@ -117,7 +117,7 @@ new_games = [
     },
     {
         "filename": "2002_fz_batyskaf.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "2002_fz_batyskaf.swf"),
+        "local_path": "znaleziska/2002_fz_batyskaf.swf",
         "original_url": "http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf",
         "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/batyskaf.swf",
         "timestamp": "20020616",
@@ -130,7 +130,7 @@ new_games = [
     },
     {
         "filename": "2002_fz_arkanoid.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "2002_fz_arkanoid.swf"),
+        "local_path": "znaleziska/2002_fz_arkanoid.swf",
         "original_url": "http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf",
         "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/arkanoid.swf",
         "timestamp": "20020616",
@@ -143,7 +143,7 @@ new_games = [
     },
     {
         "filename": "2002_fz_zgadnij_liczbe.swf",
-        "local_path": os.path.join(ZNALEZISKA_DIR, "2002_fz_zgadnij_liczbe.swf"),
+        "local_path": "znaleziska/2002_fz_zgadnij_liczbe.swf",
         "original_url": "http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf",
         "archive_url": "https://web.archive.org/web/20020823000000id_/http://flashzone.plocman.pl/open_source/swfy/zgadnij_liczbe.swf",
         "timestamp": "20020616",
@@ -164,6 +164,7 @@ for ng in new_games:
     fn = ng['filename']
     if fn in item_by_filename:
         target = item_by_filename[fn]
+        target['local_path'] = ng['local_path']
         target['timestamp'] = ng['timestamp']
         target['date_str'] = ng['date_str']
         target['details'] = ng['details']

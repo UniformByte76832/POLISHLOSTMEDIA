@@ -31,6 +31,7 @@ def analyze_and_generate_report():
         orig = it.get('original_url', '').lower()
         size = it.get('size_bytes', 0)
         local_path = it.get('local_path', '')
+        full_path = os.path.join(PROJECT_DIR, local_path) if not os.path.isabs(local_path) else local_path
         details = it.get('details', '')
 
         # Domyślny tier
@@ -42,9 +43,9 @@ def analyze_and_generate_report():
         if fmt == 'SWF':
             # Sprawdzenie zawartości
             swf_strings = []
-            if os.path.exists(local_path):
+            if os.path.exists(full_path):
                 try:
-                    with open(local_path, 'rb') as sf:
+                    with open(full_path, 'rb') as sf:
                         sdata = sf.read()
                     # prosta dekompresja CWS
                     if sdata[:3] == b'CWS':
@@ -93,9 +94,9 @@ def analyze_and_generate_report():
         # 2. MUZYKA MIDI
         elif fmt == 'MIDI':
             mid_meta = []
-            if os.path.exists(local_path):
+            if os.path.exists(full_path):
                 try:
-                    with open(local_path, 'rb') as mf:
+                    with open(full_path, 'rb') as mf:
                         mdata = mf.read()
                     raw_m = re.findall(b'[\x20-\x7e]{3,}', mdata)
                     for rm in raw_m:

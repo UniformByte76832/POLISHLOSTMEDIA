@@ -166,7 +166,7 @@ class Archivist:
 
         record = {
             'filename': safe_name,
-            'local_path': local_path,
+            'local_path': f"znaleziska/{safe_name}",
             'original_url': original_url,
             'archive_url': clean_url,
             'timestamp': timestamp,

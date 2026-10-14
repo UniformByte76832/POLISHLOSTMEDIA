@@ -2,13 +2,13 @@
 
 *Data wygenerowania: 2026-10-14*
 
-Raport klasyfikuje ocalone 324 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
+Raport klasyfikuje ocalone 289 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
 
 ## 📊 Klasyfikacja Zasobów
 
 - 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **72 plików**
 - 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **153 plików**
-- 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **99 plików**
+- 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **64 plików**
 
 ## 🔴 TIER 1: Prawdziwe Zaginione Projekty (Lost Media)
 
