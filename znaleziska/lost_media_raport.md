@@ -2,12 +2,12 @@
 
 *Data wygenerowania: 2026-10-14*
 
-Raport klasyfikuje ocalone 289 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
+Raport klasyfikuje ocalone 339 plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.
 
 ## 📊 Klasyfikacja Zasobów
 
-- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **72 plików**
-- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **153 plików**
+- 🔴 **Tier 1 (Prawdziwe Lost Media / Autorskie Dzieła):** **115 plików**
+- 🟡 **Tier 2 (Rzadkie Aranżacje i Duże Projekty Epoki):** **160 plików**
 - 🟢 **Tier 3 (Powszechne Zasoby Internetu Lat 90/00):** **64 plików**
 
 ## 🔴 TIER 1: Prawdziwe Zaginione Projekty (Lost Media)
@@ -88,10 +88,53 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[2002_fz_batyskaf.swf](./2002_fz_batyskaf.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 137.2 KB | 2002-06-16 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[2002_fz_arkanoid.swf](./2002_fz_arkanoid.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 14.4 KB | 2002-06-16 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
 | **[2002_fz_zgadnij_liczbe.swf](./2002_fz_zgadnij_liczbe.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 19.8 KB | 2002-06-16 00:00:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20030528_mcintro.swf](./20030528_mcintro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 43.6 KB | 2003-05-28 23:10:20 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041128_intro005.swf](./20041128_intro005.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 122.4 KB | 2004-11-28 12:12:52 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20041103_intro.swf](./20041103_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 59.9 KB | 2004-11-03 05:39:23 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030720_intro_xp.swf](./20030720_intro_xp.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 38.1 KB | 2003-07-20 21:15:41 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20050523_flashintro.swf](./20050523_flashintro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 26.6 KB | 2005-05-23 00:41:36 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030731_intro1.swf](./20030731_intro1.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 12.5 KB | 2003-07-31 14:12:18 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040621_odzysk.swf](./20040621_odzysk.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 159.1 KB | 2004-06-21 11:01:11 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20030911_intro.swf](./20030911_intro.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 72.5 KB | 2003-09-11 07:06:29 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20030408_intro.swf](./20030408_intro.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 31.8 KB | 2003-04-08 11:44:49 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20030521_intro.swf](./20030521_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 54.5 KB | 2003-05-21 23:02:13 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030829_intro%20barum.swf](./20030829_intro%20barum.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 104.6 KB | 2003-08-29 13:42:49 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040321_intro04.swf](./20040321_intro04.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 478.6 KB | 2004-03-21 18:25:47 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030525_baczintro.swf](./20030525_baczintro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 99.0 KB | 2003-05-25 01:41:58 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030716_dyskografia_a.swf](./20030716_dyskografia_a.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 204.9 KB | 2003-07-16 16:54:16 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20041114_intro.swf](./20041114_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 390.5 KB | 2004-11-14 18:37:47 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030702_intro.swf](./20030702_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 24.1 KB | 2003-07-02 22:08:13 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20060221_intro.swf](./20060221_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 62.5 KB | 2006-02-21 22:58:50 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030818_bez%20granic%20promo.swf](./20030818_bez%20granic%20promo.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 125.6 KB | 2003-08-18 23:24:00 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20040928_intro.swf](./20040928_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 80.5 KB | 2004-09-28 04:48:31 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041107_intro.swf](./20041107_intro.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 2.50 MB | 2004-11-07 01:44:14 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20040101_intro_got.swf](./20040101_intro_got.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 24.2 KB | 2004-01-01 17:36:14 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030923_animacja.swf](./20030923_animacja.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 110.0 KB | 2003-09-23 15:42:59 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041127_intro2.swf](./20041127_intro2.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 24.0 KB | 2004-11-27 18:43:43 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040525_intro.swf](./20040525_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 49.7 KB | 2004-05-25 11:36:53 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20050225_ABSENTintro.swf](./20050225_ABSENTintro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 229.3 KB | 2005-02-25 14:16:12 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040525_intro_JIORVJ.swf](./20040525_intro_JIORVJ.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 57.1 KB | 2004-05-25 09:47:41 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040920_intro.swf](./20040920_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 24.4 KB | 2004-09-20 03:15:04 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041105_intro.swf](./20041105_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 260.8 KB | 2004-11-05 14:43:46 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041217_mapa.swf](./20041217_mapa.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 43.2 KB | 2004-12-17 04:54:55 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20050307_intro.swf](./20050307_intro.swf)**<br>_SWF_ | 🎮 Zaginiona Gra Flash | 28.7 KB | 2005-03-07 01:20:01 | Unikatowa gra Macromedia Flash z polskiej strony osobistej; kod i assety zachowane wyłącznie w tym pliku. |
+| **[20031105_animacja.swf](./20031105_animacja.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 299.1 KB | 2003-11-05 13:49:58 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040331_intro_ak1.swf](./20040331_intro_ak1.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 83.6 KB | 2004-03-31 00:18:36 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040918_intro_e.swf](./20040918_intro_e.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 31.7 KB | 2004-09-18 03:02:16 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040918_intro_p.swf](./20040918_intro_p.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 28.2 KB | 2004-09-18 03:17:03 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20050118_skullintro.swf](./20050118_skullintro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 27.3 KB | 2005-01-18 02:53:33 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040920_intro_HZXOJY.swf](./20040920_intro_HZXOJY.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 73.4 KB | 2004-09-20 06:59:16 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20040328_intro.swf](./20040328_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 190.0 KB | 2004-03-28 07:17:39 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041222_3h_intro.swf](./20041222_3h_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 106.6 KB | 2004-12-22 05:46:31 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20050828_intro.swf](./20050828_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 39.3 KB | 2005-08-28 13:50:18 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20031208_intro.swf](./20031208_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 137.5 KB | 2003-12-08 13:11:58 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041106_intro3.swf](./20041106_intro3.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 80.9 KB | 2004-11-06 16:23:52 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20041106_intro.swf](./20041106_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 13.8 KB | 2004-11-06 17:05:36 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
+| **[20030415_intro.swf](./20030415_intro.swf)**<br>_SWF_ | 🎬 Autorska Animacja / Kreskówka | 47.5 KB | 2003-04-15 21:44:25 | Prywatna etiuda / animacja amatorska z lat 2002-2006, brak jakiejkolwiek kopii na współczesnym YouTube/Newgrounds. |
 
 ## 🟡 TIER 2: Rzadkie Aranżacje i Duże Multimedialne Projekty
 
-Łącznie **153 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
+Łącznie **160 plików**, w tym rozbudowane animacje Flash, sekwencje orkiestrowe MIDI i unikatowe grafiki dial-up.
 
 | Nazwa Pliku | Typ | Rozmiar | Pochodzenie |
 | :--- | :---: | :---: | :--- |
@@ -120,7 +163,7 @@ Obiekty stworzone bezpośrednio przez użytkowników prywatnych witryn (gry, kre
 | **[20050324_myfile.swf](./20050324_myfile.swf)** | SWF | 8.9 KB | [Oryginalny URL](http://republika.pl:80/adamkrawczyk/multimedia/myfile.swf) |
 | **[20050324_myfile5.swf](./20050324_myfile5.swf)** | SWF | 9.4 KB | [Oryginalny URL](http://republika.pl:80/adamkrawczyk/multimedia/myfile5.swf) |
 | **[20040619_adam.swf](./20040619_adam.swf)** | SWF | 59.6 KB | [Oryginalny URL](http://republika.pl:80/adammulik/adam.swf) |
-| *...i jeszcze 128 innych pozycji Tier 2...* | | | |
+| *...i jeszcze 135 innych pozycji Tier 2...* | | | |
 
 ---
 *Wygenerowano przez automatyczny podsystem archeologii cyfrowej.*

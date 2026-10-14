@@ -5,5 +5,25 @@ __pycache__/
 archeologia.log
 postep.json
 
-# Large runtime binary player if not needed on web (or keep it if small)
-# znaleziska/flashplayer_32_sa.exe is 15.9 MB, fits in GitHub repo (< 100 MB)
+# Temporary research scripts & dumps
+check_*.py
+explore_*.py
+find_*.py
+extract_*.py
+download_*.py
+parse_*.py
+get_*.py
+scan_*.py
+test_*.py
+ekspedycja_gry.py
+discover_czaha_swfs.py
+metadata_fala1.json
+inspect_*.py
+!inspect_swf.py
+
+# HTML research snapshots
+*.html
+!index.html
+
+# Large binaries & utilities
+cloudflared.exe
