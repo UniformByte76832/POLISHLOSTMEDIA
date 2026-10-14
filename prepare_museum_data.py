@@ -42,6 +42,42 @@ SPECIAL_CINEMA_FILES = {
     '20021027_animegirl.swf': (
         "Anime Girl (Październik 2002)",
         "Wczesna animacja postaci w stylu anime z 2002 roku z archiwum GeoCities."
+    ),
+    '20030725_charli.swf': (
+        "Charlie Chaplin (FlashZone 2003)",
+        "Monumentalna etiuda animowana w hołdzie Charliemu Chaplinowi (873 KB, 2926 klatek animacji wektorowej)."
+    ),
+    '20040822_gamer.swf': (
+        "Gamer (FlashZone 2004)",
+        "Kultowa kreskówka o perypetiach zapalonego gracza z 2004 roku (555 KB, 1469 klatek)."
+    ),
+    '20040428_robaczek.swf': (
+        "Robaczek (FlashZone 2004)",
+        "Wybitna polska autorska animacja Flash (900 KB, 4734 klatki płynnego ruchu) z kwietnia 2004 roku."
+    ),
+    '20030820_emeryt.swf': (
+        "Emeryt (FlashZone 2003)",
+        "Satyryczna kreskówka z FlashZone o życiu polskiego emeryta (297 KB, 604 klatki)."
+    ),
+    '20040522_baby.swf': (
+        "Baby (FlashZone 2004)",
+        "Humorystyczna animacja FlashZone z maja 2004 roku (518 KB, 337 klatek)."
+    ),
+    '20030512_bb3.swf': (
+        "Big Brother 3 Parodia (FlashZone 2003)",
+        "Satyra na polską edycję reality show Big Brother z maja 2003 roku (322 KB, 96 klatek)."
+    ),
+    '20031114_czolg.swf': (
+        "Czołg (FlashZone 2003)",
+        "Militarna animacja wektorowa z efektami dźwiękowymi z listopada 2003 roku."
+    ),
+    '20031114_edward.swf': (
+        "Edward (FlashZone 2003)",
+        "Autorska etiuda animowana z 2003 roku z FlashZone (460 KB, 402 klatki)."
+    ),
+    '20051208_dancing_girl.swf': (
+        "Dancing Girl (FlashZone 2005)",
+        "Zaawansowana etiuda taneczno-muzyczna (650 KB, 1350 klatek) z grudnia 2005 roku."
     )
 }
 
@@ -165,10 +201,34 @@ def prepare_data():
             wing = "arcade"
             title = "Sextremalna Katapulta (JoeMonster 2007)"
             desc = "Fizyczna minigra zręcznościowa z katapultą i zbieraniem dopalaczy, zachowana z archiwum pobieralni Joe Monster."
-        elif fn == "killvader2.0.rar":
+        elif "killvader2.0.rar" in fn:
             wing = "archive"
             title = "Kill Vader 2.0 (Gra PC Delphi by Czaha)"
-            desc = "Oryginalna instalacja gry na PC w Delphi (2.6 MB) autorstwa Czahy z 2003 roku, zachowana w całości z dźwiękiem i tabelą rekordów."
+            desc = "Oryginalna instalacja gry na PC w Delphi (2.5 MB) autorstwa Czahy (czaha.pl) z maja 2006 roku, zachowana w całości z dźwiękiem i instalatorem."
+        elif "saper.swf" in fn:
+            wing = "arcade"
+            title = "Saper Flash (FlashZone 2003)"
+            desc = "Polska adaptacja klasycznego Minesweepera z listopada 2003 roku z FlashZone.pl. Oznaczanie min i bezpieczne odkrywanie pól."
+        elif "mini_golf1.swf" in fn:
+            wing = "arcade"
+            title = "Mini Golf (FlashZone 2003)"
+            desc = "Polska gra w minigolfa z grudnia 2003 roku z symulacją fizyki toczenia piłki, celowaniem i siłą uderzenia (241 KB, 80 klatek)."
+        elif "snakearena.swf" in fn:
+            wing = "arcade"
+            title = "Snake Arena (FlashZone 2003)"
+            desc = "Zręcznościowa gra w węża z FlashZone.pl z listopada 2003 roku (74.7 KB)."
+        elif "osteroids3.swf" in fn:
+            wing = "arcade"
+            title = "Osteroids 3 (FlashZone 2003)"
+            desc = "Kosmiczna strzelanka zręcznościowa w stylu Asteroids z listopada 2003 roku (43.8 KB, 40 FPS)."
+        elif "quizik.swf" in fn:
+            wing = "arcade"
+            title = "Quizik (FlashZone 2003)"
+            desc = "Interaktywny teleturniej z wiedzy ogólnej z listopada 2003 roku z punktacją i pytaniami wielokrotnego wyboru."
+        elif "snotshot.swf" in fn:
+            wing = "arcade"
+            title = "Snot Shot (FlashZone 2004)"
+            desc = "Zręcznościowa minigra celownicza z sierpnia 2004 roku ocalona z portalu FlashZone."
         elif fn == "2005_jm_nu_pagadi.swf":
             wing = "arcade"
             title = "Wilk i Zając: Jajka (Nu, Pogodi! Flash 2005)"

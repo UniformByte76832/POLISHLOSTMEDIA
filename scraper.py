@@ -69,51 +69,9 @@ def query_cdx(url_target: str, params: dict, timeout: int = 35) -> list[dict]:
     return []
 
 def get_exploration_targets():
-    """Zwraca cele poszukiwawcze dla Fali 3 (1997–2006)."""
+    """Zwraca cele poszukiwawcze dla Fali 4 (1997–2006) zoptymalizowane pod kątem szybkości i unikatowości."""
     targets = [
-        # 1. Zaginione polskie gry i animacje Flash (kwerendy tematyczne)
-        {
-            'url': 'republika.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
-            'min_length': 10240,
-            'name': 'Republika.pl Gry i Animacje Flash',
-            'limit': 50
-        },
-        {
-            'url': 'webpark.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
-            'min_length': 10240,
-            'name': 'Webpark.pl Gry i Animacje Flash',
-            'limit': 40
-        },
-        {
-            'url': 'miasto.interia.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
-            'min_length': 10240,
-            'name': 'Interia Miasto Gry i Animacje Flash',
-            'limit': 40
-        },
-        {
-            'url': 'friko.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
-            'min_length': 10240,
-            'name': 'Friko.pl Gry i Animacje Flash',
-            'limit': 40
-        },
-        {
-            'url': 'gery.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
-            'min_length': 10240,
-            'name': 'Gery.pl Gry i Animacje Flash',
-            'limit': 40
-        },
-
-        # 2. Głębokie wykopaliska na domenach twórców
+        # 1. Głębokie wykopaliska na domenach pionierów i autorów (domeny z błyskawicznym czasem odpowiedzi)
         {
             'url': 'czaha.pl',
             'matchType': 'domain',
@@ -136,69 +94,69 @@ def get_exploration_targets():
             'url_regex': r'original:.*\.(swf|rar|zip)$',
             'min_length': 2048,
             'name': '100lat.info Flash/Archiwa',
-            'limit': 30
-        },
-
-        # 3. Webpark.pl (SWF i MIDI ogólne)
-        {
-            'url': 'webpark.pl',
-            'matchType': 'domain',
-            'mimetype': 'application/x-shockwave-flash',
-            'min_length': 8192,
-            'name': 'Webpark.pl SWF',
             'limit': 50
         },
+
+        # 2. Pionierskie serwery lat 90. i demoscena
+        {
+            'url': 'kki.net.pl',
+            'matchType': 'domain',
+            'url_regex': r'original:.*\.(swf|mid|mod|rar|zip)$',
+            'min_length': 1024,
+            'name': 'KKI.net.pl Retro Multimedia',
+            'limit': 50
+        },
+
+        # 3. Webpark.pl (Dźwięk MIDI)
         {
             'url': 'webpark.pl',
             'matchType': 'domain',
             'mimetype': 'audio/midi',
             'min_length': 1024,
             'name': 'Webpark.pl MIDI',
-            'limit': 40
-        },
-
-        # 4. KKI.net.pl (Krakowska Komercyjna Internetowa - lata 90.)
-        {
-            'url': 'kki.net.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*\.(swf|mid|mod)$',
-            'min_length': 2048,
-            'name': 'KKI.net.pl Retro Multimedia',
             'limit': 50
         },
 
-        # 5. Demoscena / Strony prywatne - Moduły Tracker (.MOD)
+        # 5. Gry i animacje z polskich portali i serwerów
+        {
+            'url': 'gery.pl',
+            'matchType': 'domain',
+            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
+            'min_length': 10240,
+            'name': 'Gery.pl Gry i Animacje Flash',
+            'limit': 40
+        },
+        {
+            'url': 'miasto.interia.pl',
+            'matchType': 'domain',
+            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
+            'min_length': 10240,
+            'name': 'Interia Miasto Gry i Animacje Flash',
+            'limit': 40
+        },
+        {
+            'url': 'friko.pl',
+            'matchType': 'domain',
+            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
+            'min_length': 10240,
+            'name': 'Friko.pl Gry i Animacje Flash',
+            'limit': 40
+        },
         {
             'url': 'republika.pl',
             'matchType': 'domain',
-            'url_regex': r'original:.*\.mod$',
-            'min_length': 8192,
-            'name': 'Republika.pl Moduły MOD',
-            'limit': 30
-        },
-        {
-            'url': 'polbox.com',
-            'matchType': 'domain',
-            'url_regex': r'original:.*\.mod$',
-            'min_length': 8192,
-            'name': 'Polbox.com Moduły MOD',
-            'limit': 30
+            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
+            'min_length': 10240,
+            'name': 'Republika.pl Gry i Animacje Flash',
+            'limit': 50
         },
         {
             'url': 'webpark.pl',
             'matchType': 'domain',
-            'url_regex': r'original:.*\.mod$',
-            'min_length': 8192,
-            'name': 'Webpark.pl Moduły MOD',
-            'limit': 30
-        },
-        {
-            'url': 'kki.net.pl',
-            'matchType': 'domain',
-            'url_regex': r'original:.*\.mod$',
-            'min_length': 8192,
-            'name': 'KKI.net.pl Moduły MOD',
-            'limit': 30
+            'url_regex': r'original:.*(gra|gry|game|malysz|skoki|kulki|arkanoid|tetris|snake|strzel|wyscig|kreskowk|animacj|intro|film).*\.swf$',
+            'min_length': 10240,
+            'name': 'Webpark.pl Gry i Animacje Flash',
+            'limit': 40
         }
     ]
     return targets
