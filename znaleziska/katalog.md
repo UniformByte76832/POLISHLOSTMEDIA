@@ -1,6 +1,6 @@
 # 🏛️ Muzeum Archeologii Cyfrowej: Katalog Znalezisk (1998–2006)
 
-*Ostatnia aktualizacja ekspedycji: 2026-10-14 20:18:46*
+*Ostatnia aktualizacja ekspedycji: 2026-10-24 19:06:07*
 
 Niniejszy katalog dokumentuje ocalone artefakty multimedialne z epoki wczesnego polskiego i światowego internetu (m.in. `republika.pl`, `free.polbox.pl`, `webpark.pl` i `geocities.com`). Pliki zostały pobrane w oryginalnej, czystej postaci binarnej przy użyciu bezpośredniego endpointu `id_` na Internet Archive Wayback Machine.
 

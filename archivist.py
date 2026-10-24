@@ -118,7 +118,9 @@ class Archivist:
         unquoted_path = urllib.parse.unquote(url_path)
         base_name = os.path.basename(unquoted_path)
         if not base_name or '.' not in base_name:
-            ext = item.get('mimetype', '').split('/')[-1]
+            raw_ext = item.get('mimetype', '').split('/')[-1].lower()
+            ext_map = {'x-shockwave-flash': 'swf', 'flash': 'swf', 'midi': 'mid', 'x-midi': 'mid'}
+            ext = ext_map.get(raw_ext, raw_ext if raw_ext else 'bin')
             base_name = f"artifact_{timestamp}.{ext}"
 
         safe_name = f"{timestamp[:8]}_{sanitize_filename(base_name)}"
@@ -187,10 +189,12 @@ class Archivist:
 
         logger.info("Zabezpieczono znalezisko: %s (%s, %s)", safe_name, record['size_str'], details)
         
-        # Zapis stanu do metadata.json
+        # Atomowy zapis stanu do metadata.json
         try:
-            with open(self.state_path, "w", encoding="utf-8") as f:
+            tmp_path = f"{self.state_path}.tmp"
+            with open(tmp_path, "w", encoding="utf-8") as f:
                 json.dump(self.archived_items, f, indent=2, ensure_ascii=False)
+            os.replace(tmp_path, self.state_path)
         except Exception as e:
             logger.error("Nie udalo sie zapisac metadata.json: %s", e)
 

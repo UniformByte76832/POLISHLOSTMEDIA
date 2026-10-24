@@ -194,10 +194,7 @@ def prepare_data():
             wing = "arcade"
             title = "Podziel Ruską Wódkę (CDA / Milanos 2006)"
             desc = "Zręcznościowa minigra Flash polegająca na precyzyjnym rozlewaniu wódki do kieliszków. Zachowana z archiwum Milanos i CDA."
-        elif fn == "2007_sextremalna_katapulta.swf":
-            wing = "arcade"
-            title = "Sextremalna Katapulta (JoeMonster 2007)"
-            desc = "Fizyczna minigra zręcznościowa z katapultą i zbieraniem dopalaczy, zachowana z archiwum pobieralni Joe Monster."
+
         elif "killvader2.0.rar" in fn:
             wing = "archive"
             title = "Kill Vader 2.0 (Gra PC Delphi by Czaha)"
@@ -352,8 +349,10 @@ def prepare_data():
         })
 
     js_content = f"// Wygenerowano automatycznie dla Muzeum Archeologii Cyfrowej\nwindow.MUSEUM_DATA = {json.dumps(curated, indent=2, ensure_ascii=False)};\n"
-    with open(OUTPUT_JS, "w", encoding="utf-8") as f:
+    tmp_out = f"{OUTPUT_JS}.tmp"
+    with open(tmp_out, "w", encoding="utf-8") as f:
         f.write(js_content)
+    os.replace(tmp_out, OUTPUT_JS)
 
     print(f"Zapisano dane do {OUTPUT_JS} ({len(curated)} pozycji).")
     print("Rozkład eksponatów pomiędzy skrzydła:")

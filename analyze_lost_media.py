@@ -23,7 +23,6 @@ CURATED_GAMES = {
     '20060511_mistrz_autobusu.swf',
     '20060301_aczy_trabka.swf',
     '20061018_nalej_ruska_wodka.swf',
-    '2007_sextremalna_katapulta.swf',
     '2005_jm_nu_pagadi.swf',
     '20070130_jm_killerquiz.swf',
     '20060412_kaczki.swf',
@@ -224,8 +223,8 @@ def analyze_and_generate_report():
         else:
             tier3_items.append(it_entry)
 
-    # Generowanie raportu Markdown
-    with open(REPORT_FILE, "w", encoding="utf-8") as f:
+    tmp_rep = f"{REPORT_FILE}.tmp"
+    with open(tmp_rep, "w", encoding="utf-8") as f:
         f.write("# 🕵️ Raport Identyfikacji Lost Media (1998–2006)\n\n")
         f.write(f"*Data wygenerowania: {datetime.now().strftime('%Y-%m-%d')}*\n\n")
         f.write(f"Raport klasyfikuje ocalone {len(items)} plików binarnych pod kątem ich unikatowości, statusu utraconych mediów (Lost Media) oraz wartości kulturowo-historycznej dla wczesnego internetu.\n\n")
@@ -252,6 +251,8 @@ def analyze_and_generate_report():
 
         f.write("\n---\n")
         f.write("*Wygenerowano przez automatyczny podsystem archeologii cyfrowej.*\n")
+
+    os.replace(tmp_rep, REPORT_FILE)
 
     print(f"Raport wygenerowany: {REPORT_FILE}")
     print(f"Tier 1: {len(tier1_items)}, Tier 2: {len(tier2_items)}, Tier 3: {len(tier3_items)}")

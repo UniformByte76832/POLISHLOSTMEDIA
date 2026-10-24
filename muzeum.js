@@ -3,6 +3,16 @@
  * Obsługa emulatora Ruffle, szafy grającej MIDI, galerii z lightboxem oraz katalogu zbiorów.
  */
 
+function escapeHtml(str) {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const data = window.MUSEUM_DATA || [];
   console.log(`Załadowano ${data.length} artefaktów do Muzeum.`);
@@ -13,10 +23,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const midiCount = data.filter(d => d.format === 'MIDI').length;
   const imgCount = data.filter(d => ['GIF', 'JPEG', 'BMP'].includes(d.format)).length;
 
-  document.getElementById("stat-total").textContent = totalCount;
-  document.getElementById("stat-swf").textContent = swfCount;
-  document.getElementById("stat-midi").textContent = midiCount;
-  document.getElementById("stat-img").textContent = imgCount;
+  const statTotal = document.getElementById("stat-total");
+  const statSwf = document.getElementById("stat-swf");
+  const statMidi = document.getElementById("stat-midi");
+  const statImg = document.getElementById("stat-img");
+
+  if (statTotal) statTotal.textContent = totalCount;
+  if (statSwf) statSwf.textContent = swfCount;
+  if (statMidi) statMidi.textContent = midiCount;
+  if (statImg) statImg.textContent = imgCount;
 
   // 1. Obsługa Zakładek (Nawigacja)
   const navBtns = document.querySelectorAll(".nav-btn");
@@ -42,6 +57,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function initRuffle(initialSwfPath, title, desc) {
     if (!ruffleContainer) return;
+
+    if (rufflePlayer) {
+      try {
+        if (typeof rufflePlayer.pause === "function") rufflePlayer.pause();
+        if (typeof rufflePlayer.remove === "function") rufflePlayer.remove();
+      } catch (e) {
+        console.warn("Błąd podczas czyszczenia odtwarzacza Ruffle:", e);
+      }
+      rufflePlayer = null;
+    }
+
     ruffleContainer.innerHTML = "";
 
     try {
@@ -56,9 +82,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // Fallback gdy Ruffle CDN nie załaduje się
         ruffleContainer.innerHTML = `
           <div style="text-align: center; padding: 40px; color: #8b9bb4;">
-            <p style="font-size: 1.1rem; color: #00f0ff; margin-bottom: 12px;">⚡ Plik Flash: ${title}</p>
-            <p style="margin-bottom: 20px;">Lokalizacja: <code>${initialSwfPath}</code></p>
-            <a href="${initialSwfPath}" download class="btn-action btn-primary">Pobierz plik SWF</a>
+            <p style="font-size: 1.1rem; color: #00f0ff; margin-bottom: 12px;">⚡ Plik Flash: ${escapeHtml(title)}</p>
+            <p style="margin-bottom: 20px;">Lokalizacja: <code>${escapeHtml(initialSwfPath)}</code></p>
+            <a href="${escapeHtml(initialSwfPath)}" download class="btn-action btn-primary">Pobierz plik SWF</a>
             <p style="font-size: 0.8rem; margin-top: 15px;">Wskazówka: Możesz uruchomić ten plik za pomocą <code>flashplayer_32_sa.exe</code> znajdującego się w folderze znalezisk.</p>
           </div>
         `;
@@ -94,10 +120,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("div");
       card.className = `list-card ${idx === 0 ? 'active' : ''}`;
       card.innerHTML = `
-        <div class="list-card-title">${item.title}</div>
+        <div class="list-card-title">${escapeHtml(item.title)}</div>
         <div class="list-card-meta">
-          <span>${item.domain}</span>
-          <span>${item.size_str}</span>
+          <span>${escapeHtml(item.domain)}</span>
+          <span>${escapeHtml(item.size_str)}</span>
         </div>
       `;
       card.addEventListener("click", () => {
@@ -114,22 +140,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const cinemaItems = data.filter(d => d.format === 'SWF' && d.wing === 'cinema');
   if (cinemaList) {
     cinemaList.innerHTML = "";
-    cinemaItems.forEach((item, idx) => {
+    cinemaItems.forEach((item) => {
       const card = document.createElement("div");
       card.className = "list-card";
       card.innerHTML = `
-        <div class="list-card-title">${item.title || item.filename}</div>
+        <div class="list-card-title">${escapeHtml(item.title || item.filename)}</div>
         <div class="list-card-meta">
-          <span>${item.domain}</span>
-          <span>${item.size_str}</span>
+          <span>${escapeHtml(item.domain)}</span>
+          <span>${escapeHtml(item.size_str)}</span>
         </div>
       `;
       card.addEventListener("click", () => {
         // Przełącz widok do sceny i odtwórz
         document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
         document.querySelectorAll(".museum-section").forEach(s => s.classList.remove("active"));
-        document.querySelector('[data-tab="tab-arcade"]').classList.add("active");
-        document.getElementById("tab-arcade").classList.add("active");
+        document.querySelector('[data-tab="tab-arcade"]')?.classList.add("active");
+        document.getElementById("tab-arcade")?.classList.add("active");
         initRuffle(item.rel_path, item.title || `Animacja: ${item.filename}`, item.desc);
       });
       cinemaList.appendChild(card);
@@ -179,23 +205,31 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const playerTag = document.getElementById("embedded-midi-player");
+  if (playerTag) {
+    const handleMidiStop = () => {
+      isPlayingMidi = false;
+      if (btnPlayMidi) btnPlayMidi.textContent = "▶";
+      stopVuAnimation();
+    };
+    playerTag.addEventListener("stop", handleMidiStop);
+    playerTag.addEventListener("ended", handleMidiStop);
+  }
+
   if (btnPlayMidi) {
     btnPlayMidi.addEventListener("click", () => {
       isPlayingMidi = !isPlayingMidi;
       if (isPlayingMidi) {
         btnPlayMidi.textContent = "⏸";
         startVuAnimation();
-        // Sprawdź czy dostępny jest natywny midi-player
-        const playerTag = document.getElementById("embedded-midi-player");
         if (playerTag && activeMidiItem) {
           playerTag.src = activeMidiItem.rel_path;
-          playerTag.start && playerTag.start();
+          if (typeof playerTag.start === "function") playerTag.start();
         }
       } else {
         btnPlayMidi.textContent = "▶";
         stopVuAnimation();
-        const playerTag = document.getElementById("embedded-midi-player");
-        if (playerTag && playerTag.stop) playerTag.stop();
+        if (playerTag && typeof playerTag.stop === "function") playerTag.stop();
       }
     });
   }
@@ -206,10 +240,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("div");
       card.className = `list-card ${idx === 0 ? 'active' : ''}`;
       card.innerHTML = `
-        <div class="list-card-title">${item.title}</div>
+        <div class="list-card-title">${escapeHtml(item.title)}</div>
         <div class="list-card-meta">
-          <span>${item.domain}</span>
-          <span>${item.size_str}</span>
+          <span>${escapeHtml(item.domain)}</span>
+          <span>${escapeHtml(item.size_str)}</span>
         </div>
       `;
       card.addEventListener("click", () => {
@@ -218,10 +252,9 @@ document.addEventListener("DOMContentLoaded", () => {
         updateMidiTrack(item);
         if (isPlayingMidi) {
           startVuAnimation();
-          const playerTag = document.getElementById("embedded-midi-player");
           if (playerTag) {
             playerTag.src = item.rel_path;
-            playerTag.start && playerTag.start();
+            if (typeof playerTag.start === "function") playerTag.start();
           }
         }
       });
@@ -248,21 +281,21 @@ document.addEventListener("DOMContentLoaded", () => {
       card.className = "gallery-card";
       card.innerHTML = `
         <div class="gallery-thumb-wrap">
-          <img src="${item.rel_path}" alt="${item.filename}" loading="lazy">
+          <img src="${escapeHtml(item.rel_path)}" alt="${escapeHtml(item.filename)}" loading="lazy">
         </div>
         <div class="gallery-info">
-          <div class="gallery-title">${item.filename}</div>
+          <div class="gallery-title">${escapeHtml(item.filename)}</div>
           <div class="gallery-meta">
-            <span>${item.domain}</span>
-            <span>${item.size_str}</span>
+            <span>${escapeHtml(item.domain)}</span>
+            <span>${escapeHtml(item.size_str)}</span>
           </div>
         </div>
       `;
       card.addEventListener("click", () => {
         if (lightbox && lightboxImg) {
           lightboxImg.src = item.rel_path;
-          lightboxTitle.textContent = item.filename;
-          lightboxMeta.textContent = `${item.details} • ${item.date_str} • ${item.size_str}`;
+          if (lightboxTitle) lightboxTitle.textContent = item.filename;
+          if (lightboxMeta) lightboxMeta.textContent = `${item.details} • ${item.date_str} • ${item.size_str}`;
           if (lightboxOrig) lightboxOrig.href = item.original_url;
           lightbox.classList.add("active");
         }
@@ -273,6 +306,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (lightboxClose) {
     lightboxClose.addEventListener("click", () => lightbox.classList.remove("active"));
+  }
+  if (lightbox) {
     lightbox.addEventListener("click", (e) => {
       if (e.target === lightbox) lightbox.classList.remove("active");
     });
@@ -295,18 +330,18 @@ document.addEventListener("DOMContentLoaded", () => {
                        item.format === 'MIDI' ? 'var(--neon-magenta)' : 'var(--neon-amber)';
 
       tr.innerHTML = `
-        <td style="font-family: var(--font-mono); font-weight: bold; color: ${fmtColor};">${item.format}</td>
+        <td style="font-family: var(--font-mono); font-weight: bold; color: ${fmtColor};">${escapeHtml(item.format)}</td>
         <td>
-          <a href="${item.rel_path}" target="_blank" style="color: var(--text-main); font-weight: 600; text-decoration: none;">
-            ${item.filename}
+          <a href="${escapeHtml(item.rel_path)}" target="_blank" rel="noopener noreferrer" style="color: var(--text-main); font-weight: 600; text-decoration: none;">
+            ${escapeHtml(item.filename)}
           </a>
-          <div style="font-size: 0.78rem; color: var(--text-muted);">${item.details}</div>
+          <div style="font-size: 0.78rem; color: var(--text-muted);">${escapeHtml(item.details)}</div>
         </td>
-        <td style="font-family: var(--font-mono); font-size: 0.8rem;">${item.size_str}</td>
-        <td style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">${item.date_str}</td>
-        <td><span class="badge">${item.domain}</span></td>
+        <td style="font-family: var(--font-mono); font-size: 0.8rem;">${escapeHtml(item.size_str)}</td>
+        <td style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">${escapeHtml(item.date_str)}</td>
+        <td><span class="badge">${escapeHtml(item.domain)}</span></td>
         <td>
-          <a href="${item.archive_url}" target="_blank" class="btn-action" style="padding: 4px 8px; font-size: 0.75rem;">
+          <a href="${escapeHtml(item.archive_url)}" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 4px 8px; font-size: 0.75rem;">
             Wayback ↗
           </a>
         </td>
@@ -324,10 +359,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const dom = filterDomain?.value || "all";
 
     const filtered = data.filter(it => {
-      const matchQ = it.filename.toLowerCase().includes(q) ||
-                     it.title.toLowerCase().includes(q) ||
-                     it.desc.toLowerCase().includes(q) ||
-                     it.domain.toLowerCase().includes(q);
+      const qTitle = (it.title || "").toLowerCase();
+      const qDesc = (it.desc || "").toLowerCase();
+      const qFn = (it.filename || "").toLowerCase();
+      const qDom = (it.domain || "").toLowerCase();
+
+      const matchQ = qFn.includes(q) || qTitle.includes(q) || qDesc.includes(q) || qDom.includes(q);
       const matchFmt = fmt === 'all' || it.format === fmt;
       const matchDom = dom === 'all' || it.domain === dom;
       return matchQ && matchFmt && matchDom;

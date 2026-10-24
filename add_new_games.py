@@ -63,19 +63,7 @@ new_games = [
         "size_str": "7.7 KB",
         "digest": "170dfa54b3fb4170"
     },
-    {
-        "filename": "2007_sextremalna_katapulta.swf",
-        "local_path": "znaleziska/2007_sextremalna_katapulta.swf",
-        "original_url": "http://download.joemonster.org/h/sextremalnakatapulta.swf",
-        "archive_url": "https://web.archive.org/web/20140929131512id_/http://download.joemonster.org/h/sextremalnakatapulta.swf",
-        "timestamp": "20071120",
-        "date_str": "2007-11-20 00:00:00",
-        "format": "SWF",
-        "details": "Gra Flash v8: Sextremalna Katapulta z JoeMonster (1.1 MB, silnik fizyki)",
-        "size_bytes": 1119715,
-        "size_str": "1.07 MB",
-        "digest": "8e7b2290d052f646"
-    },
+
     {
         "filename": "killvader2.0.rar",
         "local_path": "znaleziska/killvader2.0.rar",

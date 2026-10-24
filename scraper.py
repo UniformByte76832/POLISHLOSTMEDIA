@@ -7,14 +7,13 @@ Poszukiwanie polskiego dziedzictwa cyfrowego (1997–2006) z naciskiem na:
 - Polskie gry Flash i projekty epoki (Gery.pl, Interia Miasto, Friko.pl, Republika.pl)
 Zoptymalizowany pod kątem CDX API (collapse, fl, retry backoff, pre-filtering min_length i anty-śmieć).
 """
-import os
-import sys
 import urllib.request
 import urllib.parse
 import json
 import ssl
 import time
 import urllib.error
+import http.client
 import logging
 
 from analyst import is_repetitive_asset
@@ -48,7 +47,7 @@ def query_cdx(url_target: str, params: dict, timeout: int = 35) -> list[dict]:
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, context=ctx, timeout=timeout) as resp:
-                data = json.loads(resp.read().decode('utf-8'))
+                data = json.loads(resp.read().decode('utf-8', errors='replace'))
                 if not data or len(data) <= 1:
                     return []
                 
@@ -59,8 +58,8 @@ def query_cdx(url_target: str, params: dict, timeout: int = 35) -> list[dict]:
                     results.append(item)
                 logger.debug("CDX OK [%s]: %d wynikow", url_target, len(results))
                 return results
-        except (TimeoutError, urllib.error.URLError) as e:
-            logger.warning("CDX Timeout/URLError [proba %d/3] [%s]: %s", attempt + 1, url_target, e)
+        except (TimeoutError, urllib.error.URLError, ssl.SSLError, http.client.IncompleteRead, http.client.RemoteDisconnected, ConnectionResetError) as e:
+            logger.warning("CDX Timeout/Sieć [proba %d/3] [%s]: %s", attempt + 1, url_target, e)
             if attempt < 2:
                 time.sleep(2 ** attempt)
         except Exception as e:

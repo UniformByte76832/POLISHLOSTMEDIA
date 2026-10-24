@@ -128,8 +128,10 @@ def run_audit():
 
         audited_items.append(it)
 
-    with open(METADATA_FILE, "w", encoding="utf-8") as f:
+    tmp_file = f"{METADATA_FILE}.tmp"
+    with open(tmp_file, "w", encoding="utf-8") as f:
         json.dump(audited_items, f, indent=2, ensure_ascii=False)
+    os.replace(tmp_file, METADATA_FILE)
 
     print("\n=== PODSUMOWANIE AUDYTU ===")
     print(f"Początkowa liczba artefaktów:      {len(items)}")

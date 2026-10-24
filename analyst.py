@@ -104,8 +104,10 @@ def verify_magic_bytes(data: bytes) -> tuple[bool, str, str]:
 
     # BMP: 'BM'
     if data.startswith(b'BM'):
-        w, h = struct.unpack('<ii', data[18:26])
-        return True, "bmp", f"Mapa bitowa BMP ({abs(w)}x{abs(h)} px)"
+        if len(data) >= 26:
+            w, h = struct.unpack('<ii', data[18:26])
+            return True, "bmp", f"Mapa bitowa BMP ({abs(w)}x{abs(h)} px)"
+        return True, "bmp", "Mapa bitowa BMP"
 
     return False, "unknown", "Nieznany format binarny"
 
